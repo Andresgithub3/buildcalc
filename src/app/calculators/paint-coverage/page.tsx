@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     description:
       "Calculate gallons of paint for any room. Accounts for doors, windows, and coats.",
     url: `${siteConfig.url}/calculators/paint-coverage`,
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Paint Calculator | BuildCalc",
+    title: "Paint Calculator | SlabCalc",
     description: "Calculate how many gallons of paint you need for any room.",
   },
   alternates: {

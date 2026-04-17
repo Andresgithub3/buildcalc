@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     description:
       "Calculate concrete for deck footings, pier foundations, and continuous footings. Free and instant.",
     url: `${siteConfig.url}/calculators/concrete-footing`,
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Concrete Footing Calculator | BuildCalc",
+    title: "Concrete Footing Calculator | SlabCalc",
     description: "Estimate concrete for footings — cubic yards, bags, and cost.",
   },
   alternates: {

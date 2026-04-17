@@ -16,7 +16,7 @@ interface AffiliateLinksProps {
 }
 
 export function AffiliateLinks({ calculatorSlug }: AffiliateLinksProps) {
-  const tag = process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG || "buildcalc-20";
+  const tag = process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG || "slabcalc-20";
   const items = (affiliatesData[calculatorSlug as AffiliateSlug] ?? []) as AffiliateLinkItem[];
 
   if (items.length === 0) return null;
@@ -45,7 +45,7 @@ export function AffiliateLinks({ calculatorSlug }: AffiliateLinksProps) {
         ))}
       </ul>
       <p className="mt-3 text-[10px] text-muted-foreground/60">
-        As an Amazon Associate, BuildCalc earns from qualifying purchases.
+        As an Amazon Associate, SlabCalc earns from qualifying purchases.
       </p>
     </div>
   );

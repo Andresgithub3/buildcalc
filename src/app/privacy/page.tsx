@@ -3,7 +3,7 @@ import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "BuildCalc privacy policy — how we handle your data.",
+  description: "SlabCalc privacy policy — how we handle your data.",
   alternates: {
     canonical: `${siteConfig.url}/privacy`,
   },
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
             Overview
           </h2>
           <p className="mt-2">
-            BuildCalc (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) operates
+            SlabCalc (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) operates
             the website slab-calc.com. This page informs you of our policies
             regarding the collection, use, and disclosure of personal
             information when you use our site.
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
             Information We Collect
           </h2>
           <p className="mt-2">
-            BuildCalc does not require user accounts or collect personally
+            SlabCalc does not require user accounts or collect personally
             identifiable information. Calculator inputs are processed entirely
             in your browser and are never sent to our servers.
           </p>
@@ -115,7 +115,7 @@ export default function PrivacyPage() {
             Children&apos;s Privacy
           </h2>
           <p className="mt-2">
-            BuildCalc is not directed at children under 13. We do not knowingly
+            SlabCalc is not directed at children under 13. We do not knowingly
             collect information from children.
           </p>
         </section>

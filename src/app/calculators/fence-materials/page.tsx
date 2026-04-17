@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     description:
       "Estimate posts, rails, pickets, and concrete for wood, vinyl, or chain-link fences.",
     url: `${siteConfig.url}/calculators/fence-materials`,
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Fence Calculator | BuildCalc",
+    title: "Fence Calculator | SlabCalc",
     description: "Calculate fence materials — posts, rails, pickets, and concrete.",
   },
   alternates: {

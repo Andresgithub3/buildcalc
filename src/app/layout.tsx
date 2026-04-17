@@ -21,13 +21,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "BuildCalc — Construction Calculators That Contractors Actually Trust",
-    template: "%s | BuildCalc",
+    default: "SlabCalc — Construction Calculators That Contractors Actually Trust",
+    template: "%s | SlabCalc",
   },
   description:
     "Estimate concrete, paint, tile, gravel, and more — accurate, fast, free.",
   openGraph: {
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
     locale: "en_US",
   },

@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     description:
       "Calculate concrete for Sonotubes, round columns, and post holes. Free and instant.",
     url: `${siteConfig.url}/calculators/concrete-column`,
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Sonotube Calculator | BuildCalc",
+    title: "Sonotube Calculator | SlabCalc",
     description: "Calculate concrete for round columns and post holes.",
   },
   alternates: {

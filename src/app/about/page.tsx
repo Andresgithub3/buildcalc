@@ -4,9 +4,9 @@ import { HardHat, Target, Shield, Zap } from "lucide-react";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "About BuildCalc",
+  title: "About SlabCalc",
   description:
-    "BuildCalc provides free, accurate construction calculators for contractors, estimators, and DIY homeowners. Learn about our mission and methodology.",
+    "SlabCalc provides free, accurate construction calculators for contractors, estimators, and DIY homeowners. Learn about our mission and methodology.",
   alternates: {
     canonical: `${siteConfig.url}/about`,
   },
@@ -16,7 +16,7 @@ export default function AboutPage() {
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-12">
       <h1 className="font-heading text-3xl font-bold tracking-tight sm:text-4xl">
-        About BuildCalc
+        About SlabCalc
       </h1>
       <p className="mt-4 text-lg text-muted-foreground">
         Construction calculators that contractors actually trust.
@@ -25,7 +25,7 @@ export default function AboutPage() {
       <section className="mt-10">
         <h2 className="font-heading text-xl font-semibold">Our Mission</h2>
         <p className="mt-3 text-muted-foreground">
-          BuildCalc exists because ordering the wrong amount of material is
+          SlabCalc exists because ordering the wrong amount of material is
           expensive — whether you&apos;re short on concrete mid-pour or stuck
           returning 30 extra bags of mulch. We build calculators that give you
           accurate quantities in seconds, so you can order with confidence and
@@ -71,7 +71,7 @@ export default function AboutPage() {
           <div>
             <h3 className="font-semibold">No Hidden Agenda</h3>
             <p className="mt-1 text-sm text-muted-foreground">
-              We don&apos;t sell your data or require accounts. BuildCalc is free
+              We don&apos;t sell your data or require accounts. SlabCalc is free
               to use and supported by ads and affiliate links.
             </p>
           </div>
@@ -93,7 +93,7 @@ export default function AboutPage() {
       <section className="mt-10">
         <h2 className="font-heading text-xl font-semibold">Who We Serve</h2>
         <p className="mt-3 text-muted-foreground">
-          BuildCalc is designed for DIY homeowners tackling weekend projects,
+          SlabCalc is designed for DIY homeowners tackling weekend projects,
           contractors estimating material orders, and construction estimators
           who need a quick sanity check. Whether you&apos;re pouring a patio
           slab or estimating materials for a 200-foot fence line, our tools

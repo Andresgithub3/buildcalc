@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     description:
       "Free concrete slab calculator. Enter length, width, and depth to get cubic yards, number of bags, and cost estimates.",
     url: `${siteConfig.url}/calculators/concrete-slab`,
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Concrete Slab Calculator | BuildCalc",
+    title: "Concrete Slab Calculator | SlabCalc",
     description:
       "Calculate cubic yards, bags, and cost for concrete slabs. Free and instant.",
   },

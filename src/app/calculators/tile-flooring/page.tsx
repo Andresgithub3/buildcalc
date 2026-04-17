@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     description:
       "Calculate tile quantity for any floor. Supports standard and custom sizes.",
     url: `${siteConfig.url}/calculators/tile-flooring`,
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Tile Calculator | BuildCalc",
+    title: "Tile Calculator | SlabCalc",
     description: "Calculate how many tiles you need for any room.",
   },
   alternates: {

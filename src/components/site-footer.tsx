@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-6xl px-4 py-8">
         <div className="grid gap-8 sm:grid-cols-3">
           <div>
-            <h3 className="font-heading font-semibold">BuildCalc</h3>
+            <h3 className="font-heading font-semibold">SlabCalc</h3>
             <p className="mt-2 text-sm text-muted-foreground">
               Construction calculators that contractors actually trust.
             </p>
@@ -63,7 +63,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-8 border-t pt-4 text-center text-xs text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} BuildCalc. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SlabCalc. All rights reserved.</p>
           <div className="mt-1 space-x-4">
             <Link href="/privacy" className="hover:text-foreground transition-colors">
               Privacy Policy

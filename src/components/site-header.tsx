@@ -8,7 +8,7 @@ export function SiteHeader() {
         <Link href="/" className="flex items-center gap-2 font-heading text-lg font-bold">
           <HardHat className="h-6 w-6 text-accent" />
           <span>
-            Build<span className="text-primary">Calc</span>
+            Slab<span className="text-primary">Calc</span>
           </span>
         </Link>
         <nav className="flex items-center gap-6 text-sm text-muted-foreground">

@@ -3,7 +3,7 @@ import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "Terms of Use",
-  description: "BuildCalc terms of use — conditions for using our construction calculators.",
+  description: "SlabCalc terms of use — conditions for using our construction calculators.",
   alternates: {
     canonical: `${siteConfig.url}/terms`,
   },
@@ -25,7 +25,7 @@ export default function TermsPage() {
             Acceptance of Terms
           </h2>
           <p className="mt-2">
-            By accessing and using BuildCalc (slab-calc.com), you accept and
+            By accessing and using SlabCalc (slab-calc.com), you accept and
             agree to be bound by these Terms of Use. If you do not agree, please
             do not use the site.
           </p>
@@ -36,7 +36,7 @@ export default function TermsPage() {
             Use of Calculators
           </h2>
           <p className="mt-2">
-            BuildCalc provides construction material calculators for
+            SlabCalc provides construction material calculators for
             informational and estimation purposes only. The results are
             approximations based on standard formulas and should not be used as
             the sole basis for purchasing decisions.
@@ -54,7 +54,7 @@ export default function TermsPage() {
             Disclaimer of Warranties
           </h2>
           <p className="mt-2">
-            BuildCalc is provided &quot;as is&quot; without warranty of any kind,
+            SlabCalc is provided &quot;as is&quot; without warranty of any kind,
             express or implied. We do not warrant that the calculators will be
             error-free, uninterrupted, or that results will be accurate for your
             specific project conditions.
@@ -66,7 +66,7 @@ export default function TermsPage() {
             Limitation of Liability
           </h2>
           <p className="mt-2">
-            BuildCalc shall not be liable for any direct, indirect, incidental,
+            SlabCalc shall not be liable for any direct, indirect, incidental,
             consequential, or punitive damages arising from your use of the
             calculators or reliance on the results. This includes, but is not
             limited to, material over-ordering, under-ordering, project delays,
@@ -79,7 +79,7 @@ export default function TermsPage() {
             Affiliate Links &amp; Advertising
           </h2>
           <p className="mt-2">
-            BuildCalc contains affiliate links to third-party retailers
+            SlabCalc contains affiliate links to third-party retailers
             (including Amazon). When you click these links and make a purchase,
             we may earn a commission at no additional cost to you. We also
             display advertisements through Google AdSense.
@@ -96,8 +96,8 @@ export default function TermsPage() {
             Intellectual Property
           </h2>
           <p className="mt-2">
-            All content on BuildCalc, including text, graphics, logos, and
-            calculator designs, is the property of BuildCalc and is protected
+            All content on SlabCalc, including text, graphics, logos, and
+            calculator designs, is the property of SlabCalc and is protected
             by copyright. You may not reproduce, distribute, or create
             derivative works without written permission.
           </p>
@@ -108,7 +108,7 @@ export default function TermsPage() {
             Professional Advice
           </h2>
           <p className="mt-2">
-            BuildCalc is not a substitute for professional engineering,
+            SlabCalc is not a substitute for professional engineering,
             architectural, or construction advice. For structural work,
             load-bearing calculations, or projects requiring permits, consult a
             licensed professional.

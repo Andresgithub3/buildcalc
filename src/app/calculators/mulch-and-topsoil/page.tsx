@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     description:
       "Calculate bags or cubic yards of mulch, topsoil, compost, or fill dirt.",
     url: `${siteConfig.url}/calculators/mulch-and-topsoil`,
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Mulch Calculator | BuildCalc",
+    title: "Mulch Calculator | SlabCalc",
     description: "Calculate mulch and topsoil in bags or cubic yards.",
   },
   alternates: {

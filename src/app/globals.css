@@ -49,7 +49,7 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-/* BuildCalc Light Mode */
+/* SlabCalc Light Mode */
 :root {
   --background: #FAFAFA;
   --foreground: #171717;
@@ -86,7 +86,7 @@
   --sidebar-ring: #2563EB;
 }
 
-/* BuildCalc Dark Mode */
+/* SlabCalc Dark Mode */
 .dark {
   --background: #0A0A0A;
   --foreground: #FAFAFA;

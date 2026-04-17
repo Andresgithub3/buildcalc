@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     description:
       "Calculate cubic yards and tons of gravel, crushed stone, or river rock.",
     url: `${siteConfig.url}/calculators/gravel-and-aggregate`,
-    siteName: "BuildCalc",
+    siteName: "SlabCalc",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Gravel Calculator | BuildCalc",
+    title: "Gravel Calculator | SlabCalc",
     description: "Calculate gravel in cubic yards and tons for any project.",
   },
   alternates: {

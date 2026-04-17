@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const CONSENT_KEY = "buildcalc-cookie-consent";
+const CONSENT_KEY = "slabcalc-cookie-consent";
 
 export function CookieConsent() {
   const [visible, setVisible] = useState(false);
@@ -31,7 +31,7 @@ export function CookieConsent() {
       <div className="mx-auto flex max-w-6xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-muted-foreground">
           We use cookies for analytics and advertising to improve your
-          experience. By continuing to use BuildCalc, you agree to our{" "}
+          experience. By continuing to use SlabCalc, you agree to our{" "}
           <a href="/privacy" className="underline hover:text-foreground">
             Privacy Policy
           </a>

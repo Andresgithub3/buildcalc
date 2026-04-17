@@ -1,4 +1,4 @@
-# BuildCalc — Post-Launch Calculator Backlog
+# SlabCalc — Post-Launch Calculator Backlog
 
 Next 17 calculators to build after the initial 8-calculator launch.
 
