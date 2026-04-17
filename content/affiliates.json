@@ -1,0 +1,138 @@
+{
+  "concrete-slab": [
+    {
+      "name": "Concrete Mixing Tub (6 cu ft)",
+      "url": "https://www.amazon.com/dp/B000BQSH9C?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Bull Float — Magnesium 48″",
+      "url": "https://www.amazon.com/dp/B000BQOLIE?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Concrete Edger Tool",
+      "url": "https://www.amazon.com/dp/B0000AX6GU?tag=AFFILIATE_TAG",
+      "category": "tools"
+    }
+  ],
+  "concrete-footing": [
+    {
+      "name": "Post Hole Digger",
+      "url": "https://www.amazon.com/dp/B00004RAML?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Rebar Tie Wire (3.5 lb)",
+      "url": "https://www.amazon.com/dp/B0054N5E6G?tag=AFFILIATE_TAG",
+      "category": "materials"
+    },
+    {
+      "name": "Simpson Strong-Tie Post Base",
+      "url": "https://www.amazon.com/dp/B001DDVMSC?tag=AFFILIATE_TAG",
+      "category": "hardware"
+    }
+  ],
+  "concrete-column": [
+    {
+      "name": "Sonotube 12″ × 4ft",
+      "url": "https://www.amazon.com/dp/B0BHTWZQKW?tag=AFFILIATE_TAG",
+      "category": "materials"
+    },
+    {
+      "name": "Concrete Vibrator",
+      "url": "https://www.amazon.com/dp/B0B7RC8JX6?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "J-Bolt Anchor Set (10 pack)",
+      "url": "https://www.amazon.com/dp/B08FCVL8MJ?tag=AFFILIATE_TAG",
+      "category": "hardware"
+    }
+  ],
+  "paint-coverage": [
+    {
+      "name": "Wooster Pro Roller Cover 3/8″ Nap",
+      "url": "https://www.amazon.com/dp/B000I1ASSU?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Purdy Angled Sash Brush 2.5″",
+      "url": "https://www.amazon.com/dp/B000BQS3UW?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Painter's Tape — FrogTape Multi-Surface",
+      "url": "https://www.amazon.com/dp/B006MFYB90?tag=AFFILIATE_TAG",
+      "category": "supplies"
+    }
+  ],
+  "tile-flooring": [
+    {
+      "name": "QEP 24″ Tile Cutter",
+      "url": "https://www.amazon.com/dp/B000RG7BRO?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Tile Spacers 1/8″ (200 pack)",
+      "url": "https://www.amazon.com/dp/B000BQREWS?tag=AFFILIATE_TAG",
+      "category": "supplies"
+    },
+    {
+      "name": "Notched Trowel 1/4″ × 3/8″",
+      "url": "https://www.amazon.com/dp/B000BQREXM?tag=AFFILIATE_TAG",
+      "category": "tools"
+    }
+  ],
+  "gravel-and-aggregate": [
+    {
+      "name": "Landscape Fabric (4ft × 100ft)",
+      "url": "https://www.amazon.com/dp/B0017OXLNK?tag=AFFILIATE_TAG",
+      "category": "materials"
+    },
+    {
+      "name": "Steel Landscape Edging (40ft)",
+      "url": "https://www.amazon.com/dp/B07KZ22W6J?tag=AFFILIATE_TAG",
+      "category": "materials"
+    },
+    {
+      "name": "Wheelbarrow — 6 cu ft",
+      "url": "https://www.amazon.com/dp/B074JCFD77?tag=AFFILIATE_TAG",
+      "category": "tools"
+    }
+  ],
+  "mulch-and-topsoil": [
+    {
+      "name": "Garden Cart — 10 cu ft",
+      "url": "https://www.amazon.com/dp/B009YRQXCM?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Landscape Rake",
+      "url": "https://www.amazon.com/dp/B000E28U4Q?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Weed Barrier Fabric Pins (100 pack)",
+      "url": "https://www.amazon.com/dp/B01I9DKPSC?tag=AFFILIATE_TAG",
+      "category": "supplies"
+    }
+  ],
+  "fence-materials": [
+    {
+      "name": "Speed Square — Swanson",
+      "url": "https://www.amazon.com/dp/B00002255O?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "Post Level",
+      "url": "https://www.amazon.com/dp/B000ETYPGY?tag=AFFILIATE_TAG",
+      "category": "tools"
+    },
+    {
+      "name": "QUIKRETE Fast-Setting Concrete (50 lb)",
+      "url": "https://www.amazon.com/dp/B000FK8URK?tag=AFFILIATE_TAG",
+      "category": "materials"
+    }
+  ]
+}

@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(pnpm create next-app@latest:*)",
-      "Bash(pnpm dlx:*)"
+      "Bash(pnpm dlx:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm dev)"
     ]
   }
 }

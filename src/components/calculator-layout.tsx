@@ -1,0 +1,130 @@
+import { type ReactNode } from "react";
+import Link from "next/link";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { ArrowRight } from "lucide-react";
+import { AdSlotInArticle, AdSlotSidebar } from "@/components/ads/ad-slot";
+import { AffiliateLinks } from "@/components/affiliate-links";
+
+export interface RelatedCalculator {
+  name: string;
+  href: string;
+  description: string;
+}
+
+interface CalculatorLayoutProps {
+  slug: string;
+  title: string;
+  description: string;
+  diagram?: ReactNode;
+  inputs: ReactNode;
+  results: ReactNode;
+  supportingContent?: ReactNode;
+  relatedCalculators?: RelatedCalculator[];
+  jsonLd?: Record<string, unknown>;
+}
+
+export function CalculatorLayout({
+  slug,
+  title,
+  description,
+  diagram,
+  inputs,
+  results,
+  supportingContent,
+  relatedCalculators,
+  jsonLd,
+}: CalculatorLayoutProps) {
+  return (
+    <div className="mx-auto w-full max-w-6xl px-4 py-8">
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
+
+      {/* Header */}
+      <div className="mb-8">
+        <div className="flex items-center gap-2 mb-2">
+          <Badge variant="secondary" className="text-xs">
+            Free Calculator
+          </Badge>
+        </div>
+        <h1 className="font-heading text-3xl font-bold tracking-tight sm:text-4xl">
+          {title}
+        </h1>
+        <p className="mt-2 text-lg text-muted-foreground">{description}</p>
+      </div>
+
+      {/* Diagram */}
+      {diagram && (
+        <div className="mb-8 flex justify-center">
+          {diagram}
+        </div>
+      )}
+
+      {/* Calculator: Inputs + Results */}
+      <div className="grid gap-6 lg:grid-cols-[1fr_400px]">
+        {/* Input Form */}
+        <Card>
+          <CardHeader>
+            <CardTitle>Input Dimensions</CardTitle>
+          </CardHeader>
+          <CardContent>{inputs}</CardContent>
+        </Card>
+
+        {/* Results + Sidebar Ad */}
+        <div className="space-y-6 lg:sticky lg:top-4 lg:self-start">
+          <Card className="border-primary/20 bg-primary/[0.02]">
+            <CardHeader>
+              <CardTitle>Results</CardTitle>
+            </CardHeader>
+            <CardContent>{results}</CardContent>
+          </Card>
+
+          <AffiliateLinks calculatorSlug={slug} />
+          <AdSlotSidebar />
+        </div>
+      </div>
+
+      {/* In-article Ad */}
+      <AdSlotInArticle className="my-8" />
+
+      {/* Supporting Content */}
+      {supportingContent && (
+        <div className="mt-12 max-w-none">
+          {supportingContent}
+        </div>
+      )}
+
+      {/* Related Calculators */}
+      {relatedCalculators && relatedCalculators.length > 0 && (
+        <div className="mt-12">
+          <h2 className="font-heading text-xl font-semibold mb-4">
+            Related Calculators
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedCalculators.map((calc) => (
+              <Link key={calc.href} href={calc.href} className="group">
+                <Card className="h-full transition-colors group-hover:border-primary/30">
+                  <CardHeader>
+                    <CardTitle className="flex items-center justify-between">
+                      {calc.name}
+                      <ArrowRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary" />
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">
+                      {calc.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
