@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm create next-app@latest:*)",
+      "Bash(pnpm dlx:*)"
+    ]
+  }
+}
