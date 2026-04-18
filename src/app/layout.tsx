@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { AdSenseScript } from "@/components/ads/adsense-script";
 import { GA4Script } from "@/components/analytics/ga4-script";
 import { CookieConsent } from "@/components/cookie-consent";
 import { siteConfig } from "@/lib/config";
@@ -50,9 +49,15 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9681069917942148"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <GA4Script />
-        <AdSenseScript />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
