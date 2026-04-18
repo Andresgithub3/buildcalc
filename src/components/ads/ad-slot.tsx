@@ -35,13 +35,7 @@ function AdSlot({ format = "auto", layout, className }: AdSlotProps) {
   }, []);
 
   if (!process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID) {
-    return (
-      <div
-        className={`flex items-center justify-center rounded-lg border border-dashed border-muted-foreground/25 bg-muted/30 px-4 py-8 text-xs text-muted-foreground ${className ?? ""}`}
-      >
-        Ad Slot
-      </div>
-    );
+    return null;
   }
 
   return (

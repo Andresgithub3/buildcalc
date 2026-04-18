@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4">
       {/* Hero */}
-      <section className="py-16 text-center sm:py-24">
+      <section className="py-10 text-center sm:py-14">
         <div className="flex justify-center mb-4">
           <div className="rounded-full bg-accent/10 p-3">
             <HardHat className="h-8 w-8 text-accent" />
@@ -24,7 +24,7 @@ export default function Home() {
       </section>
 
       {/* Calculator Grid */}
-      <section className="pb-16">
+      <section className="pb-10">
         <h2 className="font-heading text-xl font-semibold mb-6">
           All Calculators
         </h2>
@@ -56,7 +56,7 @@ export default function Home() {
       </section>
 
       {/* Value Props */}
-      <section className="border-t py-16">
+      <section className="border-t py-10">
         <div className="grid gap-8 sm:grid-cols-3 text-center">
           <div>
             <h3 className="font-heading font-semibold">Accurate Formulas</h3>
