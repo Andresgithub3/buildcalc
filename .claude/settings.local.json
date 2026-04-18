@@ -6,7 +6,10 @@
       "Bash(pnpm add:*)",
       "Bash(pnpm test:*)",
       "Bash(pnpm build:*)",
-      "Bash(pnpm dev)"
+      "Bash(pnpm dev)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfix: load AdSense script afterInteractive for crawler verification\n\nlazyOnload deferred the script too late for Google''s AdSense crawler to detect it.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }
