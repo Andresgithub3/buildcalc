@@ -9,6 +9,7 @@ import { ResultRow } from "@/components/result-row";
 import { PaintDiagram } from "./paint-diagram";
 import { calculatePaintCoverage } from "@/lib/calculators/paint-coverage";
 import { PaintContent } from "./paint-content";
+import { CostDisclaimer } from "@/components/cost-disclaimer";
 
 export function PaintCalculator() {
   const [roomLength, setRoomLength] = useState(12);
@@ -17,6 +18,7 @@ export function PaintCalculator() {
   const [numberOfDoors, setNumberOfDoors] = useState(1);
   const [numberOfWindows, setNumberOfWindows] = useState(2);
   const [numberOfCoats, setNumberOfCoats] = useState(2);
+  const [customCost, setCustomCost] = useState("");
 
   const result = calculatePaintCoverage({
     roomLength,
@@ -25,6 +27,7 @@ export function PaintCalculator() {
     numberOfDoors,
     numberOfWindows,
     numberOfCoats,
+    customCostPerGallon: customCost ? Number(customCost) : undefined,
   });
 
   return (
@@ -107,6 +110,18 @@ export function PaintCalculator() {
               onChange={(e) => setNumberOfWindows(Number(e.target.value))}
             />
           </div>
+          <div className="space-y-2 sm:col-span-2">
+            <Label htmlFor="customCost">Cost per Gallon ($)</Label>
+            <Input
+              id="customCost"
+              type="number"
+              min={0}
+              step={1}
+              placeholder="$25 – $50"
+              value={customCost}
+              onChange={(e) => setCustomCost(e.target.value)}
+            />
+          </div>
         </div>
       }
       results={
@@ -138,6 +153,16 @@ export function PaintCalculator() {
             value={result.paintableArea}
             unit="ft²"
           />
+          <Separator className="my-2" />
+          <ResultRow
+            label="Estimated Cost"
+            value={
+              result.estimatedCost != null
+                ? `$${result.estimatedCost.toLocaleString()}`
+                : `$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`
+            }
+          />
+          <CostDisclaimer />
         </div>
       }
       supportingContent={<PaintContent />}

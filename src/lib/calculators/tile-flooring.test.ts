@@ -57,6 +57,48 @@ describe("calculateTileFlooring", () => {
     expect(result.boxesNeeded).toBe(10);
   });
 
+  it("computes default cost range from boxesNeeded", () => {
+    const result = calculateTileFlooring({
+      roomLength: 10,
+      roomWidth: 10,
+      tileSize: "12x12",
+      wastePercent: 10,
+      tilesPerBox: 12,
+    });
+
+    // 10 boxes → $25*10=250, $75*10=750
+    expect(result.estimatedCostLow).toBe(result.boxesNeeded * 25);
+    expect(result.estimatedCostHigh).toBe(result.boxesNeeded * 75);
+  });
+
+  it("returns undefined estimatedCost when no custom cost provided", () => {
+    const result = calculateTileFlooring({
+      roomLength: 10,
+      roomWidth: 10,
+      tileSize: "12x12",
+      wastePercent: 10,
+      tilesPerBox: 12,
+    });
+
+    expect(result.estimatedCost).toBeUndefined();
+    expect(result.estimatedCostLow).toBeGreaterThan(0);
+    expect(result.estimatedCostHigh).toBeGreaterThan(0);
+  });
+
+  it("calculates estimatedCost as boxesNeeded × customCostPerBox", () => {
+    const result = calculateTileFlooring({
+      roomLength: 10,
+      roomWidth: 10,
+      tileSize: "12x12",
+      wastePercent: 10,
+      tilesPerBox: 12,
+      customCostPerBox: 50,
+    });
+
+    // 10 boxes * 50 = 500
+    expect(result.estimatedCost).toBe(result.boxesNeeded * 50);
+  });
+
   it("calculates 24x24 tiles with no waste", () => {
     const result = calculateTileFlooring({
       roomLength: 12,

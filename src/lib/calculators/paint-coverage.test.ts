@@ -44,6 +44,51 @@ describe("calculatePaintCoverage", () => {
     expect(result.gallonsNeeded).toBe(1);
   });
 
+  it("computes default cost range from gallonsNeeded", () => {
+    const result = calculatePaintCoverage({
+      roomLength: 12,
+      roomWidth: 12,
+      wallHeight: 8,
+      numberOfDoors: 1,
+      numberOfWindows: 2,
+      numberOfCoats: 2,
+    });
+
+    // 2 gallons needed → $25*2=50, $50*2=100
+    expect(result.estimatedCostLow).toBe(result.gallonsNeeded * 25);
+    expect(result.estimatedCostHigh).toBe(result.gallonsNeeded * 50);
+  });
+
+  it("returns undefined estimatedCost when no custom cost provided", () => {
+    const result = calculatePaintCoverage({
+      roomLength: 12,
+      roomWidth: 12,
+      wallHeight: 8,
+      numberOfDoors: 1,
+      numberOfWindows: 2,
+      numberOfCoats: 2,
+    });
+
+    expect(result.estimatedCost).toBeUndefined();
+    expect(result.estimatedCostLow).toBeGreaterThan(0);
+    expect(result.estimatedCostHigh).toBeGreaterThan(0);
+  });
+
+  it("calculates estimatedCost as gallonsNeeded × customCostPerGallon", () => {
+    const result = calculatePaintCoverage({
+      roomLength: 12,
+      roomWidth: 12,
+      wallHeight: 8,
+      numberOfDoors: 1,
+      numberOfWindows: 2,
+      numberOfCoats: 2,
+      customCostPerGallon: 40,
+    });
+
+    // 2 gallons * 40 = 80
+    expect(result.estimatedCost).toBe(result.gallonsNeeded * 40);
+  });
+
   it("scales with number of coats", () => {
     const oneCoat = calculatePaintCoverage({
       roomLength: 10,

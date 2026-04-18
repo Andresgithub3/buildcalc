@@ -3,6 +3,7 @@ export interface ConcreteColumnInput {
   height: number; // feet
   numberOfColumns: number;
   wastePercent: number; // default 10
+  customCostPerYard?: number; // $/yd³
 }
 
 export interface ConcreteColumnResult {
@@ -13,6 +14,7 @@ export interface ConcreteColumnResult {
   bags60lb: number;
   estimatedCostLow: number;
   estimatedCostHigh: number;
+  estimatedCost?: number;
 }
 
 const COST_PER_YARD_LOW = 125;
@@ -23,7 +25,7 @@ const BAGS_60LB_PER_CUBIC_FOOT = 0.6;
 export function calculateConcreteColumn(
   input: ConcreteColumnInput
 ): ConcreteColumnResult {
-  const { diameter, height, numberOfColumns, wastePercent } = input;
+  const { diameter, height, numberOfColumns, wastePercent, customCostPerYard } = input;
 
   // Volume = π × r² × h (all in inches, then convert to cubic feet)
   const radiusInches = diameter / 2;
@@ -45,6 +47,9 @@ export function calculateConcreteColumn(
     bags60lb: Math.ceil(totalCubicFeet * BAGS_60LB_PER_CUBIC_FOOT),
     estimatedCostLow: round(cubicYards * COST_PER_YARD_LOW, 2),
     estimatedCostHigh: round(cubicYards * COST_PER_YARD_HIGH, 2),
+    estimatedCost: customCostPerYard
+      ? round(cubicYards * customCostPerYard, 2)
+      : undefined,
   };
 }
 

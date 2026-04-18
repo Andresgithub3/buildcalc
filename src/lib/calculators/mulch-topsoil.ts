@@ -5,6 +5,7 @@ export interface MulchTopsoilInput {
   width: number; // feet
   depth: number; // inches
   material: MulchMaterial;
+  customCostPerYard?: number; // $/yd³
 }
 
 export interface MulchTopsoilResult {
@@ -13,6 +14,7 @@ export interface MulchTopsoilResult {
   bags2CuFt: number;
   estimatedCostLow: number;
   estimatedCostHigh: number;
+  estimatedCost?: number;
 }
 
 // Cost per cubic yard ranges
@@ -28,7 +30,7 @@ const BAG_SIZE_CUBIC_FEET = 2;
 export function calculateMulchTopsoil(
   input: MulchTopsoilInput
 ): MulchTopsoilResult {
-  const { length, width, depth, material } = input;
+  const { length, width, depth, material, customCostPerYard } = input;
 
   const cubicFeet = length * width * (depth / 12);
   const cubicYards = cubicFeet / 27;
@@ -42,6 +44,9 @@ export function calculateMulchTopsoil(
     bags2CuFt,
     estimatedCostLow: round(cubicYards * costRange.low, 2),
     estimatedCostHigh: round(cubicYards * costRange.high, 2),
+    estimatedCost: customCostPerYard
+      ? round(cubicYards * customCostPerYard, 2)
+      : undefined,
   };
 }
 

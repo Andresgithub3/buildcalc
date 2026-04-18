@@ -9,6 +9,7 @@ import { ResultRow } from "@/components/result-row";
 import { FootingDiagram } from "./footing-diagram";
 import { calculateConcreteFooting } from "@/lib/calculators/concrete-footing";
 import { FootingContent } from "./footing-content";
+import { CostDisclaimer } from "@/components/cost-disclaimer";
 
 export function FootingCalculator() {
   const [length, setLength] = useState(8);
@@ -16,6 +17,7 @@ export function FootingCalculator() {
   const [depth, setDepth] = useState(12);
   const [numberOfFootings, setNumberOfFootings] = useState(4);
   const [wastePercent, setWastePercent] = useState(10);
+  const [customCost, setCustomCost] = useState("");
 
   const result = calculateConcreteFooting({
     length,
@@ -23,6 +25,7 @@ export function FootingCalculator() {
     depth,
     numberOfFootings,
     wastePercent,
+    customCostPerYard: customCost ? Number(customCost) : undefined,
   });
 
   return (
@@ -88,6 +91,18 @@ export function FootingCalculator() {
               onChange={(e) => setWastePercent(Number(e.target.value))}
             />
           </div>
+          <div className="space-y-2 sm:col-span-2">
+            <Label htmlFor="customCost">Cost per Yard ($)</Label>
+            <Input
+              id="customCost"
+              type="number"
+              min={0}
+              step={1}
+              placeholder="$125 – $175"
+              value={customCost}
+              onChange={(e) => setCustomCost(e.target.value)}
+            />
+          </div>
         </div>
       }
       results={
@@ -110,8 +125,13 @@ export function FootingCalculator() {
           <Separator className="my-2" />
           <ResultRow
             label="Estimated Cost"
-            value={`$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`}
+            value={
+              result.estimatedCost != null
+                ? `$${result.estimatedCost.toLocaleString()}`
+                : `$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`
+            }
           />
+          <CostDisclaimer />
         </div>
       }
       supportingContent={<FootingContent />}

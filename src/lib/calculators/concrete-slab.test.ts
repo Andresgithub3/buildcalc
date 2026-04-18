@@ -53,6 +53,33 @@ describe("calculateConcreteSlab", () => {
     expect(result.bags60lb).toBe(0);
   });
 
+  it("returns undefined estimatedCost when no custom cost provided", () => {
+    const result = calculateConcreteSlab({
+      length: 10,
+      width: 10,
+      depth: 4,
+      wastePercent: 10,
+    });
+
+    expect(result.estimatedCost).toBeUndefined();
+    expect(result.estimatedCostLow).toBeGreaterThan(0);
+    expect(result.estimatedCostHigh).toBeGreaterThan(0);
+  });
+
+  it("calculates estimatedCost as cubicYards × customCostPerYard", () => {
+    const result = calculateConcreteSlab({
+      length: 10,
+      width: 10,
+      depth: 4,
+      wastePercent: 0,
+      customCostPerYard: 150,
+    });
+
+    // Volume = 10 * 10 * (4/12) = 33.333 ft³ / 27 = 1.2346 yd³
+    // Cost = 1.2346 * 150 = 185.19
+    expect(result.estimatedCost).toBe(185.19);
+  });
+
   it("applies waste factor correctly", () => {
     const noWaste = calculateConcreteSlab({
       length: 10,

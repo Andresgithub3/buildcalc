@@ -9,14 +9,22 @@ import { ResultRow } from "@/components/result-row";
 import { SlabDiagram } from "./slab-diagram";
 import { calculateConcreteSlab } from "@/lib/calculators/concrete-slab";
 import { SlabContent } from "./slab-content";
+import { CostDisclaimer } from "@/components/cost-disclaimer";
 
 export function SlabCalculator() {
   const [length, setLength] = useState(10);
   const [width, setWidth] = useState(10);
   const [depth, setDepth] = useState(4);
   const [wastePercent, setWastePercent] = useState(10);
+  const [customCost, setCustomCost] = useState("");
 
-  const result = calculateConcreteSlab({ length, width, depth, wastePercent });
+  const result = calculateConcreteSlab({
+    length,
+    width,
+    depth,
+    wastePercent,
+    customCostPerYard: customCost ? Number(customCost) : undefined,
+  });
 
   return (
     <CalculatorLayout
@@ -70,6 +78,18 @@ export function SlabCalculator() {
               onChange={(e) => setWastePercent(Number(e.target.value))}
             />
           </div>
+          <div className="space-y-2 sm:col-span-2">
+            <Label htmlFor="customCost">Cost per Yard ($)</Label>
+            <Input
+              id="customCost"
+              type="number"
+              min={0}
+              step={1}
+              placeholder="$125 – $175"
+              value={customCost}
+              onChange={(e) => setCustomCost(e.target.value)}
+            />
+          </div>
         </div>
       }
       results={
@@ -87,8 +107,13 @@ export function SlabCalculator() {
           <Separator className="my-2" />
           <ResultRow
             label="Estimated Cost"
-            value={`$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`}
+            value={
+              result.estimatedCost != null
+                ? `$${result.estimatedCost.toLocaleString()}`
+                : `$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`
+            }
           />
+          <CostDisclaimer />
         </div>
       }
       supportingContent={<SlabContent />}

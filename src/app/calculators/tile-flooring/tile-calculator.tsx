@@ -9,6 +9,7 @@ import { ResultRow } from "@/components/result-row";
 import { TileDiagram } from "./tile-diagram";
 import { calculateTileFlooring, type TileSize } from "@/lib/calculators/tile-flooring";
 import { TileContent } from "./tile-content";
+import { CostDisclaimer } from "@/components/cost-disclaimer";
 
 export function TileCalculator() {
   const [roomLength, setRoomLength] = useState(12);
@@ -18,6 +19,7 @@ export function TileCalculator() {
   const [customTileHeight, setCustomTileHeight] = useState(12);
   const [wastePercent, setWastePercent] = useState(10);
   const [tilesPerBox, setTilesPerBox] = useState(12);
+  const [customCost, setCustomCost] = useState("");
 
   const result = calculateTileFlooring({
     roomLength,
@@ -27,6 +29,7 @@ export function TileCalculator() {
     customTileHeight,
     wastePercent,
     tilesPerBox,
+    customCostPerBox: customCost ? Number(customCost) : undefined,
   });
 
   return (
@@ -118,6 +121,18 @@ export function TileCalculator() {
               onChange={(e) => setWastePercent(Number(e.target.value))}
             />
           </div>
+          <div className="space-y-2 sm:col-span-2">
+            <Label htmlFor="customCost">Cost per Box ($)</Label>
+            <Input
+              id="customCost"
+              type="number"
+              min={0}
+              step={1}
+              placeholder="$25 – $75"
+              value={customCost}
+              onChange={(e) => setCustomCost(e.target.value)}
+            />
+          </div>
         </div>
       }
       results={
@@ -144,6 +159,16 @@ export function TileCalculator() {
             value={result.tileAreaSqFt}
             unit="ft² each"
           />
+          <Separator className="my-2" />
+          <ResultRow
+            label="Estimated Cost"
+            value={
+              result.estimatedCost != null
+                ? `$${result.estimatedCost.toLocaleString()}`
+                : `$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`
+            }
+          />
+          <CostDisclaimer />
         </div>
       }
       supportingContent={<TileContent />}

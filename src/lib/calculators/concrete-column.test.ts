@@ -31,6 +31,32 @@ describe("calculateConcreteColumn", () => {
     expect(result.bags80lb).toBeGreaterThan(0);
   });
 
+  it("returns undefined estimatedCost when no custom cost provided", () => {
+    const result = calculateConcreteColumn({
+      diameter: 12,
+      height: 4,
+      numberOfColumns: 1,
+      wastePercent: 0,
+    });
+
+    expect(result.estimatedCost).toBeUndefined();
+    expect(result.estimatedCostLow).toBeGreaterThan(0);
+    expect(result.estimatedCostHigh).toBeGreaterThan(0);
+  });
+
+  it("calculates estimatedCost as cubicYards × customCostPerYard", () => {
+    const result = calculateConcreteColumn({
+      diameter: 12,
+      height: 4,
+      numberOfColumns: 1,
+      wastePercent: 0,
+      customCostPerYard: 150,
+    });
+
+    // π ft³ / 27 × 150 = 17.45
+    expect(result.estimatedCost).toBeCloseTo(17.45, 1);
+  });
+
   it("handles common Sonotube sizes", () => {
     // 10-inch Sonotube, 4ft deep
     const result = calculateConcreteColumn({

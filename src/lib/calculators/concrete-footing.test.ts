@@ -34,6 +34,34 @@ describe("calculateConcreteFooting", () => {
     expect(result.estimatedCostHigh).toBeGreaterThan(result.estimatedCostLow);
   });
 
+  it("returns undefined estimatedCost when no custom cost provided", () => {
+    const result = calculateConcreteFooting({
+      length: 8,
+      width: 12,
+      depth: 12,
+      numberOfFootings: 1,
+      wastePercent: 0,
+    });
+
+    expect(result.estimatedCost).toBeUndefined();
+    expect(result.estimatedCostLow).toBeGreaterThan(0);
+    expect(result.estimatedCostHigh).toBeGreaterThan(0);
+  });
+
+  it("calculates estimatedCost as cubicYards × customCostPerYard", () => {
+    const result = calculateConcreteFooting({
+      length: 8,
+      width: 12,
+      depth: 12,
+      numberOfFootings: 1,
+      wastePercent: 0,
+      customCostPerYard: 150,
+    });
+
+    // Per footing: 8 * 1 * 1 = 8 ft³ / 27 = 0.2963 yd³ → 0.2963 * 150 = 44.44
+    expect(result.estimatedCost).toBe(44.44);
+  });
+
   it("scales linearly with number of footings", () => {
     const one = calculateConcreteFooting({
       length: 4,

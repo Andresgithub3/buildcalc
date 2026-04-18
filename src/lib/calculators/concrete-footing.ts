@@ -4,6 +4,7 @@ export interface ConcreteFootingInput {
   depth: number; // inches
   numberOfFootings: number;
   wastePercent: number; // default 10
+  customCostPerYard?: number; // $/yd³
 }
 
 export interface ConcreteFootingResult {
@@ -14,6 +15,7 @@ export interface ConcreteFootingResult {
   bags60lb: number;
   estimatedCostLow: number;
   estimatedCostHigh: number;
+  estimatedCost?: number;
 }
 
 const COST_PER_YARD_LOW = 125;
@@ -24,7 +26,7 @@ const BAGS_60LB_PER_CUBIC_FOOT = 0.6;
 export function calculateConcreteFooting(
   input: ConcreteFootingInput
 ): ConcreteFootingResult {
-  const { length, width, depth, numberOfFootings, wastePercent } = input;
+  const { length, width, depth, numberOfFootings, wastePercent, customCostPerYard } = input;
 
   const perFootingCubicFeet = length * (width / 12) * (depth / 12);
   const totalVolume = perFootingCubicFeet * numberOfFootings;
@@ -40,6 +42,9 @@ export function calculateConcreteFooting(
     bags60lb: Math.ceil(totalCubicFeet * BAGS_60LB_PER_CUBIC_FOOT),
     estimatedCostLow: round(cubicYards * COST_PER_YARD_LOW, 2),
     estimatedCostHigh: round(cubicYards * COST_PER_YARD_HIGH, 2),
+    estimatedCost: customCostPerYard
+      ? round(cubicYards * customCostPerYard, 2)
+      : undefined,
   };
 }
 

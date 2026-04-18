@@ -5,6 +5,7 @@ export interface GravelAggregateInput {
   width: number; // feet
   depth: number; // inches
   materialType: MaterialType;
+  customCostPerTon?: number; // $/ton
 }
 
 export interface GravelAggregateResult {
@@ -13,6 +14,7 @@ export interface GravelAggregateResult {
   tons: number;
   estimatedCostLow: number;
   estimatedCostHigh: number;
+  estimatedCost?: number;
 }
 
 const DENSITIES: Record<MaterialType, number> = {
@@ -28,7 +30,7 @@ const COST_PER_TON_HIGH = 65;
 export function calculateGravelAggregate(
   input: GravelAggregateInput
 ): GravelAggregateResult {
-  const { length, width, depth, materialType } = input;
+  const { length, width, depth, materialType, customCostPerTon } = input;
 
   const cubicFeet = length * width * (depth / 12);
   const cubicYards = cubicFeet / 27;
@@ -40,6 +42,9 @@ export function calculateGravelAggregate(
     tons: round(tons, 2),
     estimatedCostLow: round(tons * COST_PER_TON_LOW, 2),
     estimatedCostHigh: round(tons * COST_PER_TON_HIGH, 2),
+    estimatedCost: customCostPerTon
+      ? round(tons * customCostPerTon, 2)
+      : undefined,
   };
 }
 

@@ -77,6 +77,34 @@ describe("calculateFenceMaterials", () => {
     expect(result.numberOfPosts).toBe(28);
   });
 
+  it("returns undefined estimatedCost when no custom cost provided", () => {
+    const result = calculateFenceMaterials({
+      totalLength: 100,
+      height: 6,
+      postSpacing: 8,
+      gateCount: 0,
+      material: "wood",
+    });
+
+    expect(result.estimatedCost).toBeUndefined();
+    expect(result.estimatedCostLow).toBeGreaterThan(0);
+    expect(result.estimatedCostHigh).toBeGreaterThan(0);
+  });
+
+  it("calculates estimatedCost as totalLength × customCostPerFoot", () => {
+    const result = calculateFenceMaterials({
+      totalLength: 100,
+      height: 6,
+      postSpacing: 8,
+      gateCount: 0,
+      material: "wood",
+      customCostPerFoot: 20,
+    });
+
+    // 100 * 20 = 2000
+    expect(result.estimatedCost).toBe(2000);
+  });
+
   it("handles 8ft tall fence", () => {
     const result = calculateFenceMaterials({
       totalLength: 50,

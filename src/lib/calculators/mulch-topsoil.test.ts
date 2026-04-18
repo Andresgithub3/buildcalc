@@ -39,6 +39,32 @@ describe("calculateMulchTopsoil", () => {
     expect(fill.estimatedCostHigh).toBe(30);
   });
 
+  it("returns undefined estimatedCost when no custom cost provided", () => {
+    const result = calculateMulchTopsoil({
+      length: 20,
+      width: 10,
+      depth: 3,
+      material: "mulch",
+    });
+
+    expect(result.estimatedCost).toBeUndefined();
+    expect(result.estimatedCostLow).toBeGreaterThan(0);
+    expect(result.estimatedCostHigh).toBeGreaterThan(0);
+  });
+
+  it("calculates estimatedCost as cubicYards × customCostPerYard", () => {
+    const result = calculateMulchTopsoil({
+      length: 27,
+      width: 1,
+      depth: 12,
+      material: "mulch",
+      customCostPerYard: 35,
+    });
+
+    // 27 * 1 * 1 = 27 ft³ / 27 = 1 yd³ → 1 * 35 = 35
+    expect(result.estimatedCost).toBe(35);
+  });
+
   it("rounds bags up correctly", () => {
     const result = calculateMulchTopsoil({
       length: 10,

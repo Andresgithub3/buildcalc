@@ -8,6 +8,7 @@ export interface FenceMaterialsInput {
   postSpacing: PostSpacing;
   gateCount: number;
   material: FenceMaterial;
+  customCostPerFoot?: number; // $/ft
 }
 
 export interface FenceMaterialsResult {
@@ -17,6 +18,7 @@ export interface FenceMaterialsResult {
   bagsOfConcrete: number; // 80lb bags for post holes
   estimatedCostLow: number;
   estimatedCostHigh: number;
+  estimatedCost?: number;
 }
 
 // Rails per section based on height
@@ -48,7 +50,7 @@ const GATE_WIDTH = 4;
 export function calculateFenceMaterials(
   input: FenceMaterialsInput
 ): FenceMaterialsResult {
-  const { totalLength, height, postSpacing, gateCount, material } = input;
+  const { totalLength, height, postSpacing, gateCount, material, customCostPerFoot } = input;
 
   // Subtract gate widths from fenced length
   const gateLength = gateCount * GATE_WIDTH;
@@ -88,6 +90,9 @@ export function calculateFenceMaterials(
     bagsOfConcrete,
     estimatedCostLow: round(totalLength * costRange.low, 2),
     estimatedCostHigh: round(totalLength * costRange.high, 2),
+    estimatedCost: customCostPerFoot
+      ? round(totalLength * customCostPerFoot, 2)
+      : undefined,
   };
 }
 

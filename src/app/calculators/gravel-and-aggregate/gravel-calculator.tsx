@@ -12,6 +12,7 @@ import {
   type MaterialType,
 } from "@/lib/calculators/gravel-aggregate";
 import { GravelContent } from "./gravel-content";
+import { CostDisclaimer } from "@/components/cost-disclaimer";
 
 const MATERIAL_LABELS: Record<MaterialType, string> = {
   gravel: "Gravel",
@@ -25,8 +26,15 @@ export function GravelCalculator() {
   const [width, setWidth] = useState(10);
   const [depth, setDepth] = useState(4);
   const [materialType, setMaterialType] = useState<MaterialType>("gravel");
+  const [customCost, setCustomCost] = useState("");
 
-  const result = calculateGravelAggregate({ length, width, depth, materialType });
+  const result = calculateGravelAggregate({
+    length,
+    width,
+    depth,
+    materialType,
+    customCostPerTon: customCost ? Number(customCost) : undefined,
+  });
 
   return (
     <CalculatorLayout
@@ -84,6 +92,18 @@ export function GravelCalculator() {
               ))}
             </select>
           </div>
+          <div className="space-y-2 sm:col-span-2">
+            <Label htmlFor="customCost">Cost per Ton ($)</Label>
+            <Input
+              id="customCost"
+              type="number"
+              min={0}
+              step={1}
+              placeholder="$30 – $65"
+              value={customCost}
+              onChange={(e) => setCustomCost(e.target.value)}
+            />
+          </div>
         </div>
       }
       results={
@@ -100,8 +120,13 @@ export function GravelCalculator() {
           <Separator className="my-2" />
           <ResultRow
             label="Estimated Cost"
-            value={`$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`}
+            value={
+              result.estimatedCost != null
+                ? `$${result.estimatedCost.toLocaleString()}`
+                : `$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`
+            }
           />
+          <CostDisclaimer />
         </div>
       }
       supportingContent={<GravelContent />}

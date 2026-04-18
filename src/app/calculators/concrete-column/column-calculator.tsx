@@ -9,18 +9,21 @@ import { ResultRow } from "@/components/result-row";
 import { ColumnDiagram } from "./column-diagram";
 import { calculateConcreteColumn } from "@/lib/calculators/concrete-column";
 import { ColumnContent } from "./column-content";
+import { CostDisclaimer } from "@/components/cost-disclaimer";
 
 export function ColumnCalculator() {
   const [diameter, setDiameter] = useState(12);
   const [height, setHeight] = useState(4);
   const [numberOfColumns, setNumberOfColumns] = useState(4);
   const [wastePercent, setWastePercent] = useState(10);
+  const [customCost, setCustomCost] = useState("");
 
   const result = calculateConcreteColumn({
     diameter,
     height,
     numberOfColumns,
     wastePercent,
+    customCostPerYard: customCost ? Number(customCost) : undefined,
   });
 
   return (
@@ -75,6 +78,18 @@ export function ColumnCalculator() {
               onChange={(e) => setWastePercent(Number(e.target.value))}
             />
           </div>
+          <div className="space-y-2 sm:col-span-2">
+            <Label htmlFor="customCost">Cost per Yard ($)</Label>
+            <Input
+              id="customCost"
+              type="number"
+              min={0}
+              step={1}
+              placeholder="$125 – $175"
+              value={customCost}
+              onChange={(e) => setCustomCost(e.target.value)}
+            />
+          </div>
         </div>
       }
       results={
@@ -97,8 +112,13 @@ export function ColumnCalculator() {
           <Separator className="my-2" />
           <ResultRow
             label="Estimated Cost"
-            value={`$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`}
+            value={
+              result.estimatedCost != null
+                ? `$${result.estimatedCost.toLocaleString()}`
+                : `$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`
+            }
           />
+          <CostDisclaimer />
         </div>
       }
       supportingContent={<ColumnContent />}

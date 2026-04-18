@@ -3,6 +3,7 @@ export interface ConcreteSlabInput {
   width: number; // feet
   depth: number; // inches
   wastePercent: number; // default 10
+  customCostPerYard?: number; // $/yd³
 }
 
 export interface ConcreteSlabResult {
@@ -12,6 +13,7 @@ export interface ConcreteSlabResult {
   bags60lb: number;
   estimatedCostLow: number;
   estimatedCostHigh: number;
+  estimatedCost?: number;
 }
 
 const COST_PER_YARD_LOW = 125;
@@ -22,7 +24,7 @@ const BAGS_60LB_PER_CUBIC_FOOT = 0.6;
 export function calculateConcreteSlab(
   input: ConcreteSlabInput
 ): ConcreteSlabResult {
-  const { length, width, depth, wastePercent } = input;
+  const { length, width, depth, wastePercent, customCostPerYard } = input;
 
   const volumeCubicFeet = length * width * (depth / 12);
   const wasteFactor = 1 + wastePercent / 100;
@@ -36,6 +38,9 @@ export function calculateConcreteSlab(
     bags60lb: Math.ceil(totalCubicFeet * BAGS_60LB_PER_CUBIC_FOOT),
     estimatedCostLow: round(cubicYards * COST_PER_YARD_LOW, 2),
     estimatedCostHigh: round(cubicYards * COST_PER_YARD_HIGH, 2),
+    estimatedCost: customCostPerYard
+      ? round(cubicYards * customCostPerYard, 2)
+      : undefined,
   };
 }
 

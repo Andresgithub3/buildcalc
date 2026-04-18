@@ -8,6 +8,7 @@ export interface TileFlooringInput {
   customTileHeight?: number; // inches (only when tileSize is "custom")
   wastePercent: number; // default 10
   tilesPerBox: number; // default varies by size
+  customCostPerBox?: number; // $/box
 }
 
 export interface TileFlooringResult {
@@ -15,7 +16,13 @@ export interface TileFlooringResult {
   tileAreaSqFt: number; // area of one tile in sq ft
   tilesNeeded: number;
   boxesNeeded: number;
+  estimatedCostLow: number;
+  estimatedCostHigh: number;
+  estimatedCost?: number;
 }
+
+const COST_PER_BOX_LOW = 25;
+const COST_PER_BOX_HIGH = 75;
 
 const TILE_SIZES: Record<Exclude<TileSize, "custom">, { width: number; height: number }> = {
   "12x12": { width: 12, height: 12 },
@@ -26,7 +33,7 @@ const TILE_SIZES: Record<Exclude<TileSize, "custom">, { width: number; height: n
 export function calculateTileFlooring(
   input: TileFlooringInput
 ): TileFlooringResult {
-  const { roomLength, roomWidth, tileSize, wastePercent, tilesPerBox } = input;
+  const { roomLength, roomWidth, tileSize, wastePercent, tilesPerBox, customCostPerBox } = input;
 
   const totalArea = roomLength * roomWidth;
   const wasteFactor = 1 + wastePercent / 100;
@@ -53,6 +60,11 @@ export function calculateTileFlooring(
     tileAreaSqFt: round(tileAreaSqFt, 4),
     tilesNeeded,
     boxesNeeded,
+    estimatedCostLow: round(boxesNeeded * COST_PER_BOX_LOW, 2),
+    estimatedCostHigh: round(boxesNeeded * COST_PER_BOX_HIGH, 2),
+    estimatedCost: customCostPerBox
+      ? round(boxesNeeded * customCostPerBox, 2)
+      : undefined,
   };
 }
 

@@ -38,6 +38,32 @@ describe("calculateGravelAggregate", () => {
     expect(river.tons).toBeCloseTo(3.7 * 1.5, 0);
   });
 
+  it("returns undefined estimatedCost when no custom cost provided", () => {
+    const result = calculateGravelAggregate({
+      length: 20,
+      width: 10,
+      depth: 4,
+      materialType: "gravel",
+    });
+
+    expect(result.estimatedCost).toBeUndefined();
+    expect(result.estimatedCostLow).toBeGreaterThan(0);
+    expect(result.estimatedCostHigh).toBeGreaterThan(0);
+  });
+
+  it("calculates estimatedCost as tons × customCostPerTon", () => {
+    const result = calculateGravelAggregate({
+      length: 20,
+      width: 10,
+      depth: 4,
+      materialType: "gravel",
+      customCostPerTon: 50,
+    });
+
+    // 20*10*(4/12) = 66.67 ft³ / 27 = 2.469 yd³ * 1.4 = 3.457 tons * 50 = 172.84
+    expect(result.estimatedCost).toBeCloseTo(172.84, 0);
+  });
+
   it("handles zero area", () => {
     const result = calculateGravelAggregate({
       length: 0,

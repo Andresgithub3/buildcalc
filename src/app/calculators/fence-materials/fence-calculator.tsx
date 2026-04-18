@@ -14,6 +14,7 @@ import {
   type FenceMaterial,
 } from "@/lib/calculators/fence-materials";
 import { FenceContent } from "./fence-content";
+import { CostDisclaimer } from "@/components/cost-disclaimer";
 
 export function FenceCalculator() {
   const [totalLength, setTotalLength] = useState(100);
@@ -21,6 +22,7 @@ export function FenceCalculator() {
   const [postSpacing, setPostSpacing] = useState<PostSpacing>(8);
   const [gateCount, setGateCount] = useState(1);
   const [material, setMaterial] = useState<FenceMaterial>("wood");
+  const [customCost, setCustomCost] = useState("");
 
   const result = calculateFenceMaterials({
     totalLength,
@@ -28,6 +30,7 @@ export function FenceCalculator() {
     postSpacing,
     gateCount,
     material,
+    customCostPerFoot: customCost ? Number(customCost) : undefined,
   });
 
   const picketLabel =
@@ -107,6 +110,18 @@ export function FenceCalculator() {
               onChange={(e) => setGateCount(Number(e.target.value))}
             />
           </div>
+          <div className="space-y-2 sm:col-span-2">
+            <Label htmlFor="customCost">Cost per Foot ($)</Label>
+            <Input
+              id="customCost"
+              type="number"
+              min={0}
+              step={1}
+              placeholder="$8 – $40"
+              value={customCost}
+              onChange={(e) => setCustomCost(e.target.value)}
+            />
+          </div>
         </div>
       }
       results={
@@ -135,8 +150,13 @@ export function FenceCalculator() {
           <Separator className="my-2" />
           <ResultRow
             label="Estimated Cost"
-            value={`$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`}
+            value={
+              result.estimatedCost != null
+                ? `$${result.estimatedCost.toLocaleString()}`
+                : `$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`
+            }
           />
+          <CostDisclaimer />
         </div>
       }
       supportingContent={<FenceContent />}

@@ -12,6 +12,7 @@ import {
   type MulchMaterial,
 } from "@/lib/calculators/mulch-topsoil";
 import { MulchContent } from "./mulch-content";
+import { CostDisclaimer } from "@/components/cost-disclaimer";
 
 const MATERIAL_LABELS: Record<MulchMaterial, string> = {
   mulch: "Mulch",
@@ -25,8 +26,15 @@ export function MulchCalculator() {
   const [width, setWidth] = useState(10);
   const [depth, setDepth] = useState(3);
   const [material, setMaterial] = useState<MulchMaterial>("mulch");
+  const [customCost, setCustomCost] = useState("");
 
-  const result = calculateMulchTopsoil({ length, width, depth, material });
+  const result = calculateMulchTopsoil({
+    length,
+    width,
+    depth,
+    material,
+    customCostPerYard: customCost ? Number(customCost) : undefined,
+  });
 
   return (
     <CalculatorLayout
@@ -84,6 +92,18 @@ export function MulchCalculator() {
               ))}
             </select>
           </div>
+          <div className="space-y-2 sm:col-span-2">
+            <Label htmlFor="customCost">Cost per Yard ($)</Label>
+            <Input
+              id="customCost"
+              type="number"
+              min={0}
+              step={1}
+              placeholder="$10 – $60"
+              value={customCost}
+              onChange={(e) => setCustomCost(e.target.value)}
+            />
+          </div>
         </div>
       }
       results={
@@ -105,8 +125,13 @@ export function MulchCalculator() {
           <Separator className="my-2" />
           <ResultRow
             label="Estimated Cost"
-            value={`$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`}
+            value={
+              result.estimatedCost != null
+                ? `$${result.estimatedCost.toLocaleString()}`
+                : `$${result.estimatedCostLow.toLocaleString()} – $${result.estimatedCostHigh.toLocaleString()}`
+            }
           />
+          <CostDisclaimer />
         </div>
       }
       supportingContent={<MulchContent />}
