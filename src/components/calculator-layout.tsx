@@ -89,11 +89,11 @@ export function CalculatorLayout({
       </div>
 
       {/* In-article Ad */}
-      <AdSlotInArticle className="my-6" />
+      <AdSlotInArticle className="mt-6" />
 
       {/* Supporting Content */}
       {supportingContent && (
-        <div className="mt-8 max-w-none">
+        <div className="mt-6 max-w-none">
           {supportingContent}
         </div>
       )}

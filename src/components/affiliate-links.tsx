@@ -22,7 +22,7 @@ export function AffiliateLinks({ calculatorSlug }: AffiliateLinksProps) {
   if (items.length === 0) return null;
 
   return (
-    <div className="mt-8 rounded-lg border bg-card p-4">
+    <div className="rounded-lg border bg-card p-4">
       <h3 className="font-heading text-sm font-semibold mb-3">
         Recommended Tools &amp; Materials
       </h3>
