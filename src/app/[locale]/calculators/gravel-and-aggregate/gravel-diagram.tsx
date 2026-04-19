@@ -9,11 +9,11 @@ interface GravelDiagramProps {
 export function GravelDiagram({ length, width, depth }: GravelDiagramProps) {
   return (
     <svg
-      viewBox="0 0 320 200"
-      className="w-full max-w-sm text-foreground"
+      viewBox="0 0 360 200"
+      className="w-full max-w-xs text-foreground"
       aria-label={`Gravel area diagram: ${length}ft × ${width}ft × ${depth}in deep`}
     >
-      <g transform="translate(50, 30)">
+      <g transform="translate(40, 30)">
         {/* 3D gravel bed */}
         {/* Top face with gravel texture */}
         <polygon

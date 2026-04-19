@@ -9,8 +9,8 @@ interface MulchDiagramProps {
 export function MulchDiagram({ length, width, depth }: MulchDiagramProps) {
   return (
     <svg
-      viewBox="0 0 320 200"
-      className="w-full max-w-sm text-foreground"
+      viewBox="0 0 340 200"
+      className="w-full max-w-xs text-foreground"
       aria-label={`Mulch bed diagram: ${length}ft × ${width}ft × ${depth}in deep`}
     >
       <g transform="translate(50, 40)">

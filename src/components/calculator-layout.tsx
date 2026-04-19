@@ -71,17 +71,31 @@ export function CalculatorLayout({
 
       {/* Calculator: Inputs + Results + Content */}
       <div className="grid gap-4 lg:grid-cols-[1fr_340px]">
-        {/* Left column: Input Form + Supporting Content */}
-        <div className="min-w-0">
-          <Card>
+        {/* Input Form */}
+        <Card className="order-1">
+          <CardHeader className="pb-4">
+            <CardTitle>{t("inputDimensions")}</CardTitle>
+          </CardHeader>
+          <CardContent>{inputs}</CardContent>
+        </Card>
+
+        {/* Results + Sidebar — order-2 on mobile so it sits right after inputs */}
+        <div className="order-2 space-y-4 lg:row-span-2 lg:sticky lg:top-4 lg:self-start">
+          <Card className="border-primary/20 bg-primary/[0.02]">
             <CardHeader className="pb-4">
-              <CardTitle>{t("inputDimensions")}</CardTitle>
+              <CardTitle>{t("results")}</CardTitle>
             </CardHeader>
-            <CardContent>{inputs}</CardContent>
+            <CardContent>{results}</CardContent>
           </Card>
 
+          <AffiliateLinks calculatorSlug={slug} />
+          <AdSlotSidebar />
+        </div>
+
+        {/* Supporting Content + Related — order-3 on mobile, below results */}
+        <div className="order-3 min-w-0">
           {/* In-article Ad */}
-          <AdSlotInArticle className="mt-6" />
+          <AdSlotInArticle />
 
           {/* Supporting Content */}
           {supportingContent && (
@@ -117,19 +131,6 @@ export function CalculatorLayout({
               </div>
             </div>
           )}
-        </div>
-
-        {/* Right column: Results + Sidebar */}
-        <div className="space-y-4 lg:sticky lg:top-4 lg:self-start">
-          <Card className="border-primary/20 bg-primary/[0.02]">
-            <CardHeader className="pb-4">
-              <CardTitle>{t("results")}</CardTitle>
-            </CardHeader>
-            <CardContent>{results}</CardContent>
-          </Card>
-
-          <AffiliateLinks calculatorSlug={slug} />
-          <AdSlotSidebar />
         </div>
       </div>
     </div>

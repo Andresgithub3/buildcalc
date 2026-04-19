@@ -10,7 +10,7 @@ export function FootingDiagram({ length, width, depth }: FootingDiagramProps) {
   return (
     <svg
       viewBox="0 0 320 220"
-      className="w-full max-w-sm text-foreground"
+      className="w-full max-w-xs text-foreground"
       aria-label={`Concrete footing diagram: ${length}ft × ${width}in × ${depth}in`}
     >
       {/* Ground line */}

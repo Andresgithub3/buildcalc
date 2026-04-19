@@ -9,12 +9,12 @@ interface SlabDiagramProps {
 export function SlabDiagram({ length, width, depth }: SlabDiagramProps) {
   return (
     <svg
-      viewBox="0 0 320 200"
-      className="w-full max-w-sm text-foreground"
+      viewBox="0 0 360 200"
+      className="w-full max-w-xs text-foreground"
       aria-label={`Concrete slab diagram: ${length}ft × ${width}ft × ${depth}in`}
     >
       {/* 3D slab shape */}
-      <g transform="translate(60, 30)">
+      <g transform="translate(40, 30)">
         {/* Top face */}
         <polygon
           points="40,20 200,20 240,0 80,0"

@@ -8,11 +8,11 @@ interface TileDiagramProps {
 export function TileDiagram({ roomLength, roomWidth }: TileDiagramProps) {
   return (
     <svg
-      viewBox="0 0 320 200"
-      className="w-full max-w-sm text-foreground"
+      viewBox="0 0 340 200"
+      className="w-full max-w-xs text-foreground"
       aria-label={`Floor tile diagram: ${roomLength}ft × ${roomWidth}ft`}
     >
-      <g transform="translate(40, 20)">
+      <g transform="translate(30, 20)">
         {/* Floor rectangle */}
         <rect x="0" y="0" width="200" height="140" className="fill-primary/5 stroke-primary" strokeWidth="1.5" rx="2" />
 

@@ -9,7 +9,7 @@ export function ColumnDiagram({ diameter, height }: ColumnDiagramProps) {
   return (
     <svg
       viewBox="0 0 320 220"
-      className="w-full max-w-sm text-foreground"
+      className="w-full max-w-xs text-foreground"
       aria-label={`Concrete column diagram: ${diameter}in diameter × ${height}ft height`}
     >
       {/* Ground line */}

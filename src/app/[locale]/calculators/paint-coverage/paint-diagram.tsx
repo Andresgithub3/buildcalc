@@ -10,7 +10,7 @@ export function PaintDiagram({ roomLength, roomWidth, wallHeight }: PaintDiagram
   return (
     <svg
       viewBox="0 0 320 200"
-      className="w-full max-w-sm text-foreground"
+      className="w-full max-w-xs text-foreground"
       aria-label={`Room diagram: ${roomLength}ft × ${roomWidth}ft × ${wallHeight}ft`}
     >
       <g transform="translate(50, 20)">
