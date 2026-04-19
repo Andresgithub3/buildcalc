@@ -67,7 +67,7 @@ export function CalculatorLayout({
       {/* Calculator: Inputs + Results */}
       <div className="grid gap-4 lg:grid-cols-[1fr_340px]">
         {/* Input Form */}
-        <Card>
+        <Card className="lg:self-start">
           <CardHeader className="pb-4">
             <CardTitle>Input Dimensions</CardTitle>
           </CardHeader>
