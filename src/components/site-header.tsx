@@ -24,7 +24,7 @@ export function SiteHeader() {
             Slab<span className="text-primary">Calc</span>
           </span>
         </Link>
-        <nav className="flex items-center gap-6 text-sm text-muted-foreground">
+        <nav className="flex items-center gap-3 sm:gap-6 text-sm text-muted-foreground">
           <Link href="/" className="hover:text-foreground transition-colors">
             {t("nav.calculators")}
           </Link>

@@ -85,7 +85,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <GA4Script />
           <SiteHeader />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 overflow-x-hidden">{children}</main>
           <SiteFooter />
           <CookieConsent />
         </NextIntlClientProvider>
