@@ -1,0 +1,776 @@
+{
+  "common": {
+    "siteName": "SlabCalc",
+    "tagline": "Construction calculators that contractors actually trust.",
+    "description": "Estimate concrete, paint, tile, gravel, and more — accurate, fast, free.",
+    "nav": {
+      "calculators": "Calculators",
+      "about": "About"
+    },
+    "footer": {
+      "calcHeading": "Calculators",
+      "moreHeading": "More",
+      "concreteSlab": "Concrete Slab",
+      "concreteFooting": "Concrete Footing",
+      "paintCoverage": "Paint Coverage",
+      "tileFlooring": "Tile & Flooring",
+      "gravelAggregate": "Gravel & Aggregate",
+      "mulchTopsoil": "Mulch & Topsoil",
+      "fenceMaterials": "Fence Materials",
+      "about": "About",
+      "copyright": "© {year} SlabCalc. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use"
+    },
+    "cookie": {
+      "message": "We use cookies for analytics and advertising to improve your experience. By continuing to use SlabCalc, you agree to our <privacyLink>Privacy Policy</privacyLink>.",
+      "decline": "Decline",
+      "accept": "Accept"
+    },
+    "costDisclaimer": "* Cost estimates are approximate. Actual prices vary by region, supplier, and market conditions. Enter your own cost above for a more accurate estimate.",
+    "affiliateHeading": "Recommended Tools & Materials",
+    "affiliateDisclaimer": "As an Amazon Associate, SlabCalc earns from qualifying purchases.",
+    "languageSwitcher": {
+      "en": "EN",
+      "es": "ES"
+    }
+  },
+  "home": {
+    "heroTitle": "Construction Calculators That ",
+    "heroTitleHighlight": "Contractors Actually Trust",
+    "heroDescription": "Estimate concrete, paint, tile, gravel, and more — accurate, fast, free. Stop guessing, start building.",
+    "allCalculators": "All Calculators",
+    "accurateFormulas": "Accurate Formulas",
+    "accurateFormulasDesc": "Industry-standard calculations with built-in waste factors so you order the right amount.",
+    "instantResults": "Instant Results",
+    "instantResultsDesc": "Enter your dimensions and get quantities, bags, and cost estimates immediately.",
+    "mobileReady": "Mobile-Ready",
+    "mobileReadyDesc": "Use on-site from your phone or plan at your desk — works great on any device.",
+    "calculators": {
+      "concrete-slab": {
+        "name": "Concrete Slab Calculator",
+        "shortName": "Concrete Slab",
+        "description": "Calculate cubic yards, bags, and cost for concrete slabs, patios, and driveways."
+      },
+      "concrete-footing": {
+        "name": "Concrete Footing Calculator",
+        "shortName": "Concrete Footing",
+        "description": "Estimate concrete needed for deck footings, pier footings, and foundations."
+      },
+      "concrete-column": {
+        "name": "Concrete Column / Sonotube Calculator",
+        "shortName": "Concrete Column",
+        "description": "Calculate concrete for round columns, Sonotubes, and post holes."
+      },
+      "paint-coverage": {
+        "name": "Paint Coverage Calculator",
+        "shortName": "Paint Coverage",
+        "description": "Figure out how many gallons of paint you need for walls, rooms, and ceilings."
+      },
+      "tile-flooring": {
+        "name": "Tile & Flooring Calculator",
+        "shortName": "Tile & Flooring",
+        "description": "Calculate the number of tiles, boxes, and coverage for any floor."
+      },
+      "gravel-and-aggregate": {
+        "name": "Gravel & Aggregate Calculator",
+        "shortName": "Gravel & Aggregate",
+        "description": "Estimate cubic yards and tons of gravel, crushed stone, or river rock."
+      },
+      "mulch-and-topsoil": {
+        "name": "Mulch & Topsoil Calculator",
+        "shortName": "Mulch & Topsoil",
+        "description": "Calculate bags or cubic yards of mulch, topsoil, compost, or fill dirt."
+      },
+      "fence-materials": {
+        "name": "Fence Materials Estimator",
+        "shortName": "Fence Materials",
+        "description": "Estimate posts, rails, pickets, and concrete for wood, vinyl, or chain-link fences."
+      }
+    }
+  },
+  "calculator": {
+    "freeCalculator": "Free Calculator",
+    "inputDimensions": "Input Dimensions",
+    "results": "Results",
+    "relatedCalculators": "Related Calculators",
+    "faq": "Frequently Asked Questions",
+    "estimatedCost": "Estimated Cost",
+    "cubicYards": "Cubic Yards",
+    "cubicFeet": "Cubic Feet",
+    "bags80lb": "80 lb Bags",
+    "bags60lb": "60 lb Bags",
+    "lengthFt": "Length (ft)",
+    "widthFt": "Width (ft)",
+    "depthIn": "Depth (in)",
+    "wasteFactor": "Waste Factor (%)",
+    "costPerYard": "Cost per Yard ($)",
+    "costPerTon": "Cost per Ton ($)",
+    "costPerFoot": "Cost per Foot ($)",
+    "costPerGallon": "Cost per Gallon ($)",
+    "costPerBox": "Cost per Box ($)"
+  },
+  "slab": {
+    "meta": {
+      "title": "Concrete Slab Calculator — How Much Concrete Do I Need?",
+      "description": "Free concrete slab calculator. Enter length, width, and depth to get cubic yards, number of bags, and cost estimates for your patio, driveway, or garage slab.",
+      "ogTitle": "Concrete Slab Calculator — How Much Concrete Do I Need?",
+      "ogDescription": "Free concrete slab calculator. Enter length, width, and depth to get cubic yards, number of bags, and cost estimates.",
+      "twitterTitle": "Concrete Slab Calculator | SlabCalc",
+      "twitterDescription": "Calculate cubic yards, bags, and cost for concrete slabs. Free and instant."
+    },
+    "title": "Concrete Slab Calculator",
+    "description": "Calculate how much concrete you need for a slab, patio, or driveway. Get results in cubic yards, bags, and estimated cost.",
+    "howTo": {
+      "name": "How to Calculate Concrete for a Slab",
+      "description": "Calculate the amount of concrete needed for a slab in cubic yards, bags, and estimated cost.",
+      "steps": [
+        { "name": "Measure length", "text": "Measure the length of the slab area in feet." },
+        { "name": "Measure width", "text": "Measure the width of the slab area in feet." },
+        { "name": "Measure depth", "text": "Determine the desired slab depth in inches (4 inches is standard)." },
+        { "name": "Enter dimensions", "text": "Enter your measurements into the calculator along with a waste factor (10% recommended)." },
+        { "name": "Read results", "text": "Get your results in cubic yards, number of bags (80 lb and 60 lb), and estimated cost range." }
+      ]
+    },
+    "related": {
+      "footing": "Calculate concrete for deck footings and pier foundations.",
+      "column": "Estimate concrete for Sonotubes and round post holes.",
+      "gravel": "Calculate gravel, crushed stone, and river rock by the ton."
+    },
+    "faqs": [
+      {
+        "question": "How thick should a concrete slab be?",
+        "answer": "For a standard patio or walkway, 4 inches is sufficient. Driveways should be at least 5–6 inches thick to support vehicle weight. Garage floors are typically 4–6 inches. If heavy trucks or equipment will use the surface, go with 6–8 inches."
+      },
+      {
+        "question": "How many bags of concrete do I need for a 10×10 slab?",
+        "answer": "A 10×10 slab at 4 inches thick requires approximately 1.24 cubic yards of concrete, or about 56 80-lb bags of premixed concrete. With a 10% waste factor, plan for around 62 bags. For larger projects, ordering ready-mix by the yard is more practical and cost-effective."
+      },
+      {
+        "question": "Should I use bags or ready-mix concrete?",
+        "answer": "For small projects under 1 cubic yard (about 45 80-lb bags), bags are practical. For anything larger, ready-mix delivery is faster, more consistent, and usually cheaper per yard. The break-even point is typically around 1–1.5 cubic yards."
+      },
+      {
+        "question": "What waste factor should I use?",
+        "answer": "A 10% waste factor is standard for most slab projects. Increase to 15% if the site has irregular edges, poor subgrade preparation, or if you're a first-time pourer. Experienced contractors on clean sites may use 5–7%."
+      },
+      {
+        "question": "How much does a concrete slab cost?",
+        "answer": "Ready-mix concrete typically costs $125–$175 per cubic yard delivered. Total project cost including labor, forming, and finishing runs $6–$12 per square foot for a basic slab. Decorative or stamped concrete can double or triple that price."
+      }
+    ],
+    "content": {
+      "howToTitle": "How to Calculate Concrete for a Slab",
+      "howToPara1": "Calculating the right amount of concrete for a slab is straightforward once you understand the formula. Measure your slab's length and width in feet, then the depth in inches. The calculator converts depth to feet (dividing by 12), multiplies all three dimensions to get cubic feet, then divides by 27 to convert to cubic yards — the standard unit for ordering concrete.",
+      "howToPara2": "The formula is: <b>Volume (ft³) = Length × Width × (Depth ÷ 12)</b>. Then divide by 27 to get cubic yards. Always add a waste factor (typically 10%) to account for spillage, over-excavation, and form inconsistencies.",
+      "tipsTitle": "Tips for a Successful Concrete Slab Pour",
+      "tips": [
+        "<b>Prepare the subgrade properly.</b> Compact the soil and add a 4-inch gravel base for drainage. Poor subgrade is the #1 cause of cracking and settling.",
+        "<b>Use fiber mesh or wire mesh for reinforcement.</b> For slabs over 4 inches thick or any slab that will bear vehicle weight, reinforcement prevents cracking.",
+        "<b>Plan for control joints.</b> Score or cut joints every 8–12 feet in both directions to control where cracks form. The rule of thumb: joint spacing in feet should not exceed 2–3 times the slab thickness in inches.",
+        "<b>Order 5–10% more than calculated.</b> Running short mid-pour creates cold joints, which are both unsightly and structurally weak. It's always better to have a little extra.",
+        "<b>Cure the concrete properly.</b> Keep the slab moist for at least 7 days after pouring. Use curing compound or cover with plastic sheeting. Proper curing increases strength by up to 50%."
+      ],
+      "mistakesTitle": "Common Mistakes When Ordering Concrete",
+      "mistakes": [
+        "<b>Not accounting for uneven ground.</b> If your excavation isn't perfectly level, you'll need more concrete to fill low spots. Measure depth at multiple points and use the deepest measurement.",
+        "<b>Forgetting form thickness.</b> If you're using 2×4 or 2×6 lumber for forms, the interior dimensions will be slightly smaller than the exterior. Measure inside the forms.",
+        "<b>Ordering exact quantities with no buffer.</b> Always round up. A shortfall mid-pour is far worse than having a small amount left over."
+      ]
+    }
+  },
+  "footing": {
+    "meta": {
+      "title": "Concrete Footing Calculator — Deck & Pier Footing Estimator",
+      "description": "Free concrete footing calculator. Enter footing dimensions to get cubic yards, bags, and cost estimates for deck footings, pier foundations, and continuous footings.",
+      "ogTitle": "Concrete Footing Calculator — Deck & Pier Footing Estimator",
+      "ogDescription": "Calculate concrete for deck footings, pier foundations, and continuous footings. Free and instant.",
+      "twitterTitle": "Concrete Footing Calculator | SlabCalc",
+      "twitterDescription": "Estimate concrete for footings — cubic yards, bags, and cost."
+    },
+    "title": "Concrete Footing Calculator",
+    "description": "Calculate how much concrete you need for deck footings, pier foundations, and continuous footings.",
+    "footingLengthFt": "Footing Length (ft)",
+    "widthIn": "Width (in)",
+    "numberOfFootings": "Number of Footings",
+    "totalCubicYards": "Total Cubic Yards",
+    "perFooting": "Per Footing",
+    "totalCubicFeet": "Total Cubic Feet",
+    "howTo": {
+      "name": "How to Calculate Concrete for Footings",
+      "description": "Calculate the amount of concrete needed for footings.",
+      "steps": [
+        { "name": "Measure footing length", "text": "Measure the length of each footing in feet." },
+        { "name": "Measure width and depth", "text": "Measure footing width and depth in inches." },
+        { "name": "Count footings", "text": "Determine the number of identical footings needed." },
+        { "name": "Enter dimensions", "text": "Enter measurements and waste factor into the calculator." },
+        { "name": "Read results", "text": "Get total cubic yards, per-footing volume, bags, and cost." }
+      ]
+    },
+    "related": {
+      "slab": "Calculate concrete for slabs, patios, and driveways.",
+      "column": "Estimate concrete for Sonotubes and round post holes.",
+      "fence": "Estimate posts, rails, pickets, and concrete for fences."
+    },
+    "faqs": [
+      {
+        "question": "How deep should concrete footings be?",
+        "answer": "Footings must extend below the frost line in your area — typically 12 inches in mild climates, 36–48 inches in northern states. Check your local building code for the exact frost depth requirement. In most cases, 12 inches of depth is the minimum for structural footings."
+      },
+      {
+        "question": "How wide should a footing be?",
+        "answer": "A footing should be at least twice as wide as the wall or post it supports. For a standard deck post on a 6×6 post, a 12-inch wide footing is typical. Foundation wall footings are usually 16–24 inches wide depending on the load."
+      },
+      {
+        "question": "Do I need rebar in my footings?",
+        "answer": "For structural footings supporting a deck, addition, or retaining wall — yes. Continuous footings should have at least two #4 rebar running lengthwise, and shorter footings benefit from rebar to prevent cracking. Check local codes for specific requirements."
+      },
+      {
+        "question": "How long does a concrete footing need to cure?",
+        "answer": "Concrete reaches about 70% strength in 7 days and full strength in 28 days. You can typically begin building on footings after 3–7 days in warm weather, but avoid placing heavy loads for at least a week."
+      }
+    ],
+    "content": {
+      "howToTitle": "How to Calculate Concrete for Footings",
+      "howToPara1": "Concrete footings are the foundation of any structure — decks, additions, fences, and retaining walls all start here. To calculate the concrete needed, multiply the footing's length (in feet) by width and depth (converted from inches to feet). Multiply by the number of footings, then add your waste factor.",
+      "howToPara2": "The formula is: <b>Volume per footing (ft³) = Length × (Width ÷ 12) × (Depth ÷ 12)</b>. Multiply by the number of footings for total volume, then divide by 27 for cubic yards.",
+      "tipsTitle": "Tips for Concrete Footings",
+      "tips": [
+        "<b>Dig below the frost line.</b> Footings that don't extend below the frost line will heave and shift with freeze-thaw cycles, causing structural damage above.",
+        "<b>Use flat-bottomed holes.</b> A footing needs a flat, level base to distribute load evenly. Round-bottomed post holes concentrate force at one point.",
+        "<b>Keep footings level.</b> Use a laser level or string line across the tops of your forms to ensure all footings are at the same elevation.",
+        "<b>Place anchor bolts or post brackets while wet.</b> J-bolts and post bases must be set into wet concrete. Have them ready and positioned before you pour."
+      ],
+      "typesTitle": "Types of Footings",
+      "typesPara1": "<b>Spread footings</b> are flat, wide pads that distribute the load of a post or column over a larger area. They're the most common type for decks and sheds.",
+      "typesPara2": "<b>Continuous footings</b> (strip footings) run the length of a wall and are used for foundations, retaining walls, and load-bearing walls. They're wider than the wall they support.",
+      "typesPara3": "<b>Pier footings</b> are cylindrical, often poured using Sonotube forms. Use our <link>concrete column calculator</link> for round pier footings."
+    }
+  },
+  "column": {
+    "meta": {
+      "title": "Concrete Column & Sonotube Calculator — Post Hole Estimator",
+      "description": "Free Sonotube and concrete column calculator. Enter diameter and height to get cubic yards, bags, and cost estimates for round columns and post holes.",
+      "ogTitle": "Concrete Column & Sonotube Calculator",
+      "ogDescription": "Calculate concrete for Sonotubes, round columns, and post holes. Free and instant.",
+      "twitterTitle": "Sonotube Calculator | SlabCalc",
+      "twitterDescription": "Calculate concrete for round columns and post holes."
+    },
+    "title": "Concrete Column / Sonotube Calculator",
+    "description": "Calculate how much concrete you need for round columns, Sonotubes, and post holes.",
+    "diameterIn": "Diameter (in)",
+    "heightFt": "Height (ft)",
+    "numberOfColumns": "Number of Columns",
+    "totalCubicYards": "Total Cubic Yards",
+    "perColumn": "Per Column",
+    "totalCubicFeet": "Total Cubic Feet",
+    "howTo": {
+      "name": "How to Calculate Concrete for Round Columns",
+      "description": "Calculate concrete for Sonotubes and round columns using the cylinder volume formula.",
+      "steps": [
+        { "name": "Measure diameter", "text": "Measure the inner diameter of the Sonotube or post hole in inches." },
+        { "name": "Measure height", "text": "Measure the height (depth) of the column in feet." },
+        { "name": "Count columns", "text": "Determine how many identical columns you need." },
+        { "name": "Enter dimensions", "text": "Enter measurements and waste factor into the calculator." },
+        { "name": "Read results", "text": "Get cubic yards, per-column volume, bags, and cost estimates." }
+      ]
+    },
+    "related": {
+      "slab": "Calculate concrete for slabs, patios, and driveways.",
+      "footing": "Estimate concrete for deck footings and foundations.",
+      "fence": "Estimate posts, rails, pickets, and concrete for fences."
+    },
+    "faqs": [
+      {
+        "question": "What size Sonotube do I need?",
+        "answer": "For deck posts, 8–12 inch diameter Sonotubes are standard. 8-inch tubes work for lightweight structures, while 12-inch tubes are better for load-bearing deck posts. For larger structures like pergolas or carports, 14–24 inch tubes may be required. Check your local building code."
+      },
+      {
+        "question": "How deep should a Sonotube be?",
+        "answer": "Sonotubes must extend below your local frost line — usually 36–48 inches in northern climates and 12–24 inches in southern areas. Most codes also require a minimum of 12 inches into undisturbed soil. The tube should extend 2–3 inches above grade to prevent ground contact with the post."
+      },
+      {
+        "question": "Can I pour concrete into a post hole without a Sonotube?",
+        "answer": "Yes, but Sonotubes provide significant advantages: a cleaner pour, consistent diameter, smoother finish above grade, and better control of the concrete shape. Without a tube, soil can mix with the concrete and the hole walls may cave in during the pour."
+      },
+      {
+        "question": "How many bags of concrete for a Sonotube?",
+        "answer": "A 12-inch Sonotube that's 4 feet deep requires about 1.4 bags of 80-lb concrete mix (about 3.14 cubic feet). An 8-inch tube at 4 feet needs roughly 0.6 bags. This calculator gives exact numbers based on your dimensions."
+      }
+    ],
+    "content": {
+      "howToTitle": "How to Calculate Concrete for Round Columns",
+      "howToPara1": "Round columns and Sonotubes use the cylinder volume formula: <b>V = π × r² × h</b>. Enter the diameter in inches and the height in feet. The calculator converts everything to cubic feet, then to cubic yards for ordering. Remember to add waste — 10% is standard for column pours.",
+      "howToPara2": "This calculator works for Sonotube cardboard forms, round post holes, pier footings, and any cylindrical concrete pour. If you're pouring multiple identical columns, just enter the count and the calculator totals everything for you.",
+      "tipsTitle": "Tips for Pouring Sonotubes",
+      "tips": [
+        "<b>Brace tubes plumb and secure.</b> Sonotubes can shift during the pour. Use braces and stakes to keep them perfectly vertical. A tube that moves during the pour means a crooked post.",
+        "<b>Flare the base if code requires it.</b> Some building codes require a bell-shaped footing at the base of the tube for extra bearing capacity. Dig the hole wider at the bottom.",
+        "<b>Vibrate or rod the concrete.</b> Use a piece of rebar to rod (push up and down into) the wet concrete to release air pockets. Trapped air creates voids that weaken the column.",
+        "<b>Set post brackets immediately.</b> Press post base brackets or J-bolts into the wet concrete and align them while you still have working time (typically 30–60 minutes).",
+        "<b>Peel the tube after curing.</b> If the Sonotube is above grade, peel it off after 24–48 hours. Leaving cardboard on traps moisture and can cause the concrete surface to deteriorate."
+      ],
+      "sizesTitle": "Common Sonotube Sizes",
+      "sizesPara": "Standard Sonotube diameters: 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\", and 24\". The most popular sizes for residential deck construction are 10\" and 12\". Lengths are typically 4 feet or 12 feet, which you cut to your required depth plus 2–3 inches above grade."
+    }
+  },
+  "paint": {
+    "meta": {
+      "title": "Paint Coverage Calculator — How Much Paint Do I Need?",
+      "description": "Free paint calculator. Enter room dimensions, doors, and windows to find out how many gallons of paint you need. Includes multi-coat support.",
+      "ogTitle": "Paint Coverage Calculator — How Much Paint Do I Need?",
+      "ogDescription": "Calculate gallons of paint for any room. Accounts for doors, windows, and coats.",
+      "twitterTitle": "Paint Calculator | SlabCalc",
+      "twitterDescription": "Calculate how many gallons of paint you need for any room."
+    },
+    "title": "Paint Coverage Calculator",
+    "description": "Figure out how many gallons of paint you need for your room. Accounts for doors, windows, and number of coats.",
+    "roomLengthFt": "Room Length (ft)",
+    "roomWidthFt": "Room Width (ft)",
+    "wallHeightFt": "Wall Height (ft)",
+    "numberOfCoats": "Number of Coats",
+    "doors": "Doors",
+    "windows": "Windows",
+    "gallonsNeeded": "Gallons Needed",
+    "totalWallArea": "Total Wall Area",
+    "doorArea": "Door Area",
+    "windowArea": "Window Area",
+    "paintableArea": "Paintable Area",
+    "howTo": {
+      "name": "How to Calculate Paint Coverage",
+      "description": "Calculate gallons of paint needed for a room.",
+      "steps": [
+        { "name": "Measure room dimensions", "text": "Measure room length, width, and wall height in feet." },
+        { "name": "Count openings", "text": "Count the number of doors and windows in the room." },
+        { "name": "Choose coats", "text": "Decide how many coats you'll apply (2 is standard)." },
+        { "name": "Enter dimensions", "text": "Enter all measurements into the calculator." },
+        { "name": "Read results", "text": "Get paintable area in square feet and gallons of paint needed." }
+      ]
+    },
+    "related": {
+      "tile": "Calculate tiles needed for any room size.",
+      "mulch": "Estimate bags or yards of mulch, topsoil, or compost.",
+      "slab": "Calculate concrete for slabs, patios, and driveways."
+    },
+    "faqs": [
+      {
+        "question": "How many square feet does a gallon of paint cover?",
+        "answer": "One gallon of paint covers approximately 350–400 square feet on smooth, primed surfaces. Rough or textured surfaces like stucco or brick may only get 200–300 square feet per gallon. This calculator uses 350 sq ft as the standard coverage rate."
+      },
+      {
+        "question": "How many coats of paint do I need?",
+        "answer": "Two coats is standard for most paint jobs. Use one coat only if you're applying the same color over a well-prepared surface with a high-quality paint-and-primer combo. Dramatic color changes (especially light over dark) may require 3 coats."
+      },
+      {
+        "question": "How much paint do I need for a 12×12 room?",
+        "answer": "A 12×12 room with 8-foot ceilings, one door, and two windows needs about 2 gallons for two coats. This accounts for approximately 333 square feet of paintable wall area per coat."
+      },
+      {
+        "question": "Should I subtract windows and doors from the total?",
+        "answer": "Yes. Standard doors are about 21 square feet (3×7 feet) and standard windows are about 15 square feet (3×5 feet). Subtracting these prevents over-purchasing. Our calculator does this automatically."
+      },
+      {
+        "question": "Is it better to buy extra paint?",
+        "answer": "Yes, always buy at least one extra quart. You'll need it for touch-ups, and paint batches can vary slightly in color. Keep leftover paint sealed and stored in a climate-controlled space for up to 10 years."
+      }
+    ],
+    "content": {
+      "howToTitle": "How to Calculate Paint Coverage",
+      "howToPara1": "To determine how much paint you need, calculate the total wall area of your room, subtract doors and windows, multiply by the number of coats, and divide by the coverage rate. The formula is:",
+      "howToFormula": "<b>Paintable Area = (Perimeter × Wall Height − Doors − Windows) × Coats</b>",
+      "howToPara2": "Then: <b>Gallons = Paintable Area ÷ 350</b> (standard coverage per gallon).",
+      "howToPara3": "This calculator uses 21 sq ft per standard door and 15 sq ft per standard window. For non-standard openings, adjust the door and window count to match the approximate square footage.",
+      "tipsTitle": "Tips for Getting the Best Paint Coverage",
+      "tips": [
+        "<b>Prime first for best results.</b> Primer covers imperfections, seals porous surfaces, and gives paint a uniform surface to adhere to. It's especially important when changing colors dramatically.",
+        "<b>Use quality rollers.</b> A good 3/8\" nap roller cover on smooth walls or 1/2\" nap on semi-smooth provides the best coverage with the fewest coats. Cheap rollers leave lint and uneven coverage.",
+        "<b>Cut in before rolling.</b> Use an angled brush to paint a 2–3 inch border along edges, corners, and trim before rolling the main wall area. This gives clean lines and avoids roller marks near edges.",
+        "<b>Maintain a wet edge.</b> Always roll into the previously painted area before it dries. If you let paint dry and then overlap, you'll get visible lap marks.",
+        "<b>Don't skimp on the second coat.</b> The second coat fills in thin spots, evens out the color, and doubles the durability. Wait 2–4 hours between coats (check the can label)."
+      ]
+    }
+  },
+  "tile": {
+    "meta": {
+      "title": "Tile & Flooring Calculator — How Many Tiles Do I Need?",
+      "description": "Free tile calculator. Enter room dimensions and tile size to find out how many tiles and boxes you need. Includes waste factor.",
+      "ogTitle": "Tile & Flooring Calculator — How Many Tiles Do I Need?",
+      "ogDescription": "Calculate tile quantity for any floor. Supports standard and custom sizes.",
+      "twitterTitle": "Tile Calculator | SlabCalc",
+      "twitterDescription": "Calculate how many tiles you need for any room."
+    },
+    "title": "Tile & Flooring Calculator",
+    "description": "Calculate how many tiles you need for any room. Supports standard and custom tile sizes with waste factor.",
+    "roomLengthFt": "Room Length (ft)",
+    "roomWidthFt": "Room Width (ft)",
+    "tileSize": "Tile Size",
+    "tileSizeOptions": {
+      "12x12": "12\" × 12\"",
+      "18x18": "18\" × 18\"",
+      "24x24": "24\" × 24\"",
+      "custom": "Custom"
+    },
+    "tilesPerBox": "Tiles per Box",
+    "tileWidthIn": "Tile Width (in)",
+    "tileHeightIn": "Tile Height (in)",
+    "tilesNeeded": "Tiles Needed",
+    "boxesNeeded": "Boxes Needed",
+    "totalFloorArea": "Total Floor Area",
+    "tileArea": "Tile Area",
+    "howTo": {
+      "name": "How to Calculate Tiles for a Floor",
+      "description": "Calculate tiles and boxes needed for any floor area.",
+      "steps": [
+        { "name": "Measure the room", "text": "Measure room length and width in feet." },
+        { "name": "Choose tile size", "text": "Select your tile size (12×12, 18×18, 24×24, or custom)." },
+        { "name": "Set waste factor", "text": "Choose a waste percentage (10% for straight layouts, 15%+ for diagonal)." },
+        { "name": "Enter tiles per box", "text": "Check the box label for tiles per box and enter it." },
+        { "name": "Read results", "text": "Get total tiles needed and boxes to purchase." }
+      ]
+    },
+    "related": {
+      "paint": "Calculate how many gallons of paint you need.",
+      "gravel": "Estimate gravel, crushed stone, and river rock.",
+      "slab": "Calculate concrete for slabs, patios, and driveways."
+    },
+    "faqs": [
+      {
+        "question": "How do I calculate how many tiles I need?",
+        "answer": "Multiply room length by width to get the floor area in square feet. Divide by the area of one tile (e.g., 12×12 inch tile = 1 sq ft). Add 10% for waste from cuts and breakage. This calculator handles all of that automatically."
+      },
+      {
+        "question": "What waste percentage should I use for tile?",
+        "answer": "Use 10% for standard rectangular rooms with straight layouts. Increase to 15% for diagonal (45°) layouts, and 20% for complex patterns like herringbone. Rooms with many corners, alcoves, or curves also need higher waste factors."
+      },
+      {
+        "question": "What's the most common tile size for floors?",
+        "answer": "12×12 inches is the most popular residential floor tile. 18×18 and 12×24 are also very common in modern homes. Larger tiles (24×24) look great in open spaces but create more waste in small rooms."
+      },
+      {
+        "question": "How many tiles come in a box?",
+        "answer": "This varies by manufacturer and tile size. Common counts: 12×12 tiles typically come 12–15 per box (12–15 sq ft), 18×18 tiles come 6–8 per box (13.5–18 sq ft), and 24×24 tiles come 3–4 per box (12–16 sq ft). Check the box label for exact coverage."
+      }
+    ],
+    "content": {
+      "howToTitle": "How to Calculate Tiles for Your Floor",
+      "howToPara1": "Calculating tile quantity is simple: find the total area of your floor, add a waste factor for cuts, then divide by the area of one tile. The formula is:",
+      "howToFormula": "<b>Tiles Needed = (Room Length × Room Width × Waste Factor) ÷ Tile Area</b>",
+      "howToPara2": "A 12×12 inch tile covers exactly 1 square foot. An 18×18 tile covers 2.25 square feet. A 24×24 tile covers 4 square feet. For custom sizes, multiply tile width by height in inches and divide by 144 to get square feet per tile.",
+      "tipsTitle": "Tips for a Successful Tile Installation",
+      "tips": [
+        "<b>Always dry-lay tiles first.</b> Place tiles on the floor without adhesive to check the layout, find the center point, and see where cuts will fall. Adjust so you don't end up with thin slivers at walls.",
+        "<b>Start from the center of the room.</b> Find the centerpoint, snap chalk lines, and work outward. This ensures symmetry and puts cut tiles at the edges where they're less visible.",
+        "<b>Use the right thinset for your tile.</b> Large format tiles (15\"+) need large-format thinset with good sag resistance. Porcelain tiles need a thinset rated for porcelain (low absorption).",
+        "<b>Don't forget spacers.</b> Tile spacers ensure consistent grout lines. Use 1/16\" for a tight look, 1/8\" for standard, and 3/16\" for a rustic appearance. Larger tiles often look best with thinner grout lines.",
+        "<b>Buy all tiles from the same lot.</b> Tile color varies between manufacturing lots. Order all your tiles at once and confirm the lot number is the same on every box."
+      ]
+    }
+  },
+  "gravel": {
+    "meta": {
+      "title": "Gravel & Aggregate Calculator — How Much Gravel Do I Need?",
+      "description": "Free gravel calculator. Enter area dimensions to get cubic yards, tons, and cost estimates for gravel, crushed stone, pea gravel, or river rock.",
+      "ogTitle": "Gravel & Aggregate Calculator",
+      "ogDescription": "Calculate cubic yards and tons of gravel, crushed stone, or river rock.",
+      "twitterTitle": "Gravel Calculator | SlabCalc",
+      "twitterDescription": "Calculate gravel in cubic yards and tons for any project."
+    },
+    "title": "Gravel & Aggregate Calculator",
+    "description": "Calculate how much gravel, crushed stone, pea gravel, or river rock you need in cubic yards and tons.",
+    "materialType": "Material Type",
+    "materials": {
+      "gravel": "Gravel",
+      "crushed-stone": "Crushed Stone",
+      "pea-gravel": "Pea Gravel",
+      "river-rock": "River Rock"
+    },
+    "tons": "Tons",
+    "howTo": {
+      "name": "How to Calculate Gravel and Aggregate",
+      "description": "Calculate gravel volume and weight for driveways, pathways, and landscaping.",
+      "steps": [
+        { "name": "Measure the area", "text": "Measure the length and width of the area in feet." },
+        { "name": "Determine depth", "text": "Decide on gravel depth in inches (4 inches for driveways, 2-3 for walkways)." },
+        { "name": "Choose material", "text": "Select the material type (gravel, crushed stone, pea gravel, or river rock)." },
+        { "name": "Enter dimensions", "text": "Enter your measurements into the calculator." },
+        { "name": "Read results", "text": "Get cubic yards, tons, and estimated cost." }
+      ]
+    },
+    "related": {
+      "mulch": "Calculate bags or yards of mulch, topsoil, or compost.",
+      "slab": "Calculate concrete for slabs, patios, and driveways.",
+      "fence": "Estimate posts, rails, pickets, and concrete for fences."
+    },
+    "faqs": [
+      {
+        "question": "How much gravel do I need for a driveway?",
+        "answer": "A typical gravel driveway is 12 feet wide and should be 4–6 inches deep. For a 50-foot long driveway (600 sq ft) at 4 inches deep, you need about 7.4 cubic yards or roughly 10.4 tons of gravel. Use 6 inches for heavy traffic areas."
+      },
+      {
+        "question": "What's the difference between cubic yards and tons?",
+        "answer": "Cubic yards measure volume while tons measure weight. The conversion depends on the material density: gravel weighs about 1.4 tons per cubic yard, crushed stone 1.35 tons, and river rock 1.5 tons. Suppliers sell by the ton or yard depending on the material."
+      },
+      {
+        "question": "How deep should gravel be?",
+        "answer": "For driveways: 4–6 inches. For walkways: 2–3 inches. For drainage beds: 6–12 inches. For landscape ground cover: 2–3 inches. For a base under pavers or concrete: 4–6 inches of compacted gravel."
+      },
+      {
+        "question": "Which type of gravel should I use?",
+        "answer": "Crushed stone (#57 or #67) is best for driveways and pathways because it compacts well and interlocks. Pea gravel is best for decorative areas, dog runs, and between pavers. River rock is used for landscaping, dry creek beds, and drainage. Base gravel (#21A or crusher run) goes under pavers and concrete."
+      }
+    ],
+    "content": {
+      "howToTitle": "How to Calculate Gravel and Aggregate",
+      "howToPara1": "To calculate gravel, multiply the length and width of your area (in feet) by the depth (converted from inches to feet). This gives you cubic feet, which you divide by 27 for cubic yards. To get tons, multiply cubic yards by the material's density factor.",
+      "howToFormula1": "<b>Volume (ft³) = Length × Width × (Depth ÷ 12)</b>",
+      "howToFormula2": "<b>Tons = (Volume ÷ 27) × Density Factor</b>",
+      "howToPara2": "Density varies by material: gravel is 1.4 tons/yd³, crushed stone is 1.35 tons/yd³, pea gravel is 1.35 tons/yd³, and river rock is 1.5 tons/yd³. These are approximate — actual density depends on moisture content and specific aggregate source.",
+      "tipsTitle": "Tips for Ordering and Installing Gravel",
+      "tips": [
+        "<b>Compact in lifts.</b> Don't pour all your gravel at once. Add it in 2-inch layers (lifts), compacting each layer with a plate compactor before adding the next. This prevents shifting and settling.",
+        "<b>Use landscape fabric underneath.</b> A woven geotextile fabric between the soil and gravel prevents sinking and weed growth. It's essential for driveways and pathways.",
+        "<b>Edge it properly.</b> Gravel without edging migrates into lawns and flower beds. Use steel, aluminum, or plastic edging to keep gravel contained.",
+        "<b>Order by the ton for accuracy.</b> Suppliers often estimate loosely when selling by the yard. Ordering by the ton ensures you get the exact amount you're paying for.",
+        "<b>Consider delivery access.</b> Dump trucks need 10–12 feet of width and overhead clearance. Know where the truck can dump and how far you'll need to wheelbarrow the material."
+      ]
+    }
+  },
+  "mulch": {
+    "meta": {
+      "title": "Mulch & Topsoil Calculator — How Much Mulch Do I Need?",
+      "description": "Free mulch and topsoil calculator. Enter bed dimensions to get cubic yards, number of bags, and cost estimates for mulch, topsoil, compost, or fill dirt.",
+      "ogTitle": "Mulch & Topsoil Calculator",
+      "ogDescription": "Calculate bags or cubic yards of mulch, topsoil, compost, or fill dirt.",
+      "twitterTitle": "Mulch Calculator | SlabCalc",
+      "twitterDescription": "Calculate mulch and topsoil in bags or cubic yards."
+    },
+    "title": "Mulch & Topsoil Calculator",
+    "description": "Calculate how much mulch, topsoil, compost, or fill dirt you need in cubic yards or bags.",
+    "material": "Material",
+    "materials": {
+      "mulch": "Mulch",
+      "topsoil": "Topsoil",
+      "compost": "Compost",
+      "fill-dirt": "Fill Dirt"
+    },
+    "bags2CuFt": "2 cu ft Bags",
+    "howTo": {
+      "name": "How to Calculate Mulch and Topsoil",
+      "description": "Calculate mulch or topsoil volume in cubic yards and bags.",
+      "steps": [
+        { "name": "Measure the bed", "text": "Measure the length and width of the area in feet." },
+        { "name": "Choose depth", "text": "Determine desired depth in inches (2-3 inches for mulch is standard)." },
+        { "name": "Select material", "text": "Choose mulch, topsoil, compost, or fill dirt." },
+        { "name": "Enter dimensions", "text": "Enter your measurements into the calculator." },
+        { "name": "Read results", "text": "Get cubic yards, number of 2-cubic-foot bags, and cost estimate." }
+      ]
+    },
+    "related": {
+      "gravel": "Estimate gravel, crushed stone, and river rock by the ton.",
+      "tile": "Calculate tiles needed for any room size.",
+      "paint": "Calculate how many gallons of paint you need."
+    },
+    "faqs": [
+      {
+        "question": "How deep should mulch be?",
+        "answer": "Apply mulch 2–3 inches deep for most landscape beds. Going deeper than 4 inches can suffocate plant roots and create moisture problems. For weed prevention alone, 3 inches is the sweet spot — thick enough to block light but thin enough for water penetration."
+      },
+      {
+        "question": "How much mulch do I need for a flower bed?",
+        "answer": "For a 10×20 foot bed at 3 inches deep, you need about 1.85 cubic yards (or 25 two-cubic-foot bags). Use this calculator to get exact numbers for your bed dimensions and desired depth."
+      },
+      {
+        "question": "Should I use bags or bulk mulch?",
+        "answer": "For areas under 5 cubic yards, bags are convenient and easy to transport. For larger areas, bulk delivery is significantly cheaper — often $25–$50 per cubic yard delivered vs. $4–$6 per 2-cubic-foot bag ($54–$81 per cubic yard equivalent)."
+      },
+      {
+        "question": "How often should I replace mulch?",
+        "answer": "Organic mulch (wood chips, bark) decomposes over 1–3 years. Plan to top-dress annually with 1 inch of fresh mulch to maintain the 3-inch depth. Rubber mulch and stone don't decompose but may need refreshing every 3–5 years."
+      },
+      {
+        "question": "What's the difference between topsoil, compost, and fill dirt?",
+        "answer": "Topsoil is the nutrient-rich top layer of earth, ideal for gardens and lawn leveling. Compost is decomposed organic matter, used to amend soil. Fill dirt is lower-quality subsoil used to fill holes, grade slopes, or build up elevation — not for planting."
+      }
+    ],
+    "content": {
+      "howToTitle": "How to Calculate Mulch and Topsoil",
+      "howToPara1": "Calculating mulch or topsoil is the same as any volume calculation: length × width × depth. Measure your bed dimensions in feet, the desired depth in inches, and the calculator converts to cubic yards (for bulk delivery) and number of standard 2-cubic-foot bags.",
+      "howToFormula1": "<b>Volume (ft³) = Length × Width × (Depth ÷ 12)</b>",
+      "howToFormula2": "<b>Bags (2 cu ft) = Volume ÷ 2</b> (rounded up)",
+      "howToPara2": "One cubic yard equals 27 cubic feet, or about 13.5 standard two-cubic-foot bags. For large projects, ordering bulk delivery by the cubic yard is much more cost-effective than buying individual bags.",
+      "tipsTitle": "Tips for Mulching and Soil Preparation",
+      "tips": [
+        "<b>Pull weeds before mulching.</b> Mulch suppresses new weed growth but won't kill existing weeds. Clear the bed first, then apply mulch over clean soil or weed barrier fabric.",
+        "<b>Keep mulch away from tree trunks.</b> Leave a 3–6 inch gap around tree trunks and plant stems. Mulch piled against bark (called \"volcano mulching\") traps moisture and causes rot.",
+        "<b>Water before and after.</b> Wet the bed before spreading mulch so it doesn't wick moisture from the soil. Water lightly after to settle the mulch and prevent wind displacement.",
+        "<b>Mix compost into topsoil for gardens.</b> When establishing a new garden bed, blend 2–3 inches of compost into the top 6–8 inches of topsoil. This creates ideal growing conditions.",
+        "<b>Don't mulch too deep.</b> More than 4 inches of mulch can create a water-repellent mat, prevent gas exchange, and encourage shallow root growth. Stick to 2–3 inches."
+      ]
+    }
+  },
+  "fence": {
+    "meta": {
+      "title": "Fence Materials Estimator — How Many Fence Boards Do I Need?",
+      "description": "Free fence calculator. Enter fence length, height, and material to get post, rail, picket counts, concrete for posts, and cost estimates.",
+      "ogTitle": "Fence Materials Estimator",
+      "ogDescription": "Estimate posts, rails, pickets, and concrete for wood, vinyl, or chain-link fences.",
+      "twitterTitle": "Fence Calculator | SlabCalc",
+      "twitterDescription": "Calculate fence materials — posts, rails, pickets, and concrete."
+    },
+    "title": "Fence Materials Estimator",
+    "description": "Estimate posts, rails, pickets, panels, and concrete for wood, vinyl, or chain-link fences.",
+    "totalFenceLengthFt": "Total Fence Length (ft)",
+    "fenceHeight": "Fence Height",
+    "postSpacing": "Post Spacing",
+    "materialLabel": "Material",
+    "materials": {
+      "wood": "Wood",
+      "vinyl": "Vinyl",
+      "chain-link": "Chain Link"
+    },
+    "numberOfGates": "Number of Gates",
+    "posts": "Posts",
+    "rails": "Rails",
+    "pickets": "Pickets",
+    "panels": "Panels",
+    "chainLinkRolls": "Chain Link Rolls (50ft)",
+    "concrete80lbBags": "Concrete (80lb bags)",
+    "howTo": {
+      "name": "How to Estimate Fence Materials",
+      "description": "Calculate posts, rails, pickets, and concrete for a fence project.",
+      "steps": [
+        { "name": "Measure total length", "text": "Measure the total fence line in feet." },
+        { "name": "Choose height and spacing", "text": "Select fence height (4, 6, or 8 ft) and post spacing (6 or 8 ft)." },
+        { "name": "Select material", "text": "Choose wood, vinyl, or chain link." },
+        { "name": "Count gates", "text": "Determine how many gates you need." },
+        { "name": "Read results", "text": "Get counts for posts, rails, pickets/panels, concrete bags, and cost." }
+      ]
+    },
+    "related": {
+      "footing": "Calculate concrete for deck footings and foundations.",
+      "column": "Estimate concrete for Sonotubes and post holes.",
+      "gravel": "Calculate gravel and crushed stone by the ton."
+    },
+    "faqs": [
+      {
+        "question": "How many fence posts do I need?",
+        "answer": "Divide your total fence length by the post spacing (typically 6 or 8 feet), then add 1 for the end post. Add 2 extra posts for each gate (one on each side). For a 100-foot fence with 8-foot spacing and one gate: (100 ÷ 8) + 1 + 2 = 16 posts."
+      },
+      {
+        "question": "Should I use 6-foot or 8-foot post spacing?",
+        "answer": "8-foot spacing is standard for most wood fences — it uses standard 8-foot and 16-foot lumber efficiently with minimal waste. Use 6-foot spacing for taller fences (8 ft), areas with high winds, or when using heavier materials like composite boards."
+      },
+      {
+        "question": "How deep should fence posts be set?",
+        "answer": "The general rule is 1/3 of the total post length should be underground. For a 6-foot fence with 8-foot posts, set them 24–30 inches deep. In cold climates, posts should extend below the frost line. Always set posts in concrete for maximum stability."
+      },
+      {
+        "question": "How many bags of concrete per fence post?",
+        "answer": "Plan for 1–2 bags (80 lb) of fast-setting concrete per post, depending on hole size. A standard 10-inch diameter, 30-inch deep hole uses about 1.5 bags. This calculator estimates 2 bags per post for a solid, conservative estimate."
+      },
+      {
+        "question": "How many pickets do I need per foot of fence?",
+        "answer": "With standard 3.5-inch (1×4) pickets and 1/4-inch gaps, you need about 3.2 pickets per linear foot of fence. For 5.5-inch (1×6) pickets with 1/4-inch gaps, it's about 2.1 per foot. Board-on-board fences use roughly 50% more pickets."
+      }
+    ],
+    "content": {
+      "howToTitle": "How to Estimate Fence Materials",
+      "howToPara1": "Estimating fence materials requires calculating posts, rails, and pickets (or panels) based on your total fence length, height, and post spacing. The calculator subtracts gate widths from the fenced length while adding extra gate posts.",
+      "howToPara2": "<b>Posts</b> = (Fence length ÷ Post spacing) + 1 + (Gates × 2). <b>Rails</b> = Number of sections × rails per section (2 for 4-ft fence, 3 for 6-ft and 8-ft). <b>Pickets</b> = Fence length × 3.2 pickets per foot (for standard 3.5\" boards).",
+      "tipsTitle": "Tips for Building a Fence",
+      "tips": [
+        "<b>Check property lines and local codes first.</b> Most municipalities require setbacks (1–6 inches from the property line) and permits for fences over 4 feet. Get a survey if you're unsure where the property line is — a misplaced fence is expensive to fix.",
+        "<b>Call 811 before digging.</b> Utility locating is free and required by law. A single cut cable or gas line will cost far more than the entire fence project.",
+        "<b>Set corner and end posts first.</b> Install these posts, run a string line between them, and use it as a guide for all intermediate posts. This ensures a straight fence line.",
+        "<b>Use pressure-treated posts rated for ground contact.</b> Posts set in concrete need to be rated for ground contact (UC4A or higher). Standard pressure-treated lumber will rot in the ground within a few years.",
+        "<b>Build gates first, fence second.</b> Or at least frame the gate opening and hang the gate before installing pickets. It's much easier to adjust the opening when the fence isn't complete."
+      ],
+      "comparingTitle": "Comparing Fence Materials",
+      "comparingWood": "<b>Wood</b> ($12–$25/linear foot) is the most popular choice, offering privacy and a natural look. Cedar and redwood resist rot naturally; pressure-treated pine is the most affordable option. Expect 15–20 years of life with proper maintenance.",
+      "comparingVinyl": "<b>Vinyl/PVC</b> ($20–$40/linear foot) costs more upfront but requires zero maintenance — no painting, staining, or sealing. Panels snap together for faster installation. Lifespan: 20–30+ years.",
+      "comparingChainLink": "<b>Chain link</b> ($8–$18/linear foot) is the most affordable option and ideal for property boundaries, pet containment, and security. It offers no privacy unless you add slats or fabric. Galvanized chain link lasts 15–20 years; vinyl-coated lasts longer."
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About SlabCalc",
+      "description": "SlabCalc provides free, accurate construction calculators for contractors, estimators, and DIY homeowners. Learn about our mission and methodology."
+    },
+    "title": "About SlabCalc",
+    "subtitle": "Construction calculators that contractors actually trust.",
+    "missionTitle": "Our Mission",
+    "missionPara1": "SlabCalc exists because ordering the wrong amount of material is expensive — whether you're short on concrete mid-pour or stuck returning 30 extra bags of mulch. We build calculators that give you accurate quantities in seconds, so you can order with confidence and get back to building.",
+    "missionPara2": "Every calculator on this site uses industry-standard formulas verified against manufacturer specifications and building trade references. We include waste factors because real projects aren't textbook perfect — uneven ground, saw cuts, and spillage happen.",
+    "accurateFormulas": "Accurate Formulas",
+    "accurateFormulasDesc": "Industry-standard calculations with configurable waste factors. Every formula is unit-tested to prevent errors.",
+    "instantResults": "Instant Results",
+    "instantResultsDesc": "No page reloads, no sign-ups. Enter dimensions and get quantities immediately — on desktop or mobile.",
+    "noHiddenAgenda": "No Hidden Agenda",
+    "noHiddenAgendaDesc": "We don't sell your data or require accounts. SlabCalc is free to use and supported by ads and affiliate links.",
+    "builtForJobSite": "Built for the Job Site",
+    "builtForJobSiteDesc": "Mobile-first design that works with gloves on. Large inputs, clear results, no clutter.",
+    "whoWeServeTitle": "Who We Serve",
+    "whoWeServePara": "SlabCalc is designed for DIY homeowners tackling weekend projects, contractors estimating material orders, and construction estimators who need a quick sanity check. Whether you're pouring a patio slab or estimating materials for a 200-foot fence line, our tools give you the numbers you need.",
+    "methodologyTitle": "Methodology & Accuracy",
+    "methodologyPara": "Our calculators use formulas sourced from concrete industry standards (ACI, PCA), paint manufacturer coverage rates, and building material supplier specifications. All calculation logic is covered by automated unit tests to ensure accuracy. Estimates are intended as guidelines — always verify with your material supplier for project-specific conditions.",
+    "contactTitle": "Get in Touch",
+    "contactPara": "Found a bug in a calculator? Have a suggestion for a new tool? We want to hear from you. Reach us at <b>hello@slab-calc.com</b>."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy",
+      "description": "SlabCalc privacy policy — how we handle your data."
+    },
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: {date}",
+    "overviewTitle": "Overview",
+    "overviewPara": "SlabCalc (\"we\", \"our\", \"us\") operates the website slab-calc.com. This page informs you of our policies regarding the collection, use, and disclosure of personal information when you use our site.",
+    "infoCollectedTitle": "Information We Collect",
+    "infoCollectedPara1": "SlabCalc does not require user accounts or collect personally identifiable information. Calculator inputs are processed entirely in your browser and are never sent to our servers.",
+    "infoCollectedPara2": "We may collect anonymous usage data through:",
+    "infoCollectedGA": "<b>Google Analytics</b> — page views, session duration, device type, and general geographic region. No personally identifiable information is collected.",
+    "infoCollectedVercel": "<b>Vercel Analytics</b> — anonymous web performance metrics (page load times, Web Vitals).",
+    "cookiesTitle": "Cookies",
+    "cookiesPara": "We use cookies for analytics and advertising purposes. Third-party services (Google Analytics, Google AdSense) may set their own cookies. You can control cookies through your browser settings.",
+    "advertisingTitle": "Advertising",
+    "advertisingPara": "We display advertisements through Google AdSense and may include affiliate links to Amazon.com and other retailers. These services may use cookies to serve ads based on your browsing history. You can opt out of personalized advertising at <googleAdsLink>Google Ads Settings</googleAdsLink>.",
+    "thirdPartyTitle": "Third-Party Links",
+    "thirdPartyPara": "Our site contains links to third-party websites (e.g., Amazon for tools and materials). We are not responsible for the privacy practices of these external sites. We encourage you to review their privacy policies.",
+    "dataSecurityTitle": "Data Security",
+    "dataSecurityPara": "Our website is served over HTTPS. Since we don't collect personal data, there is minimal risk of data breach. All calculations happen client-side in your browser.",
+    "childrenTitle": "Children's Privacy",
+    "childrenPara": "SlabCalc is not directed at children under 13. We do not knowingly collect information from children.",
+    "changesTitle": "Changes to This Policy",
+    "changesPara": "We may update this privacy policy from time to time. Changes will be posted on this page with an updated date.",
+    "contactTitle": "Contact",
+    "contactPara": "Questions about this policy? Contact us at <b>hello@slab-calc.com</b>."
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms of Use",
+      "description": "SlabCalc terms of use — conditions for using our construction calculators."
+    },
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: {date}",
+    "acceptanceTitle": "Acceptance of Terms",
+    "acceptancePara": "By accessing and using SlabCalc (slab-calc.com), you accept and agree to be bound by these Terms of Use. If you do not agree, please do not use the site.",
+    "useTitle": "Use of Calculators",
+    "usePara1": "SlabCalc provides construction material calculators for informational and estimation purposes only. The results are approximations based on standard formulas and should not be used as the sole basis for purchasing decisions.",
+    "usePara2": "<b>Always verify quantities with your material supplier.</b> Actual material requirements may vary due to site conditions, material properties, installation methods, and other factors beyond the scope of these calculators.",
+    "disclaimerTitle": "Disclaimer of Warranties",
+    "disclaimerPara": "SlabCalc is provided \"as is\" without warranty of any kind, express or implied. We do not warrant that the calculators will be error-free, uninterrupted, or that results will be accurate for your specific project conditions.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityPara": "SlabCalc shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of the calculators or reliance on the results. This includes, but is not limited to, material over-ordering, under-ordering, project delays, or construction defects.",
+    "affiliateTitle": "Affiliate Links & Advertising",
+    "affiliatePara1": "SlabCalc contains affiliate links to third-party retailers (including Amazon). When you click these links and make a purchase, we may earn a commission at no additional cost to you. We also display advertisements through Google AdSense.",
+    "affiliatePara2": "Product recommendations are based on general suitability for the project type and are not endorsements. Always research products independently before purchasing.",
+    "ipTitle": "Intellectual Property",
+    "ipPara": "All content on SlabCalc, including text, graphics, logos, and calculator designs, is the property of SlabCalc and is protected by copyright. You may not reproduce, distribute, or create derivative works without written permission.",
+    "professionalTitle": "Professional Advice",
+    "professionalPara": "SlabCalc is not a substitute for professional engineering, architectural, or construction advice. For structural work, load-bearing calculations, or projects requiring permits, consult a licensed professional.",
+    "changesTitle": "Changes to Terms",
+    "changesPara": "We reserve the right to modify these terms at any time. Continued use of the site after changes constitutes acceptance of the new terms.",
+    "contactTitle": "Contact",
+    "contactPara": "Questions about these terms? Contact us at <b>hello@slab-calc.com</b>."
+  }
+}

@@ -1,3 +1,7 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+
 export interface FAQItem {
   question: string;
   answer: string;
@@ -8,10 +12,12 @@ interface FAQSectionProps {
 }
 
 export function FAQSection({ faqs }: FAQSectionProps) {
+  const t = useTranslations("calculator");
+
   return (
     <section>
       <h2 className="font-heading text-2xl font-semibold mb-6">
-        Frequently Asked Questions
+        {t("faq")}
       </h2>
       <dl className="space-y-6">
         {faqs.map((faq, i) => (

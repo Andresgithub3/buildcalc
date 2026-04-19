@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { ExternalLink } from "lucide-react";
 import affiliatesData from "../../content/affiliates.json";
 
@@ -16,6 +17,7 @@ interface AffiliateLinksProps {
 }
 
 export function AffiliateLinks({ calculatorSlug }: AffiliateLinksProps) {
+  const t = useTranslations("common");
   const tag = process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG || "slabcalc-20";
   const items = (affiliatesData[calculatorSlug as AffiliateSlug] ?? []) as AffiliateLinkItem[];
 
@@ -24,7 +26,7 @@ export function AffiliateLinks({ calculatorSlug }: AffiliateLinksProps) {
   return (
     <div className="rounded-lg border bg-card p-4">
       <h3 className="font-heading text-sm font-semibold mb-3">
-        Recommended Tools &amp; Materials
+        {t("affiliateHeading")}
       </h3>
       <ul className="space-y-2">
         {items.map((item) => (
@@ -45,7 +47,7 @@ export function AffiliateLinks({ calculatorSlug }: AffiliateLinksProps) {
         ))}
       </ul>
       <p className="mt-3 text-[10px] text-muted-foreground/60">
-        As an Amazon Associate, SlabCalc earns from qualifying purchases.
+        {t("affiliateDisclaimer")}
       </p>
     </div>
   );

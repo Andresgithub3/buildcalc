@@ -1,7 +1,20 @@
-import Link from "next/link";
-import { HardHat } from "lucide-react";
+"use client";
+
+import { useTranslations, useLocale } from "next-intl";
+import { Link, useRouter, usePathname } from "@/i18n/navigation";
+import { HardHat, Globe } from "lucide-react";
 
 export function SiteHeader() {
+  const t = useTranslations("common");
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  function switchLocale() {
+    const nextLocale = locale === "en" ? "es" : "en";
+    router.replace(pathname, { locale: nextLocale });
+  }
+
   return (
     <header className="border-b bg-card">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
@@ -13,11 +26,21 @@ export function SiteHeader() {
         </Link>
         <nav className="flex items-center gap-6 text-sm text-muted-foreground">
           <Link href="/" className="hover:text-foreground transition-colors">
-            Calculators
+            {t("nav.calculators")}
           </Link>
           <Link href="/about" className="hover:text-foreground transition-colors">
-            About
+            {t("nav.about")}
           </Link>
+          <button
+            onClick={switchLocale}
+            className="flex items-center gap-1.5 hover:text-foreground transition-colors"
+            aria-label="Switch language"
+          >
+            <Globe className="h-4 w-4" />
+            <span className="text-xs font-medium">
+              {locale === "en" ? t("languageSwitcher.es") : t("languageSwitcher.en")}
+            </span>
+          </button>
         </nav>
       </div>
     </header>

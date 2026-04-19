@@ -1,5 +1,8 @@
+"use client";
+
 import { type ReactNode } from "react";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight } from "lucide-react";
@@ -35,6 +38,8 @@ export function CalculatorLayout({
   relatedCalculators,
   jsonLd,
 }: CalculatorLayoutProps) {
+  const t = useTranslations("calculator");
+
   return (
     <div className="mx-auto w-full max-w-4xl px-4 py-6">
       {jsonLd && (
@@ -48,7 +53,7 @@ export function CalculatorLayout({
       <div className="mb-6">
         <div className="flex items-center gap-2 mb-2">
           <Badge variant="secondary" className="text-xs">
-            Free Calculator
+            {t("freeCalculator")}
           </Badge>
         </div>
         <h1 className="font-heading text-2xl font-bold tracking-tight sm:text-3xl">
@@ -70,7 +75,7 @@ export function CalculatorLayout({
         <div className="min-w-0">
           <Card>
             <CardHeader className="pb-4">
-              <CardTitle>Input Dimensions</CardTitle>
+              <CardTitle>{t("inputDimensions")}</CardTitle>
             </CardHeader>
             <CardContent>{inputs}</CardContent>
           </Card>
@@ -89,7 +94,7 @@ export function CalculatorLayout({
           {relatedCalculators && relatedCalculators.length > 0 && (
             <div className="mt-8">
               <h2 className="font-heading text-xl font-semibold mb-3">
-                Related Calculators
+                {t("relatedCalculators")}
               </h2>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {relatedCalculators.map((calc) => (
@@ -118,7 +123,7 @@ export function CalculatorLayout({
         <div className="space-y-4 lg:sticky lg:top-4 lg:self-start">
           <Card className="border-primary/20 bg-primary/[0.02]">
             <CardHeader className="pb-4">
-              <CardTitle>Results</CardTitle>
+              <CardTitle>{t("results")}</CardTitle>
             </CardHeader>
             <CardContent>{results}</CardContent>
           </Card>

@@ -1,0 +1,776 @@
+{
+  "common": {
+    "siteName": "SlabCalc",
+    "tagline": "Calculadoras de construcción en las que los contratistas realmente confían.",
+    "description": "Estime concreto, pintura, azulejo, grava y más — preciso, rápido y gratis.",
+    "nav": {
+      "calculators": "Calculadoras",
+      "about": "Acerca de"
+    },
+    "footer": {
+      "calcHeading": "Calculadoras",
+      "moreHeading": "Más",
+      "concreteSlab": "Losa de Concreto",
+      "concreteFooting": "Zapata de Concreto",
+      "paintCoverage": "Cobertura de Pintura",
+      "tileFlooring": "Azulejo y Piso",
+      "gravelAggregate": "Grava y Agregados",
+      "mulchTopsoil": "Mantillo y Tierra Vegetal",
+      "fenceMaterials": "Materiales para Cerca",
+      "about": "Acerca de",
+      "copyright": "© {year} SlabCalc. Todos los derechos reservados.",
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfUse": "Términos de Uso"
+    },
+    "cookie": {
+      "message": "Usamos cookies para analíticas y publicidad para mejorar su experiencia. Al continuar usando SlabCalc, usted acepta nuestra <privacyLink>Política de Privacidad</privacyLink>.",
+      "decline": "Rechazar",
+      "accept": "Aceptar"
+    },
+    "costDisclaimer": "* Los estimados de costo son aproximados. Los precios reales varían por región, proveedor y condiciones del mercado. Ingrese su propio costo arriba para un estimado más preciso.",
+    "affiliateHeading": "Herramientas y Materiales Recomendados",
+    "affiliateDisclaimer": "Como Asociado de Amazon, SlabCalc gana por compras que califican.",
+    "languageSwitcher": {
+      "en": "EN",
+      "es": "ES"
+    }
+  },
+  "home": {
+    "heroTitle": "Calculadoras de Construcción en las que ",
+    "heroTitleHighlight": "los Contratistas Realmente Confían",
+    "heroDescription": "Estime concreto, pintura, azulejo, grava y más — preciso, rápido y gratis. Deje de adivinar, empiece a construir.",
+    "allCalculators": "Todas las Calculadoras",
+    "accurateFormulas": "Fórmulas Precisas",
+    "accurateFormulasDesc": "Cálculos estándar de la industria con factores de desperdicio incluidos para que pida la cantidad correcta.",
+    "instantResults": "Resultados al Instante",
+    "instantResultsDesc": "Ingrese sus dimensiones y obtenga cantidades, bultos y estimados de costo de inmediato.",
+    "mobileReady": "Listo para Celular",
+    "mobileReadyDesc": "Úselo en la obra desde su teléfono o planee desde su escritorio — funciona bien en cualquier dispositivo.",
+    "calculators": {
+      "concrete-slab": {
+        "name": "Calculadora de Losa de Concreto",
+        "shortName": "Losa de Concreto",
+        "description": "Calcule yardas cúbicas, bultos y costo para losas, patios y entradas de concreto."
+      },
+      "concrete-footing": {
+        "name": "Calculadora de Zapata de Concreto",
+        "shortName": "Zapata de Concreto",
+        "description": "Estime el concreto necesario para zapatas de deck, zapatas de pilar y cimentaciones."
+      },
+      "concrete-column": {
+        "name": "Calculadora de Columna / Sonotube de Concreto",
+        "shortName": "Columna de Concreto",
+        "description": "Calcule concreto para columnas redondas, Sonotubes y hoyos para postes."
+      },
+      "paint-coverage": {
+        "name": "Calculadora de Cobertura de Pintura",
+        "shortName": "Cobertura de Pintura",
+        "description": "Determine cuántos galones de pintura necesita para paredes, cuartos y techos."
+      },
+      "tile-flooring": {
+        "name": "Calculadora de Azulejo y Piso",
+        "shortName": "Azulejo y Piso",
+        "description": "Calcule la cantidad de azulejos, cajas y cobertura para cualquier piso."
+      },
+      "gravel-and-aggregate": {
+        "name": "Calculadora de Grava y Agregados",
+        "shortName": "Grava y Agregados",
+        "description": "Estime yardas cúbicas y toneladas de grava, piedra triturada o piedra de río."
+      },
+      "mulch-and-topsoil": {
+        "name": "Calculadora de Mantillo y Tierra Vegetal",
+        "shortName": "Mantillo y Tierra Vegetal",
+        "description": "Calcule bultos o yardas cúbicas de mantillo, tierra vegetal, composta o tierra de relleno."
+      },
+      "fence-materials": {
+        "name": "Estimador de Materiales para Cerca",
+        "shortName": "Materiales para Cerca",
+        "description": "Estime postes, rieles, tablas y concreto para cercas de madera, vinilo o malla ciclónica."
+      }
+    }
+  },
+  "calculator": {
+    "freeCalculator": "Calculadora Gratis",
+    "inputDimensions": "Ingrese Dimensiones",
+    "results": "Resultados",
+    "relatedCalculators": "Calculadoras Relacionadas",
+    "faq": "Preguntas Frecuentes",
+    "estimatedCost": "Costo Estimado",
+    "cubicYards": "Yardas Cúbicas",
+    "cubicFeet": "Pies Cúbicos",
+    "bags80lb": "Bultos de 80 lb",
+    "bags60lb": "Bultos de 60 lb",
+    "lengthFt": "Largo (ft)",
+    "widthFt": "Ancho (ft)",
+    "depthIn": "Profundidad (in)",
+    "wasteFactor": "Factor de Desperdicio (%)",
+    "costPerYard": "Costo por Yarda ($)",
+    "costPerTon": "Costo por Tonelada ($)",
+    "costPerFoot": "Costo por Pie ($)",
+    "costPerGallon": "Costo por Galón ($)",
+    "costPerBox": "Costo por Caja ($)"
+  },
+  "slab": {
+    "meta": {
+      "title": "Calculadora de Losa de Concreto — ¿Cuánto Concreto Necesito?",
+      "description": "Calculadora gratis de losa de concreto. Ingrese largo, ancho y profundidad para obtener yardas cúbicas, cantidad de bultos y estimados de costo para su patio, entrada o losa de garaje.",
+      "ogTitle": "Calculadora de Losa de Concreto — ¿Cuánto Concreto Necesito?",
+      "ogDescription": "Calculadora gratis de losa de concreto. Ingrese largo, ancho y profundidad para obtener yardas cúbicas, cantidad de bultos y estimados de costo.",
+      "twitterTitle": "Calculadora de Losa de Concreto | SlabCalc",
+      "twitterDescription": "Calcule yardas cúbicas, bultos y costo para losas de concreto. Gratis e instantáneo."
+    },
+    "title": "Calculadora de Losa de Concreto",
+    "description": "Calcule cuánto concreto necesita para una losa, patio o entrada. Obtenga resultados en yardas cúbicas, bultos y costo estimado.",
+    "howTo": {
+      "name": "Cómo Calcular Concreto para una Losa",
+      "description": "Calcule la cantidad de concreto necesaria para una losa en yardas cúbicas, bultos y costo estimado.",
+      "steps": [
+        { "name": "Mida el largo", "text": "Mida el largo del área de la losa en pies." },
+        { "name": "Mida el ancho", "text": "Mida el ancho del área de la losa en pies." },
+        { "name": "Mida la profundidad", "text": "Determine la profundidad deseada de la losa en pulgadas (4 pulgadas es lo estándar)." },
+        { "name": "Ingrese las dimensiones", "text": "Ingrese sus medidas en la calculadora junto con un factor de desperdicio (se recomienda 10%)." },
+        { "name": "Lea los resultados", "text": "Obtenga sus resultados en yardas cúbicas, cantidad de bultos (80 lb y 60 lb) y rango de costo estimado." }
+      ]
+    },
+    "related": {
+      "footing": "Calcule concreto para zapatas de deck y cimentaciones de pilares.",
+      "column": "Estime concreto para Sonotubes y hoyos redondos para postes.",
+      "gravel": "Calcule grava, piedra triturada y piedra de río por tonelada."
+    },
+    "faqs": [
+      {
+        "question": "¿Qué tan gruesa debe ser una losa de concreto?",
+        "answer": "Para un patio o banqueta estándar, 4 pulgadas es suficiente. Las entradas para autos deben tener al menos 5–6 pulgadas de grosor para soportar el peso de los vehículos. Los pisos de garaje normalmente tienen 4–6 pulgadas. Si camiones pesados o equipo van a usar la superficie, use 6–8 pulgadas."
+      },
+      {
+        "question": "¿Cuántos bultos de concreto necesito para una losa de 10×10?",
+        "answer": "Una losa de 10×10 con 4 pulgadas de grosor requiere aproximadamente 1.24 yardas cúbicas de concreto, o alrededor de 56 bultos de 80 lb de concreto premezclado. Con un factor de desperdicio del 10%, planee para unos 62 bultos. Para proyectos más grandes, pedir concreto premezclado por yarda es más práctico y económico."
+      },
+      {
+        "question": "¿Debo usar bultos o concreto premezclado?",
+        "answer": "Para proyectos pequeños de menos de 1 yarda cúbica (alrededor de 45 bultos de 80 lb), los bultos son prácticos. Para cualquier cosa más grande, la entrega de premezclado es más rápida, más consistente y generalmente más barata por yarda. El punto de equilibrio está normalmente alrededor de 1–1.5 yardas cúbicas."
+      },
+      {
+        "question": "¿Qué factor de desperdicio debo usar?",
+        "answer": "Un factor de desperdicio del 10% es estándar para la mayoría de los proyectos de losa. Aumente al 15% si el sitio tiene bordes irregulares, mala preparación del suelo, o si es su primera vez vaciando concreto. Los contratistas con experiencia en sitios limpios pueden usar 5–7%."
+      },
+      {
+        "question": "¿Cuánto cuesta una losa de concreto?",
+        "answer": "El concreto premezclado normalmente cuesta $125–$175 por yarda cúbica entregado. El costo total del proyecto incluyendo mano de obra, cimbra y acabado va de $6–$12 por pie cuadrado para una losa básica. El concreto decorativo o estampado puede duplicar o triplicar ese precio."
+      }
+    ],
+    "content": {
+      "howToTitle": "Cómo Calcular Concreto para una Losa",
+      "howToPara1": "Calcular la cantidad correcta de concreto para una losa es sencillo una vez que entiende la fórmula. Mida el largo y ancho de su losa en pies, luego la profundidad en pulgadas. La calculadora convierte la profundidad a pies (dividiendo entre 12), multiplica las tres dimensiones para obtener pies cúbicos, y luego divide entre 27 para convertir a yardas cúbicas — la unidad estándar para pedir concreto.",
+      "howToPara2": "La fórmula es: <b>Volumen (ft³) = Largo × Ancho × (Profundidad ÷ 12)</b>. Luego divida entre 27 para obtener yardas cúbicas. Siempre agregue un factor de desperdicio (normalmente 10%) para compensar derrames, sobre-excavación e inconsistencias en la cimbra.",
+      "tipsTitle": "Consejos para un Vaciado de Losa Exitoso",
+      "tips": [
+        "<b>Prepare bien el suelo base.</b> Compacte la tierra y agregue una base de grava de 4 pulgadas para drenaje. Un suelo base mal preparado es la causa #1 de grietas y asentamientos.",
+        "<b>Use malla de fibra o malla de alambre para refuerzo.</b> Para losas de más de 4 pulgadas de grosor o cualquier losa que soporte peso de vehículos, el refuerzo previene las grietas.",
+        "<b>Planee las juntas de control.</b> Corte o marque juntas cada 8–12 pies en ambas direcciones para controlar dónde se forman las grietas. La regla general: el espacio entre juntas en pies no debe exceder 2–3 veces el grosor de la losa en pulgadas.",
+        "<b>Pida 5–10% más de lo calculado.</b> Quedarse corto a media colada crea juntas frías, que son antiestéticas y estructuralmente débiles. Siempre es mejor que sobre un poco.",
+        "<b>Cure el concreto correctamente.</b> Mantenga la losa húmeda por al menos 7 días después de vaciar. Use compuesto de curado o cubra con plástico. El curado adecuado aumenta la resistencia hasta en un 50%."
+      ],
+      "mistakesTitle": "Errores Comunes al Pedir Concreto",
+      "mistakes": [
+        "<b>No considerar el terreno desnivelado.</b> Si su excavación no está perfectamente nivelada, necesitará más concreto para rellenar las partes bajas. Mida la profundidad en varios puntos y use la medida más profunda.",
+        "<b>Olvidar el grosor de la cimbra.</b> Si está usando madera de 2×4 o 2×6 para la cimbra, las dimensiones interiores serán ligeramente más pequeñas que las exteriores. Mida por dentro de la cimbra.",
+        "<b>Pedir cantidades exactas sin margen.</b> Siempre redondee hacia arriba. Quedarse corto a media colada es mucho peor que tener un poco de sobra."
+      ]
+    }
+  },
+  "footing": {
+    "meta": {
+      "title": "Calculadora de Zapata de Concreto — Estimador de Zapatas para Deck y Pilares",
+      "description": "Calculadora gratis de zapata de concreto. Ingrese las dimensiones de la zapata para obtener yardas cúbicas, bultos y estimados de costo para zapatas de deck, cimentaciones de pilares y zapatas corridas.",
+      "ogTitle": "Calculadora de Zapata de Concreto — Estimador de Zapatas para Deck y Pilares",
+      "ogDescription": "Calcule concreto para zapatas de deck, cimentaciones de pilares y zapatas corridas. Gratis e instantáneo.",
+      "twitterTitle": "Calculadora de Zapata de Concreto | SlabCalc",
+      "twitterDescription": "Estime concreto para zapatas — yardas cúbicas, bultos y costo."
+    },
+    "title": "Calculadora de Zapata de Concreto",
+    "description": "Calcule cuánto concreto necesita para zapatas de deck, cimentaciones de pilares y zapatas corridas.",
+    "footingLengthFt": "Largo de Zapata (ft)",
+    "widthIn": "Ancho (in)",
+    "numberOfFootings": "Número de Zapatas",
+    "totalCubicYards": "Total en Yardas Cúbicas",
+    "perFooting": "Por Zapata",
+    "totalCubicFeet": "Total en Pies Cúbicos",
+    "howTo": {
+      "name": "Cómo Calcular Concreto para Zapatas",
+      "description": "Calcule la cantidad de concreto necesaria para zapatas.",
+      "steps": [
+        { "name": "Mida el largo de la zapata", "text": "Mida el largo de cada zapata en pies." },
+        { "name": "Mida el ancho y la profundidad", "text": "Mida el ancho y la profundidad de la zapata en pulgadas." },
+        { "name": "Cuente las zapatas", "text": "Determine el número de zapatas idénticas que necesita." },
+        { "name": "Ingrese las dimensiones", "text": "Ingrese las medidas y el factor de desperdicio en la calculadora." },
+        { "name": "Lea los resultados", "text": "Obtenga el total de yardas cúbicas, volumen por zapata, bultos y costo." }
+      ]
+    },
+    "related": {
+      "slab": "Calcule concreto para losas, patios y entradas.",
+      "column": "Estime concreto para Sonotubes y hoyos redondos para postes.",
+      "fence": "Estime postes, rieles, tablas y concreto para cercas."
+    },
+    "faqs": [
+      {
+        "question": "¿Qué tan profundas deben ser las zapatas de concreto?",
+        "answer": "Las zapatas deben extenderse por debajo de la línea de congelamiento de su zona — normalmente 12 pulgadas en climas templados, 36–48 pulgadas en estados del norte. Consulte su código de construcción local para el requisito exacto de profundidad de congelamiento. En la mayoría de los casos, 12 pulgadas de profundidad es el mínimo para zapatas estructurales."
+      },
+      {
+        "question": "¿Qué tan anchas deben ser las zapatas?",
+        "answer": "Una zapata debe ser al menos el doble de ancha que la pared o poste que soporta. Para un poste estándar de deck sobre un poste de 6×6, una zapata de 12 pulgadas de ancho es lo normal. Las zapatas de muros de cimentación normalmente miden 16–24 pulgadas de ancho dependiendo de la carga."
+      },
+      {
+        "question": "¿Necesito varilla en mis zapatas?",
+        "answer": "Para zapatas estructurales que soportan un deck, ampliación o muro de contención — sí. Las zapatas corridas deben tener al menos dos varillas #4 a lo largo, y las zapatas más cortas se benefician de la varilla para prevenir grietas. Consulte los códigos locales para requisitos específicos."
+      },
+      {
+        "question": "¿Cuánto tiempo necesita curar una zapata de concreto?",
+        "answer": "El concreto alcanza aproximadamente el 70% de su resistencia en 7 días y la resistencia total en 28 días. Normalmente puede comenzar a construir sobre las zapatas después de 3–7 días en clima cálido, pero evite colocar cargas pesadas por al menos una semana."
+      }
+    ],
+    "content": {
+      "howToTitle": "Cómo Calcular Concreto para Zapatas",
+      "howToPara1": "Las zapatas de concreto son la base de cualquier estructura — decks, ampliaciones, cercas y muros de contención comienzan aquí. Para calcular el concreto necesario, multiplique el largo de la zapata (en pies) por el ancho y la profundidad (convertidos de pulgadas a pies). Multiplique por el número de zapatas y luego agregue su factor de desperdicio.",
+      "howToPara2": "La fórmula es: <b>Volumen por zapata (ft³) = Largo × (Ancho ÷ 12) × (Profundidad ÷ 12)</b>. Multiplique por el número de zapatas para el volumen total, luego divida entre 27 para obtener yardas cúbicas.",
+      "tipsTitle": "Consejos para Zapatas de Concreto",
+      "tips": [
+        "<b>Excave por debajo de la línea de congelamiento.</b> Las zapatas que no se extienden por debajo de la línea de congelamiento se levantarán y moverán con los ciclos de congelamiento y descongelamiento, causando daños estructurales arriba.",
+        "<b>Use hoyos con fondo plano.</b> Una zapata necesita una base plana y nivelada para distribuir la carga uniformemente. Los hoyos con fondo redondo concentran la fuerza en un solo punto.",
+        "<b>Mantenga las zapatas a nivel.</b> Use un nivel láser o línea de hilo a lo largo de la parte superior de sus cimbras para asegurar que todas las zapatas estén a la misma elevación.",
+        "<b>Coloque los anclajes o bases para postes mientras está fresco.</b> Los pernos en J y las bases para postes deben colocarse en el concreto fresco. Téngalos listos y posicionados antes de vaciar."
+      ],
+      "typesTitle": "Tipos de Zapatas",
+      "typesPara1": "<b>Zapatas aisladas</b> son bases planas y anchas que distribuyen la carga de un poste o columna sobre un área más grande. Son el tipo más común para decks y cobertizos.",
+      "typesPara2": "<b>Zapatas corridas</b> (zapatas de franja) corren a lo largo de un muro y se usan para cimentaciones, muros de contención y muros de carga. Son más anchas que el muro que soportan.",
+      "typesPara3": "<b>Zapatas de pilar</b> son cilíndricas, frecuentemente vaciadas usando cimbras Sonotube. Use nuestra <link>calculadora de columnas de concreto</link> para zapatas de pilar redondas."
+    }
+  },
+  "column": {
+    "meta": {
+      "title": "Calculadora de Columna y Sonotube de Concreto — Estimador de Hoyos para Postes",
+      "description": "Calculadora gratis de Sonotube y columna de concreto. Ingrese diámetro y altura para obtener yardas cúbicas, bultos y estimados de costo para columnas redondas y hoyos para postes.",
+      "ogTitle": "Calculadora de Columna y Sonotube de Concreto",
+      "ogDescription": "Calcule concreto para Sonotubes, columnas redondas y hoyos para postes. Gratis e instantáneo.",
+      "twitterTitle": "Calculadora de Sonotube | SlabCalc",
+      "twitterDescription": "Calcule concreto para columnas redondas y hoyos para postes."
+    },
+    "title": "Calculadora de Columna / Sonotube de Concreto",
+    "description": "Calcule cuánto concreto necesita para columnas redondas, Sonotubes y hoyos para postes.",
+    "diameterIn": "Diámetro (in)",
+    "heightFt": "Altura (ft)",
+    "numberOfColumns": "Número de Columnas",
+    "totalCubicYards": "Total en Yardas Cúbicas",
+    "perColumn": "Por Columna",
+    "totalCubicFeet": "Total en Pies Cúbicos",
+    "howTo": {
+      "name": "Cómo Calcular Concreto para Columnas Redondas",
+      "description": "Calcule concreto para Sonotubes y columnas redondas usando la fórmula de volumen del cilindro.",
+      "steps": [
+        { "name": "Mida el diámetro", "text": "Mida el diámetro interior del Sonotube o del hoyo para poste en pulgadas." },
+        { "name": "Mida la altura", "text": "Mida la altura (profundidad) de la columna en pies." },
+        { "name": "Cuente las columnas", "text": "Determine cuántas columnas idénticas necesita." },
+        { "name": "Ingrese las dimensiones", "text": "Ingrese las medidas y el factor de desperdicio en la calculadora." },
+        { "name": "Lea los resultados", "text": "Obtenga yardas cúbicas, volumen por columna, bultos y estimados de costo." }
+      ]
+    },
+    "related": {
+      "slab": "Calcule concreto para losas, patios y entradas.",
+      "footing": "Estime concreto para zapatas de deck y cimentaciones.",
+      "fence": "Estime postes, rieles, tablas y concreto para cercas."
+    },
+    "faqs": [
+      {
+        "question": "¿Qué tamaño de Sonotube necesito?",
+        "answer": "Para postes de deck, los Sonotubes de 8–12 pulgadas de diámetro son lo estándar. Los tubos de 8 pulgadas funcionan para estructuras ligeras, mientras que los de 12 pulgadas son mejores para postes de carga de decks. Para estructuras más grandes como pérgolas o cocheras, se pueden necesitar tubos de 14–24 pulgadas. Consulte su código de construcción local."
+      },
+      {
+        "question": "¿Qué tan profundo debe ir un Sonotube?",
+        "answer": "Los Sonotubes deben extenderse por debajo de la línea de congelamiento local — normalmente 36–48 pulgadas en climas del norte y 12–24 pulgadas en áreas del sur. La mayoría de los códigos también requieren un mínimo de 12 pulgadas en suelo firme. El tubo debe sobresalir 2–3 pulgadas sobre el nivel del suelo para evitar el contacto del poste con el terreno."
+      },
+      {
+        "question": "¿Puedo vaciar concreto en un hoyo para poste sin Sonotube?",
+        "answer": "Sí, pero los Sonotubes ofrecen ventajas significativas: una colada más limpia, diámetro consistente, mejor acabado sobre el nivel del suelo y mejor control de la forma del concreto. Sin un tubo, la tierra puede mezclarse con el concreto y las paredes del hoyo pueden derrumbarse durante la colada."
+      },
+      {
+        "question": "¿Cuántos bultos de concreto para un Sonotube?",
+        "answer": "Un Sonotube de 12 pulgadas con 4 pies de profundidad requiere aproximadamente 1.4 bultos de mezcla de concreto de 80 lb (aproximadamente 3.14 pies cúbicos). Un tubo de 8 pulgadas a 4 pies necesita aproximadamente 0.6 bultos. Esta calculadora da números exactos basados en sus dimensiones."
+      }
+    ],
+    "content": {
+      "howToTitle": "Cómo Calcular Concreto para Columnas Redondas",
+      "howToPara1": "Las columnas redondas y los Sonotubes usan la fórmula de volumen del cilindro: <b>V = π × r² × h</b>. Ingrese el diámetro en pulgadas y la altura en pies. La calculadora convierte todo a pies cúbicos y luego a yardas cúbicas para su pedido. Recuerde agregar desperdicio — 10% es lo estándar para coladas de columnas.",
+      "howToPara2": "Esta calculadora funciona para cimbras de cartón Sonotube, hoyos redondos para postes, zapatas de pilar y cualquier colada de concreto cilíndrica. Si está vaciando varias columnas idénticas, solo ingrese la cantidad y la calculadora suma todo por usted.",
+      "tipsTitle": "Consejos para Vaciar Sonotubes",
+      "tips": [
+        "<b>Apuntale los tubos a plomo y seguros.</b> Los Sonotubes pueden moverse durante la colada. Use puntales y estacas para mantenerlos perfectamente verticales. Un tubo que se mueve durante la colada significa un poste chueco.",
+        "<b>Ensanche la base si el código lo requiere.</b> Algunos códigos de construcción requieren una zapata en forma de campana en la base del tubo para mayor capacidad de carga. Excave el hoyo más ancho en el fondo.",
+        "<b>Vibre o varillée el concreto.</b> Use un tramo de varilla para varillear (empujar arriba y abajo en) el concreto fresco para liberar bolsas de aire. El aire atrapado crea huecos que debilitan la columna.",
+        "<b>Coloque las bases para postes de inmediato.</b> Presione las bases para postes o los pernos en J en el concreto fresco y alinéelos mientras aún tiene tiempo de trabajo (normalmente 30–60 minutos).",
+        "<b>Pele el tubo después del curado.</b> Si el Sonotube está sobre el nivel del suelo, pélelo después de 24–48 horas. Dejar el cartón atrapa humedad y puede causar que la superficie del concreto se deteriore."
+      ],
+      "sizesTitle": "Tamaños Comunes de Sonotube",
+      "sizesPara": "Diámetros estándar de Sonotube: 6\", 8\", 10\", 12\", 14\", 16\", 18\", 20\" y 24\". Los tamaños más populares para construcción residencial de decks son 10\" y 12\". Los largos son normalmente de 4 pies o 12 pies, que usted corta a la profundidad requerida más 2–3 pulgadas sobre el nivel del suelo."
+    }
+  },
+  "paint": {
+    "meta": {
+      "title": "Calculadora de Cobertura de Pintura — ¿Cuánta Pintura Necesito?",
+      "description": "Calculadora gratis de pintura. Ingrese las dimensiones del cuarto, puertas y ventanas para saber cuántos galones de pintura necesita. Incluye soporte para múltiples capas.",
+      "ogTitle": "Calculadora de Cobertura de Pintura — ¿Cuánta Pintura Necesito?",
+      "ogDescription": "Calcule galones de pintura para cualquier cuarto. Considera puertas, ventanas y capas.",
+      "twitterTitle": "Calculadora de Pintura | SlabCalc",
+      "twitterDescription": "Calcule cuántos galones de pintura necesita para cualquier cuarto."
+    },
+    "title": "Calculadora de Cobertura de Pintura",
+    "description": "Determine cuántos galones de pintura necesita para su cuarto. Considera puertas, ventanas y número de capas.",
+    "roomLengthFt": "Largo del Cuarto (ft)",
+    "roomWidthFt": "Ancho del Cuarto (ft)",
+    "wallHeightFt": "Altura de Pared (ft)",
+    "numberOfCoats": "Número de Capas",
+    "doors": "Puertas",
+    "windows": "Ventanas",
+    "gallonsNeeded": "Galones Necesarios",
+    "totalWallArea": "Área Total de Paredes",
+    "doorArea": "Área de Puertas",
+    "windowArea": "Área de Ventanas",
+    "paintableArea": "Área Pintable",
+    "howTo": {
+      "name": "Cómo Calcular Cobertura de Pintura",
+      "description": "Calcule los galones de pintura necesarios para un cuarto.",
+      "steps": [
+        { "name": "Mida las dimensiones del cuarto", "text": "Mida el largo, ancho y altura de las paredes del cuarto en pies." },
+        { "name": "Cuente las aberturas", "text": "Cuente el número de puertas y ventanas en el cuarto." },
+        { "name": "Elija las capas", "text": "Decida cuántas capas va a aplicar (2 es lo estándar)." },
+        { "name": "Ingrese las dimensiones", "text": "Ingrese todas las medidas en la calculadora." },
+        { "name": "Lea los resultados", "text": "Obtenga el área pintable en pies cuadrados y los galones de pintura necesarios." }
+      ]
+    },
+    "related": {
+      "tile": "Calcule los azulejos necesarios para cualquier tamaño de cuarto.",
+      "mulch": "Estime bultos o yardas de mantillo, tierra vegetal o composta.",
+      "slab": "Calcule concreto para losas, patios y entradas."
+    },
+    "faqs": [
+      {
+        "question": "¿Cuántos pies cuadrados cubre un galón de pintura?",
+        "answer": "Un galón de pintura cubre aproximadamente 350–400 pies cuadrados en superficies lisas y con primer. Las superficies rugosas o texturizadas como estuco o ladrillo pueden rendir solo 200–300 pies cuadrados por galón. Esta calculadora usa 350 ft² como la tasa de cobertura estándar."
+      },
+      {
+        "question": "¿Cuántas capas de pintura necesito?",
+        "answer": "Dos capas es lo estándar para la mayoría de los trabajos de pintura. Use una sola capa solo si está aplicando el mismo color sobre una superficie bien preparada con una pintura de alta calidad con primer incluido. Los cambios drásticos de color (especialmente claro sobre oscuro) pueden requerir 3 capas."
+      },
+      {
+        "question": "¿Cuánta pintura necesito para un cuarto de 12×12?",
+        "answer": "Un cuarto de 12×12 con techos de 8 pies, una puerta y dos ventanas necesita aproximadamente 2 galones para dos capas. Esto considera aproximadamente 333 pies cuadrados de área pintable de pared por capa."
+      },
+      {
+        "question": "¿Debo restar las ventanas y puertas del total?",
+        "answer": "Sí. Las puertas estándar miden aproximadamente 21 pies cuadrados (3×7 pies) y las ventanas estándar aproximadamente 15 pies cuadrados (3×5 pies). Restarlas evita comprar de más. Nuestra calculadora lo hace automáticamente."
+      },
+      {
+        "question": "¿Es mejor comprar pintura extra?",
+        "answer": "Sí, siempre compre al menos un cuarto de galón extra. Lo necesitará para retoques, y los lotes de pintura pueden variar ligeramente en color. Guarde la pintura sobrante sellada y almacenada en un espacio con clima controlado hasta por 10 años."
+      }
+    ],
+    "content": {
+      "howToTitle": "Cómo Calcular Cobertura de Pintura",
+      "howToPara1": "Para determinar cuánta pintura necesita, calcule el área total de las paredes de su cuarto, reste puertas y ventanas, multiplique por el número de capas y divida por la tasa de cobertura. La fórmula es:",
+      "howToFormula": "<b>Área Pintable = (Perímetro × Altura de Pared − Puertas − Ventanas) × Capas</b>",
+      "howToPara2": "Luego: <b>Galones = Área Pintable ÷ 350</b> (cobertura estándar por galón).",
+      "howToPara3": "Esta calculadora usa 21 ft² por puerta estándar y 15 ft² por ventana estándar. Para aberturas no estándar, ajuste la cantidad de puertas y ventanas para que coincida con los pies cuadrados aproximados.",
+      "tipsTitle": "Consejos para Obtener la Mejor Cobertura de Pintura",
+      "tips": [
+        "<b>Aplique primer primero para mejores resultados.</b> El primer cubre imperfecciones, sella superficies porosas y le da a la pintura una superficie uniforme para adherirse. Es especialmente importante cuando cambia de color drásticamente.",
+        "<b>Use rodillos de calidad.</b> Un buen rodillo de felpa de 3/8\" en paredes lisas o 1/2\" en semi-lisas proporciona la mejor cobertura con menos capas. Los rodillos baratos dejan pelusa y cobertura despareja.",
+        "<b>Corte antes de rolear.</b> Use una brocha angular para pintar un borde de 2–3 pulgadas a lo largo de bordes, esquinas y molduras antes de rolear el área principal de la pared. Esto da líneas limpias y evita marcas del rodillo cerca de los bordes.",
+        "<b>Mantenga un borde húmedo.</b> Siempre rolee hacia el área previamente pintada antes de que se seque. Si deja que la pintura se seque y luego traslapa, quedará con marcas visibles.",
+        "<b>No escatime en la segunda capa.</b> La segunda capa rellena puntos delgados, empareja el color y duplica la durabilidad. Espere 2–4 horas entre capas (revise la etiqueta de la lata)."
+      ]
+    }
+  },
+  "tile": {
+    "meta": {
+      "title": "Calculadora de Azulejo y Piso — ¿Cuántos Azulejos Necesito?",
+      "description": "Calculadora gratis de azulejo. Ingrese las dimensiones del cuarto y el tamaño del azulejo para saber cuántos azulejos y cajas necesita. Incluye factor de desperdicio.",
+      "ogTitle": "Calculadora de Azulejo y Piso — ¿Cuántos Azulejos Necesito?",
+      "ogDescription": "Calcule la cantidad de azulejo para cualquier piso. Soporta tamaños estándar y personalizados.",
+      "twitterTitle": "Calculadora de Azulejo | SlabCalc",
+      "twitterDescription": "Calcule cuántos azulejos necesita para cualquier cuarto."
+    },
+    "title": "Calculadora de Azulejo y Piso",
+    "description": "Calcule cuántos azulejos necesita para cualquier cuarto. Soporta tamaños estándar y personalizados con factor de desperdicio.",
+    "roomLengthFt": "Largo del Cuarto (ft)",
+    "roomWidthFt": "Ancho del Cuarto (ft)",
+    "tileSize": "Tamaño de Azulejo",
+    "tileSizeOptions": {
+      "12x12": "12\" × 12\"",
+      "18x18": "18\" × 18\"",
+      "24x24": "24\" × 24\"",
+      "custom": "Personalizado"
+    },
+    "tilesPerBox": "Azulejos por Caja",
+    "tileWidthIn": "Ancho del Azulejo (in)",
+    "tileHeightIn": "Alto del Azulejo (in)",
+    "tilesNeeded": "Azulejos Necesarios",
+    "boxesNeeded": "Cajas Necesarias",
+    "totalFloorArea": "Área Total del Piso",
+    "tileArea": "Área del Azulejo",
+    "howTo": {
+      "name": "Cómo Calcular Azulejos para un Piso",
+      "description": "Calcule los azulejos y cajas necesarios para cualquier área de piso.",
+      "steps": [
+        { "name": "Mida el cuarto", "text": "Mida el largo y ancho del cuarto en pies." },
+        { "name": "Elija el tamaño de azulejo", "text": "Seleccione el tamaño de su azulejo (12×12, 18×18, 24×24 o personalizado)." },
+        { "name": "Establezca el factor de desperdicio", "text": "Elija un porcentaje de desperdicio (10% para diseños rectos, 15%+ para diagonal)." },
+        { "name": "Ingrese azulejos por caja", "text": "Revise la etiqueta de la caja para saber cuántos azulejos trae e ingréselo." },
+        { "name": "Lea los resultados", "text": "Obtenga el total de azulejos necesarios y las cajas a comprar." }
+      ]
+    },
+    "related": {
+      "paint": "Calcule cuántos galones de pintura necesita.",
+      "gravel": "Estime grava, piedra triturada y piedra de río.",
+      "slab": "Calcule concreto para losas, patios y entradas."
+    },
+    "faqs": [
+      {
+        "question": "¿Cómo calculo cuántos azulejos necesito?",
+        "answer": "Multiplique el largo del cuarto por el ancho para obtener el área del piso en pies cuadrados. Divida por el área de un azulejo (por ejemplo, un azulejo de 12×12 pulgadas = 1 ft²). Agregue un 10% para desperdicio por cortes y quiebres. Esta calculadora maneja todo eso automáticamente."
+      },
+      {
+        "question": "¿Qué porcentaje de desperdicio debo usar para azulejo?",
+        "answer": "Use 10% para cuartos rectangulares estándar con diseño recto. Aumente a 15% para diseños diagonales (45°), y 20% para patrones complejos como espina de pescado. Los cuartos con muchas esquinas, recovecos o curvas también necesitan factores de desperdicio más altos."
+      },
+      {
+        "question": "¿Cuál es el tamaño de azulejo más común para pisos?",
+        "answer": "12×12 pulgadas es el azulejo de piso residencial más popular. 18×18 y 12×24 también son muy comunes en casas modernas. Los azulejos más grandes (24×24) se ven muy bien en espacios abiertos pero generan más desperdicio en cuartos pequeños."
+      },
+      {
+        "question": "¿Cuántos azulejos vienen en una caja?",
+        "answer": "Esto varía por fabricante y tamaño de azulejo. Cantidades comunes: los azulejos de 12×12 normalmente traen 12–15 por caja (12–15 ft²), los de 18×18 traen 6–8 por caja (13.5–18 ft²), y los de 24×24 traen 3–4 por caja (12–16 ft²). Revise la etiqueta de la caja para la cobertura exacta."
+      }
+    ],
+    "content": {
+      "howToTitle": "Cómo Calcular Azulejos para su Piso",
+      "howToPara1": "Calcular la cantidad de azulejo es sencillo: encuentre el área total de su piso, agregue un factor de desperdicio para cortes y luego divida por el área de un azulejo. La fórmula es:",
+      "howToFormula": "<b>Azulejos Necesarios = (Largo del Cuarto × Ancho del Cuarto × Factor de Desperdicio) ÷ Área del Azulejo</b>",
+      "howToPara2": "Un azulejo de 12×12 pulgadas cubre exactamente 1 pie cuadrado. Un azulejo de 18×18 cubre 2.25 pies cuadrados. Un azulejo de 24×24 cubre 4 pies cuadrados. Para tamaños personalizados, multiplique el ancho por el alto del azulejo en pulgadas y divida entre 144 para obtener los pies cuadrados por azulejo.",
+      "tipsTitle": "Consejos para una Instalación Exitosa de Azulejo",
+      "tips": [
+        "<b>Siempre coloque los azulejos en seco primero.</b> Ponga los azulejos en el piso sin adhesivo para verificar el diseño, encontrar el punto central y ver dónde caerán los cortes. Ajuste para que no termine con tiras delgadas junto a las paredes.",
+        "<b>Comience desde el centro del cuarto.</b> Encuentre el punto central, marque líneas con hilo y trabaje hacia afuera. Esto asegura simetría y pone los azulejos cortados en los bordes donde son menos visibles.",
+        "<b>Use el adhesivo correcto para su azulejo.</b> Los azulejos de formato grande (15\"+) necesitan adhesivo para formato grande con buena resistencia al descuelgue. Los azulejos de porcelana necesitan un adhesivo clasificado para porcelana (baja absorción).",
+        "<b>No olvide los separadores.</b> Los separadores de azulejo aseguran líneas de lechada consistentes. Use 1/16\" para un aspecto cerrado, 1/8\" para estándar y 3/16\" para una apariencia rústica. Los azulejos más grandes generalmente se ven mejor con líneas de lechada más delgadas.",
+        "<b>Compre todos los azulejos del mismo lote.</b> El color del azulejo varía entre lotes de fabricación. Pida todos sus azulejos de una vez y confirme que el número de lote sea el mismo en cada caja."
+      ]
+    }
+  },
+  "gravel": {
+    "meta": {
+      "title": "Calculadora de Grava y Agregados — ¿Cuánta Grava Necesito?",
+      "description": "Calculadora gratis de grava. Ingrese las dimensiones del área para obtener yardas cúbicas, toneladas y estimados de costo para grava, piedra triturada, grava fina o piedra de río.",
+      "ogTitle": "Calculadora de Grava y Agregados",
+      "ogDescription": "Calcule yardas cúbicas y toneladas de grava, piedra triturada o piedra de río.",
+      "twitterTitle": "Calculadora de Grava | SlabCalc",
+      "twitterDescription": "Calcule grava en yardas cúbicas y toneladas para cualquier proyecto."
+    },
+    "title": "Calculadora de Grava y Agregados",
+    "description": "Calcule cuánta grava, piedra triturada, grava fina o piedra de río necesita en yardas cúbicas y toneladas.",
+    "materialType": "Tipo de Material",
+    "materials": {
+      "gravel": "Grava",
+      "crushed-stone": "Piedra Triturada",
+      "pea-gravel": "Grava Fina",
+      "river-rock": "Piedra de Río"
+    },
+    "tons": "Toneladas",
+    "howTo": {
+      "name": "Cómo Calcular Grava y Agregados",
+      "description": "Calcule el volumen y peso de grava para entradas, caminos y paisajismo.",
+      "steps": [
+        { "name": "Mida el área", "text": "Mida el largo y ancho del área en pies." },
+        { "name": "Determine la profundidad", "text": "Decida la profundidad de grava en pulgadas (4 pulgadas para entradas, 2-3 para caminos)." },
+        { "name": "Elija el material", "text": "Seleccione el tipo de material (grava, piedra triturada, grava fina o piedra de río)." },
+        { "name": "Ingrese las dimensiones", "text": "Ingrese sus medidas en la calculadora." },
+        { "name": "Lea los resultados", "text": "Obtenga yardas cúbicas, toneladas y costo estimado." }
+      ]
+    },
+    "related": {
+      "mulch": "Calcule bultos o yardas de mantillo, tierra vegetal o composta.",
+      "slab": "Calcule concreto para losas, patios y entradas.",
+      "fence": "Estime postes, rieles, tablas y concreto para cercas."
+    },
+    "faqs": [
+      {
+        "question": "¿Cuánta grava necesito para una entrada?",
+        "answer": "Una entrada de grava típica mide 12 pies de ancho y debe tener 4–6 pulgadas de profundidad. Para una entrada de 50 pies de largo (600 ft²) a 4 pulgadas de profundidad, necesita aproximadamente 7.4 yardas cúbicas o unas 10.4 toneladas de grava. Use 6 pulgadas para áreas de tráfico pesado."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre yardas cúbicas y toneladas?",
+        "answer": "Las yardas cúbicas miden volumen mientras que las toneladas miden peso. La conversión depende de la densidad del material: la grava pesa aproximadamente 1.4 toneladas por yarda cúbica, la piedra triturada 1.35 toneladas, y la piedra de río 1.5 toneladas. Los proveedores venden por tonelada o por yarda dependiendo del material."
+      },
+      {
+        "question": "¿Qué tan profunda debe ser la grava?",
+        "answer": "Para entradas: 4–6 pulgadas. Para caminos peatonales: 2–3 pulgadas. Para camas de drenaje: 6–12 pulgadas. Para cobertura decorativa de paisaje: 2–3 pulgadas. Para base debajo de adoquines o concreto: 4–6 pulgadas de grava compactada."
+      },
+      {
+        "question": "¿Qué tipo de grava debo usar?",
+        "answer": "La piedra triturada (#57 o #67) es mejor para entradas y caminos porque se compacta bien y se traba. La grava fina es mejor para áreas decorativas, áreas para mascotas y entre adoquines. La piedra de río se usa para paisajismo, arroyos secos y drenaje. La grava base (#21A o base triturada) va debajo de adoquines y concreto."
+      }
+    ],
+    "content": {
+      "howToTitle": "Cómo Calcular Grava y Agregados",
+      "howToPara1": "Para calcular grava, multiplique el largo y ancho de su área (en pies) por la profundidad (convertida de pulgadas a pies). Esto le da pies cúbicos, que divide entre 27 para obtener yardas cúbicas. Para obtener toneladas, multiplique las yardas cúbicas por el factor de densidad del material.",
+      "howToFormula1": "<b>Volumen (ft³) = Largo × Ancho × (Profundidad ÷ 12)</b>",
+      "howToFormula2": "<b>Toneladas = (Volumen ÷ 27) × Factor de Densidad</b>",
+      "howToPara2": "La densidad varía por material: la grava es 1.4 toneladas/yd³, la piedra triturada es 1.35 toneladas/yd³, la grava fina es 1.35 toneladas/yd³, y la piedra de río es 1.5 toneladas/yd³. Estos son aproximados — la densidad real depende del contenido de humedad y la fuente específica de agregado.",
+      "tipsTitle": "Consejos para Pedir e Instalar Grava",
+      "tips": [
+        "<b>Compacte en capas.</b> No tire toda la grava de una vez. Agréguela en capas de 2 pulgadas, compactando cada capa con un compactador de placa antes de agregar la siguiente. Esto previene que se mueva y se asiente.",
+        "<b>Use tela de paisaje debajo.</b> Una tela geotextil tejida entre el suelo y la grava previene que se hunda y el crecimiento de maleza. Es esencial para entradas y caminos.",
+        "<b>Ponga bordes adecuados.</b> La grava sin bordes migra hacia el pasto y los jardines. Use bordes de acero, aluminio o plástico para mantener la grava contenida.",
+        "<b>Pida por tonelada para mayor precisión.</b> Los proveedores frecuentemente estiman por encima cuando venden por yarda. Pedir por tonelada asegura que obtenga la cantidad exacta por la que está pagando.",
+        "<b>Considere el acceso para la entrega.</b> Los camiones de volteo necesitan 10–12 pies de ancho y espacio libre por arriba. Sepa dónde puede descargar el camión y qué tan lejos tendrá que carretear el material."
+      ]
+    }
+  },
+  "mulch": {
+    "meta": {
+      "title": "Calculadora de Mantillo y Tierra Vegetal — ¿Cuánto Mantillo Necesito?",
+      "description": "Calculadora gratis de mantillo y tierra vegetal. Ingrese las dimensiones del área para obtener yardas cúbicas, cantidad de bultos y estimados de costo para mantillo, tierra vegetal, composta o tierra de relleno.",
+      "ogTitle": "Calculadora de Mantillo y Tierra Vegetal",
+      "ogDescription": "Calcule bultos o yardas cúbicas de mantillo, tierra vegetal, composta o tierra de relleno.",
+      "twitterTitle": "Calculadora de Mantillo | SlabCalc",
+      "twitterDescription": "Calcule mantillo y tierra vegetal en bultos o yardas cúbicas."
+    },
+    "title": "Calculadora de Mantillo y Tierra Vegetal",
+    "description": "Calcule cuánto mantillo, tierra vegetal, composta o tierra de relleno necesita en yardas cúbicas o bultos.",
+    "material": "Material",
+    "materials": {
+      "mulch": "Mantillo",
+      "topsoil": "Tierra Vegetal",
+      "compost": "Composta",
+      "fill-dirt": "Tierra de Relleno"
+    },
+    "bags2CuFt": "Bultos de 2 cu ft",
+    "howTo": {
+      "name": "Cómo Calcular Mantillo y Tierra Vegetal",
+      "description": "Calcule el volumen de mantillo o tierra vegetal en yardas cúbicas y bultos.",
+      "steps": [
+        { "name": "Mida el área", "text": "Mida el largo y ancho del área en pies." },
+        { "name": "Elija la profundidad", "text": "Determine la profundidad deseada en pulgadas (2-3 pulgadas para mantillo es lo estándar)." },
+        { "name": "Seleccione el material", "text": "Elija mantillo, tierra vegetal, composta o tierra de relleno." },
+        { "name": "Ingrese las dimensiones", "text": "Ingrese sus medidas en la calculadora." },
+        { "name": "Lea los resultados", "text": "Obtenga yardas cúbicas, cantidad de bultos de 2 pies cúbicos y estimado de costo." }
+      ]
+    },
+    "related": {
+      "gravel": "Estime grava, piedra triturada y piedra de río por tonelada.",
+      "tile": "Calcule los azulejos necesarios para cualquier tamaño de cuarto.",
+      "paint": "Calcule cuántos galones de pintura necesita."
+    },
+    "faqs": [
+      {
+        "question": "¿Qué tan profundo debe ser el mantillo?",
+        "answer": "Aplique mantillo de 2–3 pulgadas de profundidad para la mayoría de los jardines. Más de 4 pulgadas puede asfixiar las raíces de las plantas y crear problemas de humedad. Para prevención de maleza solamente, 3 pulgadas es lo ideal — suficientemente grueso para bloquear la luz pero delgado para la penetración del agua."
+      },
+      {
+        "question": "¿Cuánto mantillo necesito para un jardín?",
+        "answer": "Para un área de 10×20 pies a 3 pulgadas de profundidad, necesita aproximadamente 1.85 yardas cúbicas (o 25 bultos de dos pies cúbicos). Use esta calculadora para obtener números exactos según las dimensiones de su área y la profundidad deseada."
+      },
+      {
+        "question": "¿Debo usar bultos o mantillo a granel?",
+        "answer": "Para áreas de menos de 5 yardas cúbicas, los bultos son convenientes y fáciles de transportar. Para áreas más grandes, la entrega a granel es significativamente más barata — frecuentemente $25–$50 por yarda cúbica entregada vs. $4–$6 por bulto de 2 pies cúbicos ($54–$81 por yarda cúbica equivalente)."
+      },
+      {
+        "question": "¿Cada cuánto debo reemplazar el mantillo?",
+        "answer": "El mantillo orgánico (astillas de madera, corteza) se descompone en 1–3 años. Planee agregar anualmente 1 pulgada de mantillo fresco para mantener la profundidad de 3 pulgadas. El mantillo de hule y la piedra no se descomponen pero pueden necesitar renovarse cada 3–5 años."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre tierra vegetal, composta y tierra de relleno?",
+        "answer": "La tierra vegetal es la capa superior rica en nutrientes, ideal para jardines y nivelación de césped. La composta es materia orgánica descompuesta, usada para mejorar el suelo. La tierra de relleno es tierra de menor calidad usada para rellenar hoyos, nivelar pendientes o elevar el terreno — no es para plantar."
+      }
+    ],
+    "content": {
+      "howToTitle": "Cómo Calcular Mantillo y Tierra Vegetal",
+      "howToPara1": "Calcular mantillo o tierra vegetal es el mismo cálculo de volumen: largo × ancho × profundidad. Mida las dimensiones de su área en pies, la profundidad deseada en pulgadas, y la calculadora convierte a yardas cúbicas (para entrega a granel) y cantidad de bultos estándar de 2 pies cúbicos.",
+      "howToFormula1": "<b>Volumen (ft³) = Largo × Ancho × (Profundidad ÷ 12)</b>",
+      "howToFormula2": "<b>Bultos (2 cu ft) = Volumen ÷ 2</b> (redondeado hacia arriba)",
+      "howToPara2": "Una yarda cúbica equivale a 27 pies cúbicos, o aproximadamente 13.5 bultos estándar de dos pies cúbicos. Para proyectos grandes, pedir entrega a granel por yarda cúbica es mucho más económico que comprar bultos individuales.",
+      "tipsTitle": "Consejos para Aplicar Mantillo y Preparar Suelo",
+      "tips": [
+        "<b>Arranque la maleza antes de aplicar mantillo.</b> El mantillo suprime el crecimiento de maleza nueva pero no matará la maleza existente. Limpie el área primero, luego aplique mantillo sobre suelo limpio o tela anti-maleza.",
+        "<b>Mantenga el mantillo alejado de los troncos.</b> Deje un espacio de 3–6 pulgadas alrededor de los troncos de árboles y tallos de plantas. El mantillo apilado contra la corteza (llamado \"mantillo volcán\") atrapa humedad y causa pudrición.",
+        "<b>Riegue antes y después.</b> Moje el área antes de esparcir el mantillo para que no absorba la humedad del suelo. Riegue ligeramente después para asentar el mantillo y prevenir que el viento lo desplace.",
+        "<b>Mezcle composta en la tierra vegetal para jardines.</b> Al establecer un nuevo jardín, mezcle 2–3 pulgadas de composta en las 6–8 pulgadas superiores de tierra vegetal. Esto crea condiciones ideales de crecimiento.",
+        "<b>No ponga mantillo muy profundo.</b> Más de 4 pulgadas de mantillo puede crear una capa que repele el agua, impedir el intercambio de gases y fomentar raíces superficiales. Manténgase en 2–3 pulgadas."
+      ]
+    }
+  },
+  "fence": {
+    "meta": {
+      "title": "Estimador de Materiales para Cerca — ¿Cuántas Tablas de Cerca Necesito?",
+      "description": "Calculadora gratis de cerca. Ingrese el largo, la altura y el material de la cerca para obtener cantidad de postes, rieles, tablas, concreto para postes y estimados de costo.",
+      "ogTitle": "Estimador de Materiales para Cerca",
+      "ogDescription": "Estime postes, rieles, tablas y concreto para cercas de madera, vinilo o malla ciclónica.",
+      "twitterTitle": "Calculadora de Cerca | SlabCalc",
+      "twitterDescription": "Calcule materiales para cerca — postes, rieles, tablas y concreto."
+    },
+    "title": "Estimador de Materiales para Cerca",
+    "description": "Estime postes, rieles, tablas, paneles y concreto para cercas de madera, vinilo o malla ciclónica.",
+    "totalFenceLengthFt": "Largo Total de la Cerca (ft)",
+    "fenceHeight": "Altura de la Cerca",
+    "postSpacing": "Separación de Postes",
+    "materialLabel": "Material",
+    "materials": {
+      "wood": "Madera",
+      "vinyl": "Vinilo",
+      "chain-link": "Malla Ciclónica"
+    },
+    "numberOfGates": "Número de Puertas",
+    "posts": "Postes",
+    "rails": "Rieles",
+    "pickets": "Tablas",
+    "panels": "Paneles",
+    "chainLinkRolls": "Rollos de Malla Ciclónica (50ft)",
+    "concrete80lbBags": "Concreto (bultos de 80lb)",
+    "howTo": {
+      "name": "Cómo Estimar Materiales para Cerca",
+      "description": "Calcule postes, rieles, tablas y concreto para un proyecto de cerca.",
+      "steps": [
+        { "name": "Mida el largo total", "text": "Mida la línea total de la cerca en pies." },
+        { "name": "Elija altura y separación", "text": "Seleccione la altura de la cerca (4, 6, u 8 ft) y la separación de postes (6 u 8 ft)." },
+        { "name": "Seleccione el material", "text": "Elija madera, vinilo o malla ciclónica." },
+        { "name": "Cuente las puertas", "text": "Determine cuántas puertas necesita." },
+        { "name": "Lea los resultados", "text": "Obtenga cantidades de postes, rieles, tablas/paneles, bultos de concreto y costo." }
+      ]
+    },
+    "related": {
+      "footing": "Calcule concreto para zapatas de deck y cimentaciones.",
+      "column": "Estime concreto para Sonotubes y hoyos para postes.",
+      "gravel": "Calcule grava y piedra triturada por tonelada."
+    },
+    "faqs": [
+      {
+        "question": "¿Cuántos postes de cerca necesito?",
+        "answer": "Divida el largo total de la cerca entre la separación de postes (normalmente 6 u 8 pies), luego sume 1 para el poste final. Agregue 2 postes extra por cada puerta (uno a cada lado). Para una cerca de 100 pies con separación de 8 pies y una puerta: (100 ÷ 8) + 1 + 2 = 16 postes."
+      },
+      {
+        "question": "¿Debo usar separación de postes de 6 u 8 pies?",
+        "answer": "La separación de 8 pies es lo estándar para la mayoría de las cercas de madera — usa madera estándar de 8 y 16 pies eficientemente con mínimo desperdicio. Use separación de 6 pies para cercas más altas (8 ft), áreas con mucho viento, o cuando use materiales más pesados como tablas de composite."
+      },
+      {
+        "question": "¿Qué tan profundos deben enterrarse los postes de cerca?",
+        "answer": "La regla general es que 1/3 del largo total del poste debe estar bajo tierra. Para una cerca de 6 pies con postes de 8 pies, entiérrelos 24–30 pulgadas de profundidad. En climas fríos, los postes deben extenderse por debajo de la línea de congelamiento. Siempre fije los postes en concreto para máxima estabilidad."
+      },
+      {
+        "question": "¿Cuántos bultos de concreto por poste de cerca?",
+        "answer": "Planee 1–2 bultos (80 lb) de concreto de fraguado rápido por poste, dependiendo del tamaño del hoyo. Un hoyo estándar de 10 pulgadas de diámetro y 30 pulgadas de profundidad usa aproximadamente 1.5 bultos. Esta calculadora estima 2 bultos por poste para un estimado sólido y conservador."
+      },
+      {
+        "question": "¿Cuántas tablas necesito por pie de cerca?",
+        "answer": "Con tablas estándar de 3.5 pulgadas (1×4) y separación de 1/4 de pulgada, necesita aproximadamente 3.2 tablas por pie lineal de cerca. Para tablas de 5.5 pulgadas (1×6) con separación de 1/4 de pulgada, son aproximadamente 2.1 por pie. Las cercas de tabla sobre tabla usan aproximadamente 50% más tablas."
+      }
+    ],
+    "content": {
+      "howToTitle": "Cómo Estimar Materiales para Cerca",
+      "howToPara1": "Estimar materiales para cerca requiere calcular postes, rieles y tablas (o paneles) basándose en el largo total de la cerca, la altura y la separación de postes. La calculadora resta los anchos de las puertas del largo cercado mientras agrega los postes extra para las puertas.",
+      "howToPara2": "<b>Postes</b> = (Largo de la cerca ÷ Separación de postes) + 1 + (Puertas × 2). <b>Rieles</b> = Número de secciones × rieles por sección (2 para cerca de 4 ft, 3 para 6 ft y 8 ft). <b>Tablas</b> = Largo de la cerca × 3.2 tablas por pie (para tablas estándar de 3.5\").",
+      "tipsTitle": "Consejos para Construir una Cerca",
+      "tips": [
+        "<b>Verifique los límites de propiedad y códigos locales primero.</b> La mayoría de los municipios requieren retiros (1–6 pulgadas del límite de propiedad) y permisos para cercas de más de 4 pies. Obtenga un deslinde si no está seguro de dónde está el límite de propiedad — una cerca mal ubicada es cara de corregir.",
+        "<b>Llame al 811 antes de excavar.</b> La localización de servicios subterráneos es gratis y requerida por ley. Un solo cable o línea de gas cortado costará mucho más que todo el proyecto de la cerca.",
+        "<b>Coloque los postes de esquina y extremo primero.</b> Instale estos postes, pase una línea de hilo entre ellos y úsela como guía para todos los postes intermedios. Esto asegura una línea de cerca recta.",
+        "<b>Use postes tratados a presión clasificados para contacto con el suelo.</b> Los postes fijados en concreto necesitan estar clasificados para contacto con el suelo (UC4A o superior). La madera tratada a presión estándar se pudrirá en el suelo en pocos años.",
+        "<b>Construya las puertas primero, la cerca después.</b> O al menos arme la abertura de la puerta y cuélguela antes de instalar las tablas. Es mucho más fácil ajustar la abertura cuando la cerca no está completa."
+      ],
+      "comparingTitle": "Comparación de Materiales para Cerca",
+      "comparingWood": "<b>Madera</b> ($12–$25/pie lineal) es la opción más popular, ofreciendo privacidad y aspecto natural. El cedro y la secuoya resisten la pudrición naturalmente; el pino tratado a presión es la opción más económica. Espere 15–20 años de vida útil con mantenimiento adecuado.",
+      "comparingVinyl": "<b>Vinilo/PVC</b> ($20–$40/pie lineal) cuesta más inicialmente pero no requiere mantenimiento — sin pintar, sin barnizar, sin sellar. Los paneles se ensamblan con clips para una instalación más rápida. Vida útil: 20–30+ años.",
+      "comparingChainLink": "<b>Malla ciclónica</b> ($8–$18/pie lineal) es la opción más económica e ideal para límites de propiedad, contención de mascotas y seguridad. No ofrece privacidad a menos que agregue tiras o tela. La malla ciclónica galvanizada dura 15–20 años; la recubierta de vinilo dura más."
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Acerca de SlabCalc",
+      "description": "SlabCalc ofrece calculadoras de construcción gratis y precisas para contratistas, estimadores y propietarios que hacen sus propios proyectos. Conozca nuestra misión y metodología."
+    },
+    "title": "Acerca de SlabCalc",
+    "subtitle": "Calculadoras de construcción en las que los contratistas realmente confían.",
+    "missionTitle": "Nuestra Misión",
+    "missionPara1": "SlabCalc existe porque pedir la cantidad incorrecta de material es caro — ya sea que le falte concreto a media colada o que termine devolviendo 30 bultos de mantillo que le sobraron. Construimos calculadoras que le dan cantidades precisas en segundos, para que pueda pedir con confianza y volver a construir.",
+    "missionPara2": "Cada calculadora en este sitio usa fórmulas estándar de la industria verificadas contra especificaciones de fabricantes y referencias de la construcción. Incluimos factores de desperdicio porque los proyectos reales no son perfectos como en los libros — el terreno desnivelado, los cortes de sierra y los derrames suceden.",
+    "accurateFormulas": "Fórmulas Precisas",
+    "accurateFormulasDesc": "Cálculos estándar de la industria con factores de desperdicio configurables. Cada fórmula tiene pruebas unitarias para prevenir errores.",
+    "instantResults": "Resultados al Instante",
+    "instantResultsDesc": "Sin recargar página, sin registrarse. Ingrese dimensiones y obtenga cantidades de inmediato — en computadora o celular.",
+    "noHiddenAgenda": "Sin Agendas Ocultas",
+    "noHiddenAgendaDesc": "No vendemos sus datos ni requerimos cuentas. SlabCalc es gratis y se sostiene con anuncios y enlaces de afiliados.",
+    "builtForJobSite": "Hecho para la Obra",
+    "builtForJobSiteDesc": "Diseño pensado para celular que funciona con guantes puestos. Campos grandes, resultados claros, sin distracciones.",
+    "whoWeServeTitle": "A Quién Servimos",
+    "whoWeServePara": "SlabCalc está diseñado para propietarios que hacen sus propios proyectos de fin de semana, contratistas que estiman pedidos de material y estimadores de construcción que necesitan una verificación rápida. Ya sea que esté vaciando una losa para patio o estimando materiales para 200 pies de cerca, nuestras herramientas le dan los números que necesita.",
+    "methodologyTitle": "Metodología y Precisión",
+    "methodologyPara": "Nuestras calculadoras usan fórmulas provenientes de estándares de la industria del concreto (ACI, PCA), tasas de cobertura de fabricantes de pintura y especificaciones de proveedores de materiales de construcción. Toda la lógica de cálculo está cubierta por pruebas unitarias automatizadas para asegurar la precisión. Los estimados están pensados como guías — siempre verifique con su proveedor de materiales para condiciones específicas del proyecto.",
+    "contactTitle": "Contáctenos",
+    "contactPara": "¿Encontró un error en una calculadora? ¿Tiene una sugerencia para una nueva herramienta? Queremos escucharlo. Escríbanos a <b>hello@slab-calc.com</b>."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de Privacidad",
+      "description": "Política de privacidad de SlabCalc — cómo manejamos sus datos."
+    },
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: {date}",
+    "overviewTitle": "Descripción General",
+    "overviewPara": "SlabCalc (\"nosotros\", \"nuestro\") opera el sitio web slab-calc.com. Esta página le informa sobre nuestras políticas respecto a la recopilación, uso y divulgación de información personal cuando utiliza nuestro sitio.",
+    "infoCollectedTitle": "Información que Recopilamos",
+    "infoCollectedPara1": "SlabCalc no requiere cuentas de usuario ni recopila información de identificación personal. Los datos ingresados en las calculadoras se procesan completamente en su navegador y nunca se envían a nuestros servidores.",
+    "infoCollectedPara2": "Podemos recopilar datos de uso anónimos a través de:",
+    "infoCollectedGA": "<b>Google Analytics</b> — vistas de página, duración de sesión, tipo de dispositivo y región geográfica general. No se recopila información de identificación personal.",
+    "infoCollectedVercel": "<b>Vercel Analytics</b> — métricas anónimas de rendimiento web (tiempos de carga de página, Web Vitals).",
+    "cookiesTitle": "Cookies",
+    "cookiesPara": "Usamos cookies para fines de analítica y publicidad. Los servicios de terceros (Google Analytics, Google AdSense) pueden establecer sus propias cookies. Puede controlar las cookies a través de la configuración de su navegador.",
+    "advertisingTitle": "Publicidad",
+    "advertisingPara": "Mostramos anuncios a través de Google AdSense y podemos incluir enlaces de afiliados a Amazon.com y otros comercios. Estos servicios pueden usar cookies para mostrar anuncios basados en su historial de navegación. Puede optar por no recibir publicidad personalizada en <googleAdsLink>Configuración de Anuncios de Google</googleAdsLink>.",
+    "thirdPartyTitle": "Enlaces a Terceros",
+    "thirdPartyPara": "Nuestro sitio contiene enlaces a sitios web de terceros (por ejemplo, Amazon para herramientas y materiales). No somos responsables de las prácticas de privacidad de estos sitios externos. Le recomendamos revisar sus políticas de privacidad.",
+    "dataSecurityTitle": "Seguridad de Datos",
+    "dataSecurityPara": "Nuestro sitio web se sirve a través de HTTPS. Dado que no recopilamos datos personales, existe un riesgo mínimo de violación de datos. Todos los cálculos se realizan del lado del cliente en su navegador.",
+    "childrenTitle": "Privacidad de Menores",
+    "childrenPara": "SlabCalc no está dirigido a menores de 13 años. No recopilamos intencionalmente información de menores.",
+    "changesTitle": "Cambios a Esta Política",
+    "changesPara": "Podemos actualizar esta política de privacidad de vez en cuando. Los cambios se publicarán en esta página con una fecha actualizada.",
+    "contactTitle": "Contacto",
+    "contactPara": "¿Preguntas sobre esta política? Contáctenos en <b>hello@slab-calc.com</b>."
+  },
+  "terms": {
+    "meta": {
+      "title": "Términos de Uso",
+      "description": "Términos de uso de SlabCalc — condiciones para usar nuestras calculadoras de construcción."
+    },
+    "title": "Términos de Uso",
+    "lastUpdated": "Última actualización: {date}",
+    "acceptanceTitle": "Aceptación de Términos",
+    "acceptancePara": "Al acceder y utilizar SlabCalc (slab-calc.com), usted acepta y se compromete a cumplir con estos Términos de Uso. Si no está de acuerdo, por favor no utilice el sitio.",
+    "useTitle": "Uso de las Calculadoras",
+    "usePara1": "SlabCalc proporciona calculadoras de materiales de construcción solo con fines informativos y de estimación. Los resultados son aproximaciones basadas en fórmulas estándar y no deben usarse como la única base para decisiones de compra.",
+    "usePara2": "<b>Siempre verifique las cantidades con su proveedor de materiales.</b> Los requerimientos reales de material pueden variar debido a condiciones del sitio, propiedades del material, métodos de instalación y otros factores fuera del alcance de estas calculadoras.",
+    "disclaimerTitle": "Descargo de Garantías",
+    "disclaimerPara": "SlabCalc se proporciona \"tal cual\" sin garantía de ningún tipo, expresa o implícita. No garantizamos que las calculadoras sean libres de errores, ininterrumpidas, o que los resultados sean precisos para las condiciones específicas de su proyecto.",
+    "liabilityTitle": "Limitación de Responsabilidad",
+    "liabilityPara": "SlabCalc no será responsable por ningún daño directo, indirecto, incidental, consecuente o punitivo que surja de su uso de las calculadoras o dependencia de los resultados. Esto incluye, pero no se limita a, exceso o faltante de material, retrasos en el proyecto o defectos de construcción.",
+    "affiliateTitle": "Enlaces de Afiliados y Publicidad",
+    "affiliatePara1": "SlabCalc contiene enlaces de afiliados a comercios de terceros (incluyendo Amazon). Cuando usted hace clic en estos enlaces y realiza una compra, podemos ganar una comisión sin costo adicional para usted. También mostramos anuncios a través de Google AdSense.",
+    "affiliatePara2": "Las recomendaciones de productos se basan en la idoneidad general para el tipo de proyecto y no son respaldos. Siempre investigue los productos de forma independiente antes de comprar.",
+    "ipTitle": "Propiedad Intelectual",
+    "ipPara": "Todo el contenido de SlabCalc, incluyendo texto, gráficos, logotipos y diseños de calculadoras, es propiedad de SlabCalc y está protegido por derechos de autor. No puede reproducir, distribuir o crear obras derivadas sin permiso por escrito.",
+    "professionalTitle": "Asesoría Profesional",
+    "professionalPara": "SlabCalc no es un sustituto de asesoría profesional de ingeniería, arquitectura o construcción. Para trabajos estructurales, cálculos de carga o proyectos que requieran permisos, consulte a un profesional con licencia.",
+    "changesTitle": "Cambios a los Términos",
+    "changesPara": "Nos reservamos el derecho de modificar estos términos en cualquier momento. El uso continuado del sitio después de los cambios constituye la aceptación de los nuevos términos.",
+    "contactTitle": "Contacto",
+    "contactPara": "¿Preguntas sobre estos términos? Contáctenos en <b>hello@slab-calc.com</b>."
+  }
+}
