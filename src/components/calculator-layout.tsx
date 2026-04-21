@@ -95,11 +95,11 @@ export function CalculatorLayout({
         {/* Supporting Content + Related — order-3 on mobile, below results */}
         <div className="order-3 min-w-0">
           {/* In-article Ad */}
-          <AdSlotInArticle />
+          <AdSlotInArticle className="mb-6" />
 
           {/* Supporting Content */}
           {supportingContent && (
-            <div className="mt-6 max-w-none">
+            <div className="max-w-none">
               {supportingContent}
             </div>
           )}
