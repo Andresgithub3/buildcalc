@@ -6,6 +6,12 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: [
+        "/*/opengraph-image",
+        "/*/twitter-image",
+        "/*/icon",
+        "/_next/",
+      ],
     },
     sitemap: `${siteConfig.url}/sitemap.xml`,
   };
