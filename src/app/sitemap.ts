@@ -15,9 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   function alternates(path: string) {
     return {
-      languages: Object.fromEntries(
-        locales.map((locale) => [locale, localePath(path, locale)])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          locales.map((locale) => [locale, localePath(path, locale)])
+        ),
+        "x-default": localePath(path, defaultLocale),
+      },
     };
   }
 

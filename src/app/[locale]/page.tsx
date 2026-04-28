@@ -1,8 +1,22 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { calculators } from "@/lib/calculator-data";
 import { ArrowRight, HardHat } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { getAlternates } from "@/lib/seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
+    alternates: getAlternates("", locale),
+  };
+}
 
 export default async function Home({
   params,

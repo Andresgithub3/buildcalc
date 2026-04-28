@@ -8,6 +8,7 @@ import { GA4Script } from "@/components/analytics/ga4-script";
 import { CookieConsent } from "@/components/cookie-consent";
 import { siteConfig } from "@/lib/config";
 import { routing } from "@/i18n/routing";
+import { getAlternates } from "@/lib/seo";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -51,6 +52,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary",
     },
+    alternates: getAlternates("", locale),
     robots: {
       index: true,
       follow: true,

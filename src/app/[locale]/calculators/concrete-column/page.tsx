@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ColumnCalculator } from "./column-calculator";
 import { buildHowToSchema, buildFAQSchema } from "@/lib/schema";
 import { siteConfig } from "@/lib/config";
+import { getAlternates, getLocalizedUrl } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -18,7 +19,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("meta.ogTitle"),
       description: t("meta.ogDescription"),
-      url: `${siteConfig.url}/calculators/concrete-column`,
+      url: getLocalizedUrl("/calculators/concrete-column", locale),
       siteName: "SlabCalc",
       type: "website",
     },
@@ -27,9 +28,7 @@ export async function generateMetadata({
       title: t("meta.twitterTitle"),
       description: t("meta.twitterDescription"),
     },
-    alternates: {
-      canonical: `${siteConfig.url}/calculators/concrete-column`,
-    },
+    alternates: getAlternates("/calculators/concrete-column", locale),
   };
 }
 
