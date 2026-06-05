@@ -5,7 +5,9 @@
     "description": "Estimate concrete, paint, tile, gravel, and more — accurate, fast, free.",
     "nav": {
       "calculators": "Calculators",
-      "about": "About"
+      "about": "About",
+      "guides": "Guides",
+      "contact": "Contact"
     },
     "footer": {
       "calcHeading": "Calculators",
@@ -20,7 +22,10 @@
       "about": "About",
       "copyright": "© {year} SlabCalc. All rights reserved.",
       "privacyPolicy": "Privacy Policy",
-      "termsOfUse": "Terms of Use"
+      "termsOfUse": "Terms of Use",
+      "guidesHeading": "Resources",
+      "guides": "Guides",
+      "contact": "Contact"
     },
     "cookie": {
       "message": "We use cookies for analytics and advertising to improve your experience. By continuing to use SlabCalc, you agree to our <privacyLink>Privacy Policy</privacyLink>.",
@@ -33,7 +38,10 @@
     "languageSwitcher": {
       "en": "EN",
       "es": "ES"
-    }
+    },
+    "guideCalloutLabel": "Related guide",
+    "guideCalloutCta": "Read the full guide",
+    "guideCalloutExplore": "Explore all guides"
   },
   "home": {
     "heroTitle": "Construction Calculators That ",
@@ -125,11 +133,26 @@
       "name": "How to Calculate Concrete for a Slab",
       "description": "Calculate the amount of concrete needed for a slab in cubic yards, bags, and estimated cost.",
       "steps": [
-        { "name": "Measure length", "text": "Measure the length of the slab area in feet." },
-        { "name": "Measure width", "text": "Measure the width of the slab area in feet." },
-        { "name": "Measure depth", "text": "Determine the desired slab depth in inches (4 inches is standard)." },
-        { "name": "Enter dimensions", "text": "Enter your measurements into the calculator along with a waste factor (10% recommended)." },
-        { "name": "Read results", "text": "Get your results in cubic yards, number of bags (80 lb and 60 lb), and estimated cost range." }
+        {
+          "name": "Measure length",
+          "text": "Measure the length of the slab area in feet."
+        },
+        {
+          "name": "Measure width",
+          "text": "Measure the width of the slab area in feet."
+        },
+        {
+          "name": "Measure depth",
+          "text": "Determine the desired slab depth in inches (4 inches is standard)."
+        },
+        {
+          "name": "Enter dimensions",
+          "text": "Enter your measurements into the calculator along with a waste factor (10% recommended)."
+        },
+        {
+          "name": "Read results",
+          "text": "Get your results in cubic yards, number of bags (80 lb and 60 lb), and estimated cost range."
+        }
       ]
     },
     "related": {
@@ -200,11 +223,26 @@
       "name": "How to Calculate Concrete for Footings",
       "description": "Calculate the amount of concrete needed for footings.",
       "steps": [
-        { "name": "Measure footing length", "text": "Measure the length of each footing in feet." },
-        { "name": "Measure width and depth", "text": "Measure footing width and depth in inches." },
-        { "name": "Count footings", "text": "Determine the number of identical footings needed." },
-        { "name": "Enter dimensions", "text": "Enter measurements and waste factor into the calculator." },
-        { "name": "Read results", "text": "Get total cubic yards, per-footing volume, bags, and cost." }
+        {
+          "name": "Measure footing length",
+          "text": "Measure the length of each footing in feet."
+        },
+        {
+          "name": "Measure width and depth",
+          "text": "Measure footing width and depth in inches."
+        },
+        {
+          "name": "Count footings",
+          "text": "Determine the number of identical footings needed."
+        },
+        {
+          "name": "Enter dimensions",
+          "text": "Enter measurements and waste factor into the calculator."
+        },
+        {
+          "name": "Read results",
+          "text": "Get total cubic yards, per-footing volume, bags, and cost."
+        }
       ]
     },
     "related": {
@@ -268,11 +306,26 @@
       "name": "How to Calculate Concrete for Round Columns",
       "description": "Calculate concrete for Sonotubes and round columns using the cylinder volume formula.",
       "steps": [
-        { "name": "Measure diameter", "text": "Measure the inner diameter of the Sonotube or post hole in inches." },
-        { "name": "Measure height", "text": "Measure the height (depth) of the column in feet." },
-        { "name": "Count columns", "text": "Determine how many identical columns you need." },
-        { "name": "Enter dimensions", "text": "Enter measurements and waste factor into the calculator." },
-        { "name": "Read results", "text": "Get cubic yards, per-column volume, bags, and cost estimates." }
+        {
+          "name": "Measure diameter",
+          "text": "Measure the inner diameter of the Sonotube or post hole in inches."
+        },
+        {
+          "name": "Measure height",
+          "text": "Measure the height (depth) of the column in feet."
+        },
+        {
+          "name": "Count columns",
+          "text": "Determine how many identical columns you need."
+        },
+        {
+          "name": "Enter dimensions",
+          "text": "Enter measurements and waste factor into the calculator."
+        },
+        {
+          "name": "Read results",
+          "text": "Get cubic yards, per-column volume, bags, and cost estimates."
+        }
       ]
     },
     "related": {
@@ -340,11 +393,26 @@
       "name": "How to Calculate Paint Coverage",
       "description": "Calculate gallons of paint needed for a room.",
       "steps": [
-        { "name": "Measure room dimensions", "text": "Measure room length, width, and wall height in feet." },
-        { "name": "Count openings", "text": "Count the number of doors and windows in the room." },
-        { "name": "Choose coats", "text": "Decide how many coats you'll apply (2 is standard)." },
-        { "name": "Enter dimensions", "text": "Enter all measurements into the calculator." },
-        { "name": "Read results", "text": "Get paintable area in square feet and gallons of paint needed." }
+        {
+          "name": "Measure room dimensions",
+          "text": "Measure room length, width, and wall height in feet."
+        },
+        {
+          "name": "Count openings",
+          "text": "Count the number of doors and windows in the room."
+        },
+        {
+          "name": "Choose coats",
+          "text": "Decide how many coats you'll apply (2 is standard)."
+        },
+        {
+          "name": "Enter dimensions",
+          "text": "Enter all measurements into the calculator."
+        },
+        {
+          "name": "Read results",
+          "text": "Get paintable area in square feet and gallons of paint needed."
+        }
       ]
     },
     "related": {
@@ -421,11 +489,26 @@
       "name": "How to Calculate Tiles for a Floor",
       "description": "Calculate tiles and boxes needed for any floor area.",
       "steps": [
-        { "name": "Measure the room", "text": "Measure room length and width in feet." },
-        { "name": "Choose tile size", "text": "Select your tile size (12×12, 18×18, 24×24, or custom)." },
-        { "name": "Set waste factor", "text": "Choose a waste percentage (10% for straight layouts, 15%+ for diagonal)." },
-        { "name": "Enter tiles per box", "text": "Check the box label for tiles per box and enter it." },
-        { "name": "Read results", "text": "Get total tiles needed and boxes to purchase." }
+        {
+          "name": "Measure the room",
+          "text": "Measure room length and width in feet."
+        },
+        {
+          "name": "Choose tile size",
+          "text": "Select your tile size (12×12, 18×18, 24×24, or custom)."
+        },
+        {
+          "name": "Set waste factor",
+          "text": "Choose a waste percentage (10% for straight layouts, 15%+ for diagonal)."
+        },
+        {
+          "name": "Enter tiles per box",
+          "text": "Check the box label for tiles per box and enter it."
+        },
+        {
+          "name": "Read results",
+          "text": "Get total tiles needed and boxes to purchase."
+        }
       ]
     },
     "related": {
@@ -489,11 +572,26 @@
       "name": "How to Calculate Gravel and Aggregate",
       "description": "Calculate gravel volume and weight for driveways, pathways, and landscaping.",
       "steps": [
-        { "name": "Measure the area", "text": "Measure the length and width of the area in feet." },
-        { "name": "Determine depth", "text": "Decide on gravel depth in inches (4 inches for driveways, 2-3 for walkways)." },
-        { "name": "Choose material", "text": "Select the material type (gravel, crushed stone, pea gravel, or river rock)." },
-        { "name": "Enter dimensions", "text": "Enter your measurements into the calculator." },
-        { "name": "Read results", "text": "Get cubic yards, tons, and estimated cost." }
+        {
+          "name": "Measure the area",
+          "text": "Measure the length and width of the area in feet."
+        },
+        {
+          "name": "Determine depth",
+          "text": "Decide on gravel depth in inches (4 inches for driveways, 2-3 for walkways)."
+        },
+        {
+          "name": "Choose material",
+          "text": "Select the material type (gravel, crushed stone, pea gravel, or river rock)."
+        },
+        {
+          "name": "Enter dimensions",
+          "text": "Enter your measurements into the calculator."
+        },
+        {
+          "name": "Read results",
+          "text": "Get cubic yards, tons, and estimated cost."
+        }
       ]
     },
     "related": {
@@ -558,11 +656,26 @@
       "name": "How to Calculate Mulch and Topsoil",
       "description": "Calculate mulch or topsoil volume in cubic yards and bags.",
       "steps": [
-        { "name": "Measure the bed", "text": "Measure the length and width of the area in feet." },
-        { "name": "Choose depth", "text": "Determine desired depth in inches (2-3 inches for mulch is standard)." },
-        { "name": "Select material", "text": "Choose mulch, topsoil, compost, or fill dirt." },
-        { "name": "Enter dimensions", "text": "Enter your measurements into the calculator." },
-        { "name": "Read results", "text": "Get cubic yards, number of 2-cubic-foot bags, and cost estimate." }
+        {
+          "name": "Measure the bed",
+          "text": "Measure the length and width of the area in feet."
+        },
+        {
+          "name": "Choose depth",
+          "text": "Determine desired depth in inches (2-3 inches for mulch is standard)."
+        },
+        {
+          "name": "Select material",
+          "text": "Choose mulch, topsoil, compost, or fill dirt."
+        },
+        {
+          "name": "Enter dimensions",
+          "text": "Enter your measurements into the calculator."
+        },
+        {
+          "name": "Read results",
+          "text": "Get cubic yards, number of 2-cubic-foot bags, and cost estimate."
+        }
       ]
     },
     "related": {
@@ -639,11 +752,26 @@
       "name": "How to Estimate Fence Materials",
       "description": "Calculate posts, rails, pickets, and concrete for a fence project.",
       "steps": [
-        { "name": "Measure total length", "text": "Measure the total fence line in feet." },
-        { "name": "Choose height and spacing", "text": "Select fence height (4, 6, or 8 ft) and post spacing (6 or 8 ft)." },
-        { "name": "Select material", "text": "Choose wood, vinyl, or chain link." },
-        { "name": "Count gates", "text": "Determine how many gates you need." },
-        { "name": "Read results", "text": "Get counts for posts, rails, pickets/panels, concrete bags, and cost." }
+        {
+          "name": "Measure total length",
+          "text": "Measure the total fence line in feet."
+        },
+        {
+          "name": "Choose height and spacing",
+          "text": "Select fence height (4, 6, or 8 ft) and post spacing (6 or 8 ft)."
+        },
+        {
+          "name": "Select material",
+          "text": "Choose wood, vinyl, or chain link."
+        },
+        {
+          "name": "Count gates",
+          "text": "Determine how many gates you need."
+        },
+        {
+          "name": "Read results",
+          "text": "Get counts for posts, rails, pickets/panels, concrete bags, and cost."
+        }
       ]
     },
     "related": {
@@ -772,5 +900,925 @@
     "changesPara": "We reserve the right to modify these terms at any time. Continued use of the site after changes constitutes acceptance of the new terms.",
     "contactTitle": "Contact",
     "contactPara": "Questions about these terms? Contact us at <b>hello@slab-calc.com</b>."
+  },
+  "guides": {
+    "meta": {
+      "title": "Construction Guides & Material Cost Breakdowns",
+      "description": "In-depth guides on estimating concrete, paint, mulch, gravel, and fencing — plus 2026 cost breakdowns to help you budget and order the right amount."
+    },
+    "hubTitle": "Construction Guides",
+    "hubSubtitle": "Practical, no-nonsense guides on estimating materials and budgeting your next project — written for contractors and DIYers alike.",
+    "categories": {
+      "concrete": "Concrete",
+      "paint": "Paint",
+      "landscaping": "Landscaping",
+      "fencing": "Fencing"
+    },
+    "readLabel": "{minutes} min read",
+    "updatedLabel": "Updated {date}",
+    "takeawaysLabel": "Key takeaways",
+    "relatedToolsLabel": "Related calculators",
+    "backToGuides": "All guides",
+    "items": {
+      "how-much-concrete-do-i-need": {
+        "metaTitle": "How Much Concrete Do I Need? Volume Formulas",
+        "metaDescription": "Calculate concrete for slabs, footings, and round columns with the core L×W×D formula. Worked examples, bags vs. ready-mix, waste factor, and 2026 pricing.",
+        "title": "How Much Concrete Do I Need? Formulas for Slabs, Footings & Columns",
+        "description": "The master volume guide for estimating concrete. Learn the core formula, convert inches to feet, and run real examples for slabs, footings, and Sonotube columns.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "Ordering concrete is one of the few jobs where guessing costs you twice. Come up short and you scramble for a second truck or a cold joint in your pour; over-order and you pay for material that goes back as waste. The good news is that the math is simple once you lock in one habit: work in feet, find the volume in cubic feet, then divide by 27 to get cubic yards.",
+          "This guide walks through the single formula that covers slabs, footings, walls, and round columns, plus the πr²h variation for Sonotubes. We will run three worked examples with real numbers, show you when bagged mix beats a ready-mix truck, and cover the waste factor and measuring mistakes that trip up even experienced crews.",
+          "Every example uses US units and 2026 pricing. Round generously, order a little extra, and you will never be the one holding up a pour."
+        ],
+        "sections": [
+          {
+            "heading": "The Core Formula: Length × Width × Depth",
+            "body": [
+              "Concrete is sold by the cubic yard, but you measure your project in feet and inches. The whole job comes down to one equation: Length (ft) × Width (ft) × Depth (ft) = cubic feet. Then divide cubic feet by 27 to get cubic yards, because one cubic yard is 3 ft × 3 ft × 3 ft = 27 cubic feet.",
+              "The catch is depth. Slabs and footings are almost always specified in inches, so you must convert inches to feet by dividing by 12. A 4-inch slab is 4 ÷ 12 = 0.333 ft deep. A 6-inch slab is 0.5 ft. Skip this step and you will overshoot your order by a factor of twelve, which is the single most common rookie error in concrete math."
+            ]
+          },
+          {
+            "heading": "Worked Example: A Concrete Slab",
+            "body": [
+              "Say you are pouring a 20 ft × 12 ft patio at 4 inches thick. First convert depth: 4 ÷ 12 = 0.333 ft. Then multiply: 20 × 12 × 0.333 = 80 cubic feet. Divide by 27: 80 ÷ 27 = 2.96 cubic yards.",
+              "Now add waste. A standard 10 percent factor brings you to 3.26 cubic yards, so you would order 3.5 yards to be safe (suppliers sell in quarter- or half-yard increments). At a 2026 ready-mix price of roughly $145 to $170 per cubic yard, that slab runs about $510 to $600 in concrete, before any short-load fee for ordering under the typical 4- to 5-yard minimum."
+            ]
+          },
+          {
+            "heading": "Worked Example: A Footing",
+            "body": [
+              "Footings are just long, narrow slabs, so the same formula applies. Suppose you have a continuous footing 40 ft long, 16 inches wide, and 8 inches deep. Convert both the width and depth to feet: 16 ÷ 12 = 1.333 ft, and 8 ÷ 12 = 0.667 ft.",
+              "Multiply: 40 × 1.333 × 0.667 = 35.6 cubic feet. Divide by 27: 35.6 ÷ 27 = 1.32 cubic yards. Add 10 percent for waste and over-dig (trenches rarely hold an exact width) and you land near 1.45 yards, so order 1.5 yards. Trench footings often need extra because the soil walls bulge, so do not shave this number."
+            ]
+          },
+          {
+            "heading": "Worked Example: A Round Column or Sonotube",
+            "body": [
+              "Round forms use the cylinder formula: Volume = π × r² × h, where r is the radius (half the diameter) and h is the height, both in feet. For a 12-inch Sonotube standing 9 ft tall, the radius is 6 inches = 0.5 ft.",
+              "Calculate: 3.1416 × (0.5)² × 9 = 3.1416 × 0.25 × 9 = 7.07 cubic feet. Divide by 27: 7.07 ÷ 27 = 0.26 cubic yards per tube. For four columns that is 1.05 cubic yards, plus 10 percent waste equals about 1.16 yards. Round columns are where bagged mix often makes sense, since the totals stay small."
+            ]
+          },
+          {
+            "heading": "Bags vs. Ready-Mix and the Break-Even Point",
+            "body": [
+              "Bagged concrete is convenient for small pours. An 80 lb bag yields about 0.6 cubic feet, and a 60 lb bag yields about 0.45 cubic feet. It takes roughly 45 of the 80 lb bags to fill one cubic yard (27 ÷ 0.6 = 45).",
+              "At a 2026 price near $6 per 80 lb bag, a full cubic yard of bagged mix costs about $270 in material alone, plus the labor of mixing 45 bags by hand. A ready-mix truck delivers the same yard for $145 to $170. The break-even point usually lands around 1 cubic yard, or roughly 40 bags. Below that, bags win on convenience; above it, ready-mix wins on cost and your back."
+            ]
+          },
+          {
+            "heading": "Waste Factor and Common Measuring Mistakes",
+            "body": [
+              {
+                "list": [
+                  "Always add 10 percent for waste. Spillage, uneven subgrade, form deflection, and slab thickness creep all eat into your order. For rough or hand-dug footings, bump it to 15 percent.",
+                  "Never mix units. Convert every inch dimension to feet before multiplying, and double-check the depth conversion first.",
+                  "Account for thickness creep. A slab poured slightly thick across a large area adds up fast. A 20 × 30 slab poured at 4.5 inches instead of 4 needs nearly 12 percent more concrete.",
+                  "Measure actual dimensions, not the plan. Trenches over-dig and forms bow outward under the weight of wet concrete.",
+                  "Round up, never down. Concrete trucks sell in quarter-yard steps. It is always cheaper to order a little extra than to pay a return-trip or short-load fee."
+                ]
+              }
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "The master formula is Length × Width × Depth in feet, then divide by 27 for cubic yards.",
+          "Convert inches to feet by dividing by 12 before you multiply, this is the number-one mistake.",
+          "Round columns and Sonotubes use π × r² × h, with radius and height in feet.",
+          "An 80 lb bag yields about 0.6 cubic feet, and roughly 45 bags fill one cubic yard.",
+          "Add 10 percent for waste, and switch from bags to ready-mix once you pass about 1 cubic yard."
+        ],
+        "faqs": [
+          {
+            "question": "How many 80 lb bags of concrete are in a cubic yard?",
+            "answer": "About 45 bags. Each 80 lb bag yields roughly 0.6 cubic feet of mixed concrete, and a cubic yard holds 27 cubic feet, so 27 ÷ 0.6 equals 45 bags. For 60 lb bags, which yield about 0.45 cubic feet, you need closer to 60 bags per cubic yard. Always add 10 percent for waste."
+          },
+          {
+            "question": "Why do I divide by 27 to get cubic yards?",
+            "answer": "Because one cubic yard is a cube measuring 3 feet on each side, and 3 × 3 × 3 equals 27 cubic feet. Concrete suppliers price and sell by the cubic yard, but you measure projects in feet, so you first find the volume in cubic feet and then divide by 27 to convert to the yards you actually order."
+          },
+          {
+            "question": "How much extra concrete should I order for waste?",
+            "answer": "Add 10 percent as a standard waste factor for most slabs and formed work. This covers spillage, uneven subgrade, and minor thickness variation. For hand-dug or rough trench footings where the soil walls bulge, bump it to 15 percent. Concrete is sold in quarter-yard increments, so round the final figure up rather than down."
+          },
+          {
+            "question": "Is it cheaper to use bagged concrete or a ready-mix truck?",
+            "answer": "For pours under about one cubic yard, bags are usually more convenient and competitive. Above that, ready-mix wins. A full yard of bagged mix costs around $270 in material plus heavy mixing labor, while a ready-mix truck delivers the same yard for $145 to $170. The break-even point sits near 1 cubic yard, or roughly 40 bags."
+          }
+        ]
+      },
+      "concrete-driveway-cost": {
+        "metaTitle": "Concrete Driveway Cost in 2026: Full Price Breakdown",
+        "metaDescription": "What a concrete driveway really costs in 2026: $6-$12 per square foot, total prices for a 600 sq ft 2-car driveway, cost factors, and how to save money.",
+        "title": "How Much Does a Concrete Driveway Cost in 2026?",
+        "description": "A plain-spoken breakdown of 2026 concrete driveway pricing, the factors that move the number, and where you can realistically cut costs without cutting corners.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "A poured concrete driveway is one of the better-value upgrades you can make to a property. It lasts 25 to 40 years, shrugs off heavy vehicles, and needs far less upkeep than asphalt. But the price swings a lot depending on size, finish, and where you live, which is why two neighbors can get quotes that are thousands of dollars apart.",
+          "In 2026, a standard broom-finished concrete driveway runs roughly $6 to $12 per square foot installed. Decorative work like stamped, stained, or exposed-aggregate concrete climbs to $12 to $25 per square foot. For a typical 2-car driveway around 600 square feet, that puts most projects in the $3,600 to $7,200 range for plain concrete.",
+          "Below we break down exactly what drives those numbers, how concrete stacks up against pavers and asphalt, and the smart places to trim cost. We will also cover how to order the right amount of concrete so you are not paying for a wasted short load."
+        ],
+        "sections": [
+          {
+            "heading": "Cost Per Square Foot: What You Actually Pay",
+            "body": [
+              "Most of the country falls into a predictable range for installed concrete, materials and labor included. Here is what to expect in 2026:",
+              {
+                "list": [
+                  "Basic broom finish, 4 inches thick: $6 to $9 per square foot",
+                  "Reinforced or thicker (5-6 inches, rebar): $8 to $12 per square foot",
+                  "Exposed aggregate: $10 to $16 per square foot",
+                  "Stamped or stained decorative: $12 to $25 per square foot",
+                  "Colored concrete (integral or surface): add $1 to $4 per square foot"
+                ]
+              },
+              "Roughly 40 to 50 percent of that figure is labor. Ready-mix concrete itself runs about $140 to $190 per cubic yard in 2026, and a 600 square foot driveway at 4 inches needs about 7.4 cubic yards. The rest covers excavation, base, forms, finishing, and any reinforcement."
+            ]
+          },
+          {
+            "heading": "The Factors That Move Your Quote",
+            "body": [
+              "Two driveways of the same size can price very differently. The big levers are:",
+              {
+                "list": [
+                  "Thickness: going from 4 to 6 inches adds material and is worth it for trucks or RVs",
+                  "Site prep: removing an old slab, regrading, or hauling fill can add $1,500 to $5,000",
+                  "Reinforcement: wire mesh adds little; a rebar grid adds $0.50 to $1.50 per square foot",
+                  "Sub-base: 4 to 6 inches of compacted gravel is standard and affects longevity",
+                  "Region and access: urban labor and tight, sloped, or remote sites raise costs",
+                  "Finish: a broom finish is cheapest; stamping and staining are labor-heavy"
+                ]
+              },
+              "Drainage and slope matter too. A driveway that needs a French drain, retaining edge, or extra forming on a grade can add several hundred to a few thousand dollars that never shows up in the per-square-foot averages."
+            ]
+          },
+          {
+            "heading": "Typical Total for a 2-Car Driveway (~600 sq ft)",
+            "body": [
+              "A standard 2-car driveway is about 20 by 30 feet, or 600 square feet. Using 2026 pricing, here is how a real project pencils out for a plain, reinforced 4-inch slab on a properly prepped base:",
+              {
+                "list": [
+                  "Concrete (about 7.4 cubic yards delivered): $1,050 to $1,400",
+                  "Excavation and gravel base: $900 to $1,800",
+                  "Forms, labor, and finishing: $1,500 to $2,800",
+                  "Wire mesh or light rebar: $300 to $700",
+                  "Typical all-in total: $3,600 to $6,700"
+                ]
+              },
+              "Upgrade to a stamped or stained finish and that same driveway jumps to $7,500 to $13,000. Add a thicker slab and rebar for an RV pad and you are looking at the higher end plus another $1,000 or so."
+            ]
+          },
+          {
+            "heading": "Concrete vs. Pavers vs. Asphalt at a Glance",
+            "body": [
+              "Each material has a place. Here is the rough 2026 installed cost and the trade-off for each:",
+              {
+                "list": [
+                  "Asphalt: $4 to $8 per sq ft. Cheapest up front, but needs sealing every 3-5 years and lasts 15-20 years",
+                  "Plain concrete: $6 to $12 per sq ft. Best balance of cost, lifespan (25-40 years), and low maintenance",
+                  "Stamped concrete: $12 to $25 per sq ft. Decorative look without the labor of laying individual units",
+                  "Pavers: $12 to $30 per sq ft. Most expensive and labor-intensive, but easy to repair piece by piece"
+                ]
+              },
+              "Concrete wins on lifetime value for most driveways. Asphalt makes sense in very cold climates or on a tight budget, while pavers are a premium choice when looks and spot-repairability outrank cost."
+            ]
+          },
+          {
+            "heading": "How to Save Money Without Cutting Corners",
+            "body": [
+              "There is real money to save here if you spend it in the right places. The smart moves:",
+              {
+                "list": [
+                  "Get 3 quotes and compare scope, not just price; cheap bids often skip base prep",
+                  "Pour in spring or fall when crews are hungry for work, not mid-summer",
+                  "Keep the shape simple; curves and multiple forms add labor",
+                  "Stick with a broom finish and skip decorative add-ons you will rarely notice",
+                  "Do your own demolition or excavation if you have the tools and time",
+                  "Order concrete accurately so you avoid short-load fees or a wasted partial load"
+                ]
+              },
+              "That last point matters more than people think. Ordering too little means a costly second delivery or a short-load surcharge of $50 to $150; ordering too much means you pay for concrete that gets dumped. Running your dimensions through a concrete calculator before you call the plant gets the volume right the first time."
+            ]
+          },
+          {
+            "heading": "When to DIY vs. Hire a Pro",
+            "body": [
+              "Concrete is unforgiving once it starts curing, so be honest about scope. A small slab like a 100 square foot pad is a reasonable weekend DIY for a handy homeowner using bagged or short-load mix. A full driveway is a different animal.",
+              "A 600 square foot pour means 7-plus cubic yards arriving on one truck with a 30 to 45 minute window to place, screed, and finish it all before it sets. That is a crew of three or four people minimum, and mistakes show permanently. For a full driveway, hire a pro. Where DIY pays off is the prep and demo: tearing out the old surface, hauling debris, and grading the base yourself can shave $1,000 to $3,000 off a contractor bid while leaving the actual pour to the experts."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Plain concrete driveways run $6 to $12 per square foot installed in 2026; decorative finishes run $12 to $25.",
+          "A typical 600 sq ft 2-car driveway costs about $3,600 to $6,700 plain, or $7,500 to $13,000 stamped or stained.",
+          "Base prep, thickness, reinforcement, finish, and region are the biggest factors that move your quote.",
+          "Concrete beats asphalt and pavers on lifetime value for most driveways thanks to its 25-40 year lifespan.",
+          "Order the right amount of concrete with a calculator to avoid short-load fees or paying for wasted mix."
+        ],
+        "faqs": [
+          {
+            "question": "How much concrete do I need for a 600 sq ft driveway?",
+            "answer": "At a standard 4-inch thickness, a 600 square foot driveway needs about 7.4 cubic yards of concrete, before adding 5-10 percent for spillage and uneven sub-grade. Bumping the slab to 6 inches raises that to roughly 11.1 cubic yards. Run your exact length, width, and depth through a concrete calculator to get the order right."
+          },
+          {
+            "question": "Is a concrete driveway cheaper than pavers?",
+            "answer": "Yes, by a wide margin. Plain concrete runs $6 to $12 per square foot installed in 2026, while pavers run $12 to $30 because each unit is set by hand on a prepared base. Pavers cost roughly two to three times more, though they are easier to repair in spots and offer more design options."
+          },
+          {
+            "question": "How thick should a concrete driveway be?",
+            "answer": "Four inches is the standard for cars and light trucks on a well-compacted gravel base. Step up to 5 or 6 inches if you will park RVs, trailers, or heavy delivery trucks. The extra inch or two of concrete and added rebar is cheap insurance against cracking and costs far less than replacing a failed slab."
+          },
+          {
+            "question": "Can I pour a concrete driveway myself?",
+            "answer": "A small pad is doable for a handy homeowner, but a full driveway is not a beginner project. A 600 square foot pour arrives all at once and must be placed and finished in under an hour, which takes a trained crew. Most people save more by doing the demolition and excavation themselves and hiring out the actual pour."
+          }
+        ]
+      },
+      "concrete-vs-asphalt": {
+        "metaTitle": "Concrete vs. Asphalt Driveways: Cost & Lifespan",
+        "metaDescription": "Compare concrete and asphalt driveways on 2026 cost per square foot, lifespan, maintenance, climate fit, and resale value. Get a clear verdict on which to choose.",
+        "title": "Concrete vs. Asphalt Driveways: Cost, Lifespan, and Which to Choose",
+        "description": "A contractor-grade breakdown of how concrete and asphalt driveways compare on price, durability, upkeep, and climate—so you can pick the right surface the first time.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "A new driveway is one of the larger exterior projects a homeowner takes on, and the two materials most people weigh are concrete and asphalt. They look similar in a brochure, but they behave very differently over 20 years—different upfront cost, different maintenance schedule, and different reactions to heat, cold, and freeze-thaw cycles.",
+          "The short version: asphalt is cheaper to install and easier to repair but needs sealing every few years and wears out in 15 to 20 years. Concrete costs more upfront, lasts 30 to 40 years with light maintenance, and holds resale value better—but it cracks and heaves if poured wrong or in the wrong climate.",
+          "This guide compares both on the numbers that actually matter so you can match the surface to your budget, your winters, and how long you plan to stay in the house."
+        ],
+        "sections": [
+          {
+            "heading": "Upfront Cost per Square Foot",
+            "body": [
+              "In 2026, asphalt runs about $7 to $13 per square foot installed, while concrete runs roughly $8 to $18 per square foot. A standard two-car driveway of 600 square feet lands near $4,200 to $7,800 in asphalt versus $4,800 to $10,800 in plain gray concrete.",
+              "Concrete climbs fast once you add finishes. Broom finish is the baseline; exposed aggregate, stamped, or colored concrete can push the price to $15 to $25 per square foot. Asphalt has fewer cosmetic upgrades, which keeps its range tight.",
+              {
+                "list": [
+                  "Asphalt installed: $7-$13 / sq ft",
+                  "Plain concrete installed: $8-$18 / sq ft",
+                  "Stamped or colored concrete: $15-$25 / sq ft",
+                  "Typical 600 sq ft driveway: asphalt $4,200-$7,800, concrete $4,800-$10,800"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Lifespan and What Shortens It",
+            "body": [
+              "Concrete is the long-haul winner. A properly poured slab on a compacted base lasts 30 to 40 years, and many last longer with minimal attention. Asphalt typically gives you 15 to 20 years before it needs resurfacing or replacement.",
+              "Lifespan depends heavily on installation, not just material. Concrete fails early when the base is poorly compacted, control joints are spaced too far apart, or it is poured in freezing weather. Asphalt fails early when it is laid too thin, compacted poorly, or never sealed. Heavy vehicles, standing water, and tree roots shorten both. Over a 40-year horizon, you will likely replace an asphalt driveway twice while concrete is still serviceable—worth weighing against the lower asphalt ticket price."
+            ]
+          },
+          {
+            "heading": "Maintenance and Repair",
+            "body": [
+              "Asphalt demands a steady maintenance habit. Plan to sealcoat it 6 to 12 months after installation and then every 3 to 5 years, at roughly $0.15 to $0.25 per square foot, plus crack filling as needed. Skip the sealing and the surface oxidizes, cracks, and fails years early.",
+              "Concrete asks for far less. A good penetrating sealer every 2 to 5 years is optional but smart in freeze-thaw regions, and that is most of it. The tradeoff is repair difficulty: asphalt is easy and cheap to patch and the seam disappears, while concrete repairs are harder to color-match and a cracked slab often has to be replaced section by section. So asphalt costs more attention but forgives mistakes; concrete costs less attention but punishes them."
+            ]
+          },
+          {
+            "heading": "Climate: Heat, Cold, and Freeze-Thaw",
+            "body": [
+              "Climate is often the deciding factor. Asphalt is a petroleum product, so it stays slightly flexible and handles freeze-thaw cycles and ground movement better than rigid concrete—a real advantage across the northern US and mountain states. The flip side: in extreme summer heat, asphalt softens, can rut under heavy tires, and gets sticky.",
+              "Concrete is rigid. It barely softens in heat, so it shrugs off hot southern and southwestern summers and reflects more sunlight, staying cooler underfoot. But in cold climates it can crack and heave when water gets under the slab and freezes, and it is vulnerable to surface scaling from de-icing salts. Rule of thumb: harsh, salty winters lean asphalt; long, brutal summers lean concrete."
+            ]
+          },
+          {
+            "heading": "Curb Appeal, Resale, and Repair Aesthetics",
+            "body": [
+              "On looks, concrete usually wins. Its light gray surface, clean joint lines, and design options—stamping, staining, exposed aggregate, borders—read as a premium upgrade and tend to add more perceived value at resale. Appraisers and buyers often view a concrete driveway as longer-lasting, which can help on a home in a higher price tier.",
+              "Asphalt offers a uniform black finish that looks sharp right after sealing but fades to gray and shows patches over time. It suits rural properties, long driveways, and budget-conscious projects where function beats finish. If you are planning to sell within a few years in a competitive market, concrete's appearance and reputation for longevity generally give it the edge in buyer perception and listing photos."
+            ]
+          },
+          {
+            "heading": "Environmental Notes and Replacement",
+            "body": [
+              "Both materials carry environmental tradeoffs. Asphalt is the most recycled material in the US—old pavement is regularly milled and reused—but it is petroleum-based and its dark surface absorbs heat, adding to the urban heat-island effect. Concrete has a high carbon footprint from cement production, though its lighter color reflects heat and it lasts far longer, spreading that impact across more years.",
+              "When the end comes, asphalt can be resurfaced: a fresh 1.5 to 2 inch overlay restores it for less than a full tear-out, which is part of its long-run appeal. Concrete generally cannot be overlaid the same way; a failed slab is usually removed and repoured. Factor those replacement realities, not just the install quote, into your decision."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Asphalt costs less upfront ($7-$13/sq ft) but lasts 15-20 years; concrete costs more ($8-$18/sq ft) but lasts 30-40 years.",
+          "Asphalt needs sealcoating every 3-5 years; concrete needs little maintenance but is harder and costlier to repair cleanly.",
+          "Cold, freeze-thaw, salty climates favor asphalt's flexibility; hot southern climates favor concrete's heat resistance.",
+          "Concrete generally adds more curb appeal and resale value thanks to finish options and longevity.",
+          "Over 40 years you may replace asphalt twice, narrowing concrete's higher upfront cost."
+        ],
+        "faqs": [
+          {
+            "question": "Is concrete or asphalt cheaper for a driveway?",
+            "answer": "Asphalt is cheaper to install—about $7 to $13 per square foot in 2026 versus $8 to $18 for plain concrete. But asphalt needs sealing every few years and lasts only 15 to 20 years, while concrete lasts 30 to 40. Over the full life of the driveway, the cost gap narrows and can even flip in concrete's favor."
+          },
+          {
+            "question": "Which lasts longer, concrete or asphalt?",
+            "answer": "Concrete lasts longer—typically 30 to 40 years when poured on a properly compacted base, and often more. Asphalt usually lasts 15 to 20 years before it needs resurfacing or replacement. Installation quality matters as much as the material: a poorly built concrete driveway can fail early, and a well-maintained asphalt one can outlast expectations."
+          },
+          {
+            "question": "Is asphalt or concrete better for cold, snowy climates?",
+            "answer": "Asphalt generally performs better in cold, freeze-thaw climates because it stays slightly flexible and tolerates ground movement without cracking. Concrete is rigid and can crack, heave, or scale from de-icing salts in harsh winters. If you live in the northern US or mountain regions with heavy snow and salt use, asphalt is often the safer, lower-risk choice."
+          },
+          {
+            "question": "Does a concrete driveway add more home value than asphalt?",
+            "answer": "Usually, yes. Concrete's clean appearance, design options like stamping and staining, and longer lifespan make it read as a premium, low-maintenance upgrade to buyers and appraisers. Asphalt is seen as functional and budget-friendly but shorter-lived. In competitive markets or higher-priced homes, a concrete driveway tends to help more in listing photos and buyer perception."
+          }
+        ]
+      },
+      "deck-footing-size-guide": {
+        "metaTitle": "Deck Footing Size & Depth: A Complete Guide",
+        "metaDescription": "Learn how to size deck footings by load and soil, dig below the frost line, choose the right footing type, and estimate concrete. Practical 2026 guide.",
+        "title": "Deck Footing Size & Depth: A Complete Guide",
+        "description": "A practical, code-aware guide to sizing deck footings, digging below the frost line, and choosing the right footing type for your soil and loads.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "Footings are the part of a deck nobody sees and everybody depends on. They carry the entire weight of the structure plus everything on it, then spread that load into the soil so the deck doesn't settle, tip, or heave. Get them wrong and you'll see sloping boards, racking, and gaps at the ledger within a season or two. Get them right and the deck outlives the house's first roof.",
+          "There are two questions every footing has to answer: how deep, and how wide. Depth is mostly about frost. Width is mostly about load and the soil under it. This guide walks through both, covers the common footing types, and points you to the code rules that govern the whole thing.",
+          "One disclaimer up front: footing requirements are set by your local building department, and they can be stricter than the model code. Frost depth, soil assumptions, and required permits all vary by jurisdiction. Use the numbers here to plan and budget, then confirm everything with your local inspector before you dig."
+        ],
+        "sections": [
+          {
+            "heading": "Why footings matter: load transfer and frost heave",
+            "body": [
+              "A deck footing does two jobs. First, it transfers vertical load. Posts concentrate the deck's weight onto a few small points; the footing's wide base spreads that load over enough soil that the ground can carry it without compressing. Second, it resists frost heave. When water in the soil freezes, it expands and pushes upward with enormous force. A footing that stops above the frost line will be lifted every winter and dropped every spring, slowly jacking your deck apart.",
+              "The combined load matters. The IRC uses 40 psf live load plus 10 psf dead load for residential decks, so 50 psf total. A footing carrying a 10-by-10-foot tributary area is holding roughly 5,000 pounds. That single number drives both how big the footing base needs to be and how deep it has to sit."
+            ]
+          },
+          {
+            "heading": "Digging below the frost line: depth by region",
+            "body": [
+              "The rule is simple: the bottom of the footing must sit below the local frost line so the soil under it never freezes. The number is not. Frost depth depends on your climate and is published by your building department.",
+              "Typical minimum footing depths run roughly:",
+              {
+                "list": [
+                  "Warm/southern climates (Gulf Coast, Florida, southern California): 12 inches or a no-frost minimum",
+                  "Mid-Atlantic and temperate zones: 24 to 36 inches",
+                  "Northern states (Upper Midwest, New England, Mountain West): 42 to 48 inches or more",
+                  "Far-north/Alaska interior: 60 inches or deeper"
+                ]
+              },
+              "Even in frost-free regions, codes usually require a minimum embedment (often 12 inches) for bearing and lateral stability. Always pull the official frost depth for your county rather than guessing, and dig to undisturbed soil, not loose backfill."
+            ]
+          },
+          {
+            "heading": "Footing diameter vs. load and soil bearing capacity",
+            "body": [
+              "Width is set by load divided by the soil's bearing capacity. The IRC default presumptive value is 1,500 psf for unknown soil; many soils do better, but you can't claim more without a soils report. Required base area equals the post load divided by that capacity.",
+              "Take that 5,000-pound post on 1,500 psf soil: you need about 3.3 square feet of bearing, which is roughly a 25-inch-diameter or 24-by-24-inch footing. Drop the load to 3,000 pounds and a 16- to 18-inch base is plenty. This is why bigger spacing means bigger footings.",
+              "Footing thickness matters too. A common minimum is 6 to 8 inches of concrete for a poured pad, thicker as diameter grows, so the pad doesn't crack and punch through under the post."
+            ]
+          },
+          {
+            "heading": "Common footing types",
+            "body": [
+              "Several footing systems all satisfy code; the right one depends on soil, frost depth, and budget.",
+              {
+                "list": [
+                  "Poured concrete pier: concrete poured directly into the hole, often belled at the bottom for extra bearing. Cheap and strong, but harder to keep plumb.",
+                  "Sonotube (cardboard form): a tube sets a clean round pier above grade. Pair with a flared footing form like a Bigfoot at the base to widen bearing without a huge hole.",
+                  "Footing-plus-pier: a wide poured pad at the bottom carries load while a narrower pier rises to the post. Best for high bearing demands.",
+                  "Helical/screw piles: steel shafts driven below frost with hydraulic equipment. No concrete, no curing, excellent in poor or wet soil, but installer-dependent and pricier."
+                ]
+              },
+              "For most residential decks, a Sonotube with a flared base over good soil is the practical sweet spot."
+            ]
+          },
+          {
+            "heading": "Spacing, beam span, and footing count",
+            "body": [
+              "Footing layout follows the framing. Joists span to beams, beams span between posts, and posts land on footings, so beam size and post spacing set how many footings you need and how much each carries.",
+              "Wider post spacing means each footing carries more, demanding a deeper or wider base. The IRC deck provisions (Section R507) include span tables for joists, beams, and post spacing based on lumber species and load. As a rough planning rule, beams of doubled 2x10 or 2x12 commonly span 6 to 9 feet between posts at residential loads.",
+              "Don't freelance the spans. Pick your beam and post layout from the code tables or an engineer, then size each footing for its actual tributary load. Closer footings are smaller and cheaper to dig but add labor and concrete count."
+            ]
+          },
+          {
+            "heading": "How much concrete per footing, and code/permit notes",
+            "body": [
+              "Concrete volume is straightforward. A cylindrical pier's volume in cubic feet is pi times radius squared times depth, divided by 1,728 for inches. A 12-inch-diameter pier 48 inches deep holds about 3.1 cubic feet, roughly 0.12 cubic yards, or about five 60-pound bags. A 16-inch pier the same depth nearly doubles that.",
+              "For 2026, bagged concrete runs about $6 to $8 per 60-pound bag, and ready-mix delivered is roughly $160 to $200 per cubic yard plus short-load fees. Below about one yard, bags usually win; above it, call a truck.",
+              "On code: decks generally require a permit and inspection. The IRC (2021/2024, Section R507) governs deck footings, and the inspector typically checks the open holes before you pour. Always confirm frost depth, soil bearing, and footing size with your local building department first."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Footing depth is driven by frost: dig below your local frost line, from 12 inches in warm climates to 48+ inches up north.",
+          "Footing width is driven by load and soil: at the IRC default 1,500 psf, a 5,000-pound post needs about a 24-inch base.",
+          "Use IRC residential loads (40 psf live + 10 psf dead = 50 psf) and the R507 span tables to set spacing and tributary area.",
+          "A 12-inch pier 48 inches deep needs about 5 bags of concrete; estimate volume per footing before buying.",
+          "Decks need a permit and footing inspection in most areas. Verify frost depth, soil bearing, and sizing with your local building department before digging."
+        ],
+        "faqs": [
+          {
+            "question": "How deep do deck footings need to be?",
+            "answer": "Deep enough that the footing base sits below your local frost line so the soil under it never freezes. That ranges from about 12 inches in frost-free southern regions to 42 to 48 inches or more in northern states. Frost depth is set by your building department, so pull the official number for your county and dig to firm, undisturbed soil."
+          },
+          {
+            "question": "What size diameter should a deck footing be?",
+            "answer": "Divide the post's load by the soil bearing capacity to get the required base area. Using the IRC default of 1,500 psf, a post carrying 5,000 pounds needs roughly 3.3 square feet, about a 24-inch diameter. Lighter loads from closer post spacing can use 16- to 18-inch footings. Wider spacing always means a bigger base."
+          },
+          {
+            "question": "How much concrete is in one deck footing?",
+            "answer": "For a round pier, multiply pi by the radius squared by the depth, then divide by 1,728 for inches. A 12-inch-diameter pier 48 inches deep holds about 3.1 cubic feet, roughly five 60-pound bags or 0.12 cubic yards. A 16-inch pier the same depth needs close to double. Add the flared-base volume if you use one."
+          },
+          {
+            "question": "Do deck footings require a permit?",
+            "answer": "Almost always, yes. Most jurisdictions require a building permit for an attached or freestanding deck, and the inspector typically checks the open footing holes for depth and size before you pour. The IRC Section R507 covers deck footings, but local rules can be stricter. Confirm requirements with your building department before you start digging."
+          }
+        ]
+      },
+      "how-much-paint-do-i-need": {
+        "metaTitle": "How Much Paint Do I Need to Paint a Room?",
+        "metaDescription": "Figure out exactly how much paint you need. Coverage per gallon, how to measure walls, why two coats, primer, ceilings, trim, plus a worked 12x12 example.",
+        "title": "How Much Paint Do I Need to Paint a Room?",
+        "description": "A practical, no-guesswork guide to estimating paint for walls, ceilings, and trim — including coverage rates, coat counts, and a full worked example.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "The short answer: one gallon of paint covers about 350 to 400 square feet in a single coat, and most rooms need two coats. For a typical 12-by-12 bedroom with 8-foot ceilings, that means roughly two gallons for the walls — plus a little extra for ceilings and trim. But the right number depends on your wall area, how many coats you actually need, and the surface you're painting over.",
+          "Buying too little means a mid-job run to the store and a slightly different mix from a fresh can. Buying too much wastes $40 or more and leaves you storing cans you'll never reopen. This guide walks through how the pros estimate paint so you walk out of the store with the right amount the first time.",
+          "We'll cover coverage rates, measuring wall area, when you need one coat versus two (or three), primer, ceilings, trim, and how color and texture change the math — then put it all together in a real example."
+        ],
+        "sections": [
+          {
+            "heading": "Standard coverage: what a gallon really does",
+            "body": [
+              "Paint manufacturers print 350 to 400 square feet per gallon on the can, and that figure assumes one coat on a smooth, primed, drywall surface. Treat the lower end — about 350 square feet — as your planning number, because real walls have outlets, corners, and roller waste that eat into theoretical coverage.",
+              "A quart covers roughly 90 to 100 square feet, which is handy for trim, doors, and small touch-ups. Coverage drops on porous or textured surfaces: bare drywall, raw wood, and heavy orange-peel or knockdown texture can pull coverage down to 250 to 300 square feet per gallon. Flat and matte finishes tend to spread a bit further than glossy ones, but the difference is small compared to texture and coat count."
+            ]
+          },
+          {
+            "heading": "How to measure your wall area",
+            "body": [
+              "Start with the room's perimeter — add up the length of all four walls — then multiply by the ceiling height. A 12-by-12 room has a perimeter of 48 feet; at 8 feet tall, that's 384 square feet of gross wall area.",
+              "Next, subtract openings. A standard interior door is about 21 square feet (3 by 7 feet), and an average window is around 15 square feet. Subtracting these matters: two windows and a door knock roughly 50 square feet off the total. Don't bother subtracting outlets or small fixtures.",
+              {
+                "list": [
+                  "Perimeter = sum of all wall lengths (feet)",
+                  "Gross wall area = perimeter x ceiling height",
+                  "Subtract about 21 sq ft per door and 15 sq ft per window",
+                  "Result = net paintable wall area"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Why you almost always need two coats",
+            "body": [
+              "Two coats is the default for a reason. A single coat rarely hides the old color evenly, leaves roller lines and thin spots, and gives a less durable, less washable finish. Even when the can says one-coat coverage, that claim assumes ideal conditions and a similar underlying color — most jobs don't meet it.",
+              "The big exception is repainting a wall the same or a very similar color when the existing surface is in good shape. There you can often get away with one coat, especially with a quality paint-and-primer product. Going from a dark color to a light one, or covering bold reds and deep blues, can push you to three coats or require a tinted primer. When in doubt, plan for two and keep the leftover."
+            ]
+          },
+          {
+            "heading": "Primer, ceilings, and color changes",
+            "body": [
+              "Prime when you're painting bare drywall or wood, covering stains or water damage, making a drastic color change, or switching from glossy to flat. A tinted primer under a dark or saturated topcoat can save you a full coat of expensive finish paint. Over a clean, previously painted wall in similar color, a separate primer usually isn't necessary.",
+              "Ceilings are measured by their footprint: a 12-by-12 ceiling is 144 square feet, so one gallon easily covers it in two coats. Flat white ceiling paint hides well, but new drywall or a color change may still want primer first. Textured popcorn ceilings drink paint — budget extra and expect coverage closer to 250 square feet per gallon."
+            ]
+          },
+          {
+            "heading": "Trim, doors, and how much you need",
+            "body": [
+              "Trim and doors use far less paint than walls, but they usually need two coats and a slower, more careful application. A quart of trim or enamel paint covers most baseboards, window casings, and door frames in an average room.",
+              "Doors take roughly a quarter of a quart each for two coats — figure four to six doors per quart. For a single room with baseboards, a door, and window casings, one quart of trim paint is typically plenty. Larger homes or full-house trim jobs jump to a gallon or more. Because trim paint is often a different sheen (semi-gloss or satin) and sometimes a different color than the walls, buy it separately and don't try to stretch wall paint to cover it."
+            ]
+          },
+          {
+            "heading": "Worked example: a 12x12 room with 8 ft ceilings",
+            "body": [
+              "Walls: perimeter 48 ft x 8 ft = 384 sq ft gross. Subtract one door (21) and two windows (30) to get about 333 sq ft net. At 350 sq ft per gallon, one coat needs roughly one gallon; two coats need about 666 sq ft of coverage, so buy two gallons of wall paint.",
+              "Ceiling: 12 x 12 = 144 sq ft. Two coats is 288 sq ft of coverage — one gallon of ceiling paint covers it with room to spare. Trim and door: one quart of semi-gloss enamel handles the baseboards, casings, and door in two coats.",
+              {
+                "list": [
+                  "Walls: 2 gallons",
+                  "Ceiling: 1 gallon",
+                  "Trim and door: 1 quart",
+                  "Optional primer: 1 gallon if bare/stained surfaces or big color change"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "What it costs in 2026",
+            "body": [
+              "Interior wall paint runs about $25 to $60 per gallon for solid mid-grade lines, and $60 to $100 for premium paint-and-primer products. Ceiling paint is usually cheaper, around $20 to $40 a gallon, while trim and enamel paints often cost a bit more per gallon but you need far less.",
+              "For our 12-by-12 room, a realistic mid-grade materials bill lands around $90 to $140: two gallons of wall paint, a gallon of ceiling paint, and a quart of trim enamel. Premium products push that toward $200. Spending up for better paint often saves money overall — higher-quality paint hides in fewer coats, so you buy less and finish faster."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Plan on 350 sq ft per gallon per coat, and assume two coats for most rooms.",
+          "Measure walls as perimeter x ceiling height, then subtract about 21 sq ft per door and 15 sq ft per window.",
+          "One coat is realistic only when repainting the same color over a sound surface.",
+          "A standard 12x12 room needs about 2 gallons for walls, 1 gallon for the ceiling, and 1 quart for trim.",
+          "Budget $25 to $60 per gallon for mid-grade paint and $60 to $100 for premium in 2026."
+        ],
+        "faqs": [
+          {
+            "question": "How many square feet does a gallon of paint cover?",
+            "answer": "About 350 to 400 square feet in one coat on a smooth, primed surface. Use 350 as your planning number to account for waste and corners. Textured walls, bare drywall, or raw wood can drop coverage to 250 to 300 square feet per gallon, so buy a little extra for those surfaces."
+          },
+          {
+            "question": "Do I need primer before painting a room?",
+            "answer": "Prime bare drywall or wood, stained or water-damaged areas, drastic color changes, and glossy surfaces. Over a clean, previously painted wall in a similar color, a separate primer usually isn't needed — a quality paint-and-primer product handles it. A tinted primer under dark colors can save you a full coat of finish paint."
+          },
+          {
+            "question": "Can I get away with one coat of paint?",
+            "answer": "Sometimes. One coat works when you're repainting the same or a very similar color over a sound, clean surface, especially with premium paint. For color changes, covering bold or dark shades, or painting bare surfaces, plan on two coats — and possibly three when going from a dark color to a light one."
+          },
+          {
+            "question": "How much paint do I need for trim and doors?",
+            "answer": "Far less than walls. One quart of trim or enamel paint covers the baseboards, window casings, and a door in an average room with two coats. Each door takes about a quarter of a quart for two coats, so a quart handles four to six doors. Buy trim paint separately since it's usually a different sheen."
+          }
+        ]
+      },
+      "how-much-mulch-do-i-need": {
+        "metaTitle": "How Much Mulch Do I Need? Bags vs. Bulk Guide",
+        "metaDescription": "Calculate exactly how much mulch you need with the cubic-yard formula, compare bags vs. bulk costs, and find the right depth for healthy, weed-free beds.",
+        "title": "How Much Mulch Do I Need? Bags vs. Bulk Explained",
+        "description": "A practical guide to calculating mulch by the cubic yard, choosing the right depth, and deciding whether bagged or bulk delivery saves you the most money.",
+        "readMinutes": 7,
+        "updated": "June 2026",
+        "intro": [
+          "Buying mulch sounds simple until you're standing in the garden center doing math on your phone, wondering whether 8 bags is enough or whether you should just order a truckload. Guess too low and you're making a second trip; guess too high and you've got bags rotting in the driveway all summer.",
+          "The good news: mulch quantity comes down to one reliable formula and a couple of depth rules the pros use every day. Once you know your bed's square footage and the depth you want, the rest is arithmetic. This guide walks through the formula, the bags-versus-bulk break-even point, and 2026 pricing so you order the right amount the first time."
+        ],
+        "sections": [
+          {
+            "heading": "The mulch formula that always works",
+            "body": [
+              "Mulch is sold by the cubic yard, and every calculation starts there. The formula is: area in square feet multiplied by depth in feet, divided by 27. The 27 converts cubic feet into cubic yards (a cubic yard is 3 ft x 3 ft x 3 ft = 27 cubic feet).",
+              "The trick most people miss is converting depth from inches to feet. Divide your inches by 12 first. So 3 inches becomes 0.25 feet, and 2 inches becomes 0.167 feet.",
+              {
+                "list": [
+                  "Measure length x width to get square feet (irregular beds: break them into rectangles and add them up).",
+                  "Convert depth: inches divided by 12 equals feet.",
+                  "Multiply: square feet x depth in feet.",
+                  "Divide that result by 27 to get cubic yards."
+                ]
+              },
+              "Example: a 300 sq ft bed at 3 inches deep is 300 x 0.25 = 75 cubic feet, divided by 27 = 2.8 cubic yards. Round up to 3 yards so you're never short."
+            ]
+          },
+          {
+            "heading": "How deep should mulch be?",
+            "body": [
+              "Depth matters as much as area. Too thin and weeds push through; too thick and you suffocate roots and invite rot. For most established flower beds and around shrubs, 2 to 3 inches is the sweet spot. It retains moisture and blocks light without smothering the soil.",
+              "For new beds, heavy weed pressure, or open ground you want to keep clear, go 3 to 4 inches. That extra inch is what actually stops weed seeds from germinating. When you refresh existing mulch each spring, only top up to the target depth, don't pile fresh mulch on top of last year's full layer.",
+              "One rule no pro breaks: never mound mulch against tree trunks or plant stems. These so-called mulch volcanoes trap moisture against bark, invite rot and pests, and slowly kill the tree. Pull mulch back 2 to 3 inches from any trunk."
+            ]
+          },
+          {
+            "heading": "Bags: coverage and how many fill a yard",
+            "body": [
+              "Bagged mulch is almost always sold in 2 cubic foot bags. Knowing how much one bag covers makes mental math easy at the store.",
+              {
+                "list": [
+                  "One 2 cu ft bag covers about 12 sq ft at 2 inches deep.",
+                  "The same bag covers about 8 sq ft at 3 inches deep.",
+                  "At 4 inches, it covers roughly 6 sq ft.",
+                  "It takes about 13.5 bags of 2 cu ft mulch to equal one cubic yard."
+                ]
+              },
+              "That 13.5-bags-per-yard figure is the number that decides everything about cost. Because a cubic yard is 27 cubic feet, and each bag holds 2 cubic feet, you divide 27 by 2 to get 13.5. Keep that number in your head and you can instantly compare a stack of bags to a bulk order."
+            ]
+          },
+          {
+            "heading": "Bags vs. bulk: where the break-even is",
+            "body": [
+              "In 2026, a 2 cubic foot bag of mulch runs about $3 to $6 depending on type and region. Bulk mulch delivered runs roughly $30 to $50 per cubic yard, though delivery fees and minimum loads vary by supplier.",
+              "Do the math: 13.5 bags at $4 each is about $54 for a yard of mulch you have to haul and open yourself. The same yard delivered in bulk might cost $40 plus delivery. Bulk wins on price once you need more than roughly half a yard, which is about 6 to 9 bags.",
+              "Below that threshold, bags win on convenience: no delivery minimum, no shoveling from a driveway pile, easy to store leftovers. For small touch-up jobs or a single bed, grab bags. For anything covering a few hundred square feet or more, order bulk and save real money."
+            ]
+          },
+          {
+            "heading": "Mulch types and a topsoil note",
+            "body": [
+              "Not all mulch behaves the same, and type affects both price and longevity.",
+              {
+                "list": [
+                  "Shredded hardwood: the workhorse. Cheap, knits together on slopes, breaks down in a season to feed soil.",
+                  "Cedar: aromatic, naturally pest-resistant, lasts longer but costs more.",
+                  "Dyed mulch (black, brown, red): holds color longest for a tidy look; choose products colored with safe iron-oxide or carbon dyes.",
+                  "Pine straw: lightweight, great for acid-loving plants like azaleas; sold by the bale, not the cubic yard."
+                ]
+              },
+              "Topsoil and compost use the exact same cubic-yard formula, but they're heavier and you spread them thinner. If you're filling a bed before mulching, calculate topsoil separately, then add a 2 to 3 inch mulch layer on top once the soil is graded."
+            ]
+          },
+          {
+            "heading": "Worked example: a 200 sq ft bed at 3 inches",
+            "body": [
+              "Say you have a 200 square foot bed and want a solid 3 inch layer for good weed control. Start with the formula: 200 sq ft x 0.25 ft (that's 3 inches divided by 12) = 50 cubic feet. Divide by 27 and you get 1.85 cubic yards. Round up to 2 yards.",
+              "In bags, 50 cubic feet divided by 2 cu ft per bag equals 25 bags. At $4 a bag, that's $100 plus your time hauling and opening 25 bags.",
+              "In bulk, 2 yards at $40 each is $80, plus a delivery fee that's often a flat $30 to $75 no matter the load size. Even with delivery, bulk is competitive here and saves your back. This is exactly the size where ordering bulk starts to pay off, and a mulch calculator removes any guesswork before you buy."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Use the formula: square feet x depth in feet, divided by 27, equals cubic yards. Convert inches to feet by dividing by 12.",
+          "Aim for 2 to 3 inches on established beds, 3 to 4 inches for new beds and weed control, and never against trunks.",
+          "A 2 cu ft bag covers about 12 sq ft at 2 inches or 8 sq ft at 3 inches; it takes about 13.5 bags to fill a cubic yard.",
+          "Bulk delivery (about $30 to $50/yard) beats bags (about $3 to $6 each) once you need more than half a yard, roughly 6 to 9 bags.",
+          "Always round your final cubic-yard figure up so you don't run short mid-project."
+        ],
+        "faqs": [
+          {
+            "question": "How many bags of mulch are in a cubic yard?",
+            "answer": "It takes about 13.5 bags of standard 2 cubic foot mulch to equal one cubic yard. A cubic yard is 27 cubic feet, so dividing 27 by the 2 cubic feet in each bag gives you 13.5. If a store sells 3 cubic foot bags, you'd only need 9 to make a yard."
+          },
+          {
+            "question": "Is bagged or bulk mulch cheaper?",
+            "answer": "Bulk is cheaper per cubic yard once you need more than about half a yard, or roughly 6 to 9 bags. In 2026 bags cost about $3 to $6 each while bulk runs $30 to $50 per yard delivered. For small touch-up jobs, bags win on convenience since there's no delivery minimum or driveway pile to shovel."
+          },
+          {
+            "question": "How deep should I spread mulch?",
+            "answer": "Spread 2 to 3 inches on established flower beds and around shrubs for moisture retention. Go 3 to 4 inches for new beds or heavy weed pressure, since that extra inch blocks germinating weed seeds. When refreshing each spring, only top up to the target depth, and never pile mulch against tree trunks or stems."
+          },
+          {
+            "question": "Can I use the same formula for topsoil or compost?",
+            "answer": "Yes. Topsoil and compost are sold by the cubic yard and use the identical formula: square feet times depth in feet, divided by 27. The difference is application, since you spread soil and compost thinner than mulch and they weigh more. Calculate any soil or fill layer separately, then add your mulch depth on top."
+          }
+        ]
+      },
+      "gravel-driveway-cost": {
+        "metaTitle": "Gravel Driveway Cost & How Much Gravel You Need",
+        "metaDescription": "Gravel driveway cost in 2026 runs $30-$60 per cubic yard or $25-$50 per ton, plus delivery. Learn the layers, depth, and exact formula to size your order.",
+        "title": "Gravel Driveway Cost & How Much Gravel You Need",
+        "description": "A practical 2026 guide to pricing a gravel driveway, understanding how stone is sold, and calculating exactly how many cubic yards or tons you need.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "A gravel driveway is one of the cheapest durable surfaces you can install, but the bill swings widely depending on stone type, delivery distance, and how many layers you build. In 2026, common crushed stone runs about $30 to $60 per cubic yard, or $25 to $50 per ton at the quarry, before hauling. Get the depth and layering right and a gravel drive will last decades with minimal upkeep.",
+          "The trap most homeowners fall into is ordering by the wrong unit or skipping the sub-base. Gravel is sold both by weight (the ton) and by volume (the cubic yard), and crushed stone weighs roughly 1.4 tons per cubic yard, so the two numbers are not interchangeable. This guide walks through pricing, the multi-layer build, the sizing formula, and a full worked example so you order once and order right."
+        ],
+        "sections": [
+          {
+            "heading": "What gravel costs in 2026",
+            "body": [
+              "Material price depends almost entirely on stone type and how far it travels. Plain crushed stone and crusher run typically sell for $25 to $50 per ton, or $30 to $60 per cubic yard, picked up at the quarry. Decorative options like washed river rock or colored stone push $60 to $100 per ton.",
+              "Delivery is where budgets blow up. Most suppliers charge $60 to $150 per truckload trip, and a standard dump truck hauls 10 to 16 tons. If you live more than 20 miles from the pit, hauling can rival the cost of the stone itself. Ordering a full load instead of partial deliveries lowers your cost per ton. Always confirm whether a quoted price includes delivery, spreading, or just the raw material loaded at the yard."
+            ]
+          },
+          {
+            "heading": "How gravel is sold: tons vs. cubic yards",
+            "body": [
+              "Quarries quote by the ton because they weigh trucks on a scale; landscapers often think in cubic yards because that is how they picture filling a space. You need both. One cubic yard is a cube three feet on each side, equal to 27 cubic feet.",
+              "For typical crushed stone, one cubic yard weighs about 1.4 tons (roughly 2,800 pounds). So if your project needs 11 cubic yards, that is about 15.4 tons. Convert with this rule:",
+              {
+                "list": [
+                  "Cubic yards to tons: multiply cubic yards by 1.4",
+                  "Tons to cubic yards: divide tons by 1.4",
+                  "Heavier dense-graded stone can run 1.4 to 1.5 tons per yard; ask your supplier for their exact figure"
+                ]
+              },
+              "Always reconcile the supplier's per-ton quote against the volume you actually need, or you may pay for the wrong amount."
+            ]
+          },
+          {
+            "heading": "The multi-layer build",
+            "body": [
+              "A driveway that holds up is built in layers, not one dump of pretty stone. Each layer does a job: large stone spreads load, medium stone locks it, and fine stone sheds water and gives a smooth top.",
+              {
+                "list": [
+                  "Sub-base: 3 to 4 inches of large angular stone (#3 or #2, roughly 1 to 2.5 inches) for drainage and load spreading",
+                  "Middle layer: 2 to 3 inches of medium stone (#57, about 3/4 inch) to bridge the voids",
+                  "Top layer: 1 to 2 inches of #57, 3/4-inch minus, or crusher run that compacts into a firm, gradable surface"
+                ]
+              },
+              "Crusher run (also called dense-grade or 3/4 minus) contains stone dust that binds tightly when compacted, which is why it is the most popular top layer. Compact each lift with a plate compactor or by driving over it before adding the next."
+            ]
+          },
+          {
+            "heading": "How deep and the sizing formula",
+            "body": [
+              "For passenger cars, a total compacted depth of 4 to 6 inches across the layers is plenty. For regular truck, RV, or equipment traffic, go 8 to 12 inches and beef up the sub-base. Soft or clay soil also calls for more depth.",
+              "To size your order, work in feet. Convert your depth from inches to feet by dividing by 12, then:",
+              {
+                "list": [
+                  "Length (ft) x Width (ft) x Depth (ft) = cubic feet",
+                  "Cubic feet / 27 = cubic yards",
+                  "Cubic yards x 1.4 = tons of crushed stone"
+                ]
+              },
+              "Add about 10 percent for compaction and spreading loss, since stone settles and edges always need a little extra. Round up to the next half-load rather than under-ordering and paying a second delivery fee."
+            ]
+          },
+          {
+            "heading": "Worked example: a 12 x 50 ft driveway",
+            "body": [
+              "Say you are building a 12-foot by 50-foot driveway at 6 inches total depth. First convert depth: 6 inches divided by 12 equals 0.5 feet.",
+              "Volume: 12 x 50 x 0.5 = 300 cubic feet. Divide by 27 to get 11.1 cubic yards. Add 10 percent for compaction and you land near 12.2 cubic yards, or about 17 tons of crushed stone.",
+              "At a mid-range $45 per cubic yard, the material is roughly $550. Add two truckload deliveries at $120 each and you are near $790 for stone delivered. If you spread and compact it yourself, that is your total; hiring out grading and compaction adds $1 to $2 per square foot, so budget another $600 to $1,200 for the 600-square-foot drive."
+            ]
+          },
+          {
+            "heading": "Base prep, fabric, and maintenance",
+            "body": [
+              "Before any stone goes down, strip 4 to 6 inches of topsoil and grass, then grade for drainage with a slight crown or slope. The single best upgrade is laying woven geotextile fabric over the subgrade. The fabric separates soil from stone, stops the gravel from sinking into mud, and dramatically reduces how often you re-add material. It costs roughly $0.25 to $0.50 per square foot and pays for itself.",
+              "Maintenance is light but not zero. Plan to regrade the surface with a box blade or landscape rake every one to two years to fill ruts and restore the crown. Add a fresh 1-to-2-inch top layer of crusher run every three to five years as stone migrates and compacts. Keep edges defined so material does not spread into the lawn."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Common crushed stone costs about $30-$60 per cubic yard or $25-$50 per ton in 2026, plus $60-$150 per delivery trip.",
+          "Crushed stone weighs roughly 1.4 tons per cubic yard, so multiply cubic yards by 1.4 to get tons.",
+          "Build in layers: large stone sub-base, medium middle, and a crusher run or #57 top; total 4-6 inches for cars, 8-12 for trucks.",
+          "Formula: length x width x depth-in-feet / 27 = cubic yards; add about 10 percent for compaction.",
+          "Geotextile fabric under the stone prevents sinking and is the cheapest way to extend the driveway's life."
+        ],
+        "faqs": [
+          {
+            "question": "How many tons of gravel do I need for a 2-car driveway?",
+            "answer": "A typical 20-by-20-foot two-car driveway at 6 inches deep needs about 7.4 cubic yards, which is roughly 10 to 11 tons of crushed stone after adding 10 percent for compaction. Multiply your square footage by your depth in feet, divide by 27 for cubic yards, then multiply by 1.4 to convert to tons."
+          },
+          {
+            "question": "What is the cheapest gravel for a driveway?",
+            "answer": "Crusher run, also called dense-grade or 3/4 minus, is usually the most economical and practical choice at $25 to $40 per ton. It contains stone dust that compacts into a hard, stable surface. Plain crushed stone and recycled concrete aggregate are also budget-friendly. Decorative river rock and colored stone cost far more."
+          },
+          {
+            "question": "Should I use landscape fabric under a gravel driveway?",
+            "answer": "Yes. Woven geotextile fabric over the subgrade separates soil from stone, prevents the gravel from sinking into mud, and improves load distribution. It costs roughly $0.25 to $0.50 per square foot and dramatically reduces how often you must add new stone, making it one of the best-value upgrades for any gravel driveway."
+          },
+          {
+            "question": "How often does a gravel driveway need new stone?",
+            "answer": "Plan to regrade the surface every one to two years to fill ruts and restore the crown, and add a fresh 1-to-2-inch top layer of crusher run every three to five years. Driveways with heavy traffic, steep slopes, or no geotextile fabric beneath them will need topping up more frequently than that."
+          }
+        ]
+      },
+      "fence-cost-guide": {
+        "metaTitle": "Fence Cost to Build (2026): Per-Foot Pricing Guide",
+        "metaDescription": "See 2026 fence cost per linear foot by material—chain-link, wood, vinyl, aluminum—plus DIY vs installed pricing, a materials breakdown, and a worked 150-ft example.",
+        "title": "How Much Does a Fence Cost to Build? Materials & Per-Foot Pricing",
+        "description": "A practical 2026 breakdown of fence cost per linear foot by material, what drives the price, how to count posts, rails, and pickets, and a full worked example for a 150-foot cedar privacy fence.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "Fence pricing almost always comes down to one number: cost per linear foot. Multiply that by the length of your run and you have a working budget in seconds. The catch is that the per-foot rate swings widely depending on material, height, terrain, and how many gates and corners you build around.",
+          "In 2026, a fully installed fence runs roughly $15 to $70 per linear foot. Chain-link sits at the low end, ornamental aluminum at the top, with wood and vinyl in the middle. If you supply your own labor, material-only costs are often less than half the installed price—which is why fencing is one of the most popular DIY upgrades for homeowners.",
+          "This guide gives you real per-foot ranges by material, explains the cost drivers, and walks through estimating posts, rails, and pickets so you can price a project before a single contractor returns your call."
+        ],
+        "sections": [
+          {
+            "heading": "2026 Fence Cost per Linear Foot by Material",
+            "body": [
+              "These installed ranges include posts, panels or pickets, concrete, hardware, and standard labor on flat ground. Material-only (DIY) is typically 40 to 60 percent of the installed figure.",
+              {
+                "list": [
+                  "Chain-link: $15-$30 installed ($8-$15 material). Cheapest option; galvanized or vinyl-coated.",
+                  "Wood / cedar privacy: $25-$45 installed ($12-$22 material). Most popular for backyards.",
+                  "Vinyl (PVC): $30-$60 installed ($18-$35 material). Low maintenance, higher upfront.",
+                  "Aluminum / ornamental steel: $35-$70 installed ($22-$45 material). Decorative, rust-resistant.",
+                  "Composite: $40-$80 installed. Premium privacy with minimal upkeep."
+                ]
+              },
+              "Heights drive these numbers too. A 6-foot privacy fence costs noticeably more than a 4-foot version because it uses taller posts, an extra rail, and more pickets per foot."
+            ]
+          },
+          {
+            "heading": "What Drives the Price",
+            "body": [
+              "Material is the biggest lever, but several other factors move your bottom line by 20 percent or more.",
+              {
+                "list": [
+                  "Height: each extra foot of height adds pickets, taller posts, and sometimes a third rail.",
+                  "Terrain: slopes, rock, and tree roots slow digging and may require stepped or racked panels.",
+                  "Post setting: concrete-set posts cost more in labor and bags but last far longer than tamped gravel.",
+                  "Gates: a single walk gate adds $150-$400; a double drive gate $400-$1,200 with hardware.",
+                  "Corners and ends: each requires a heavier post and extra bracing.",
+                  "Demolition: removing an old fence runs $3-$8 per linear foot.",
+                  "Permits: many towns require one for fences over 6 feet or in front yards."
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Materials Breakdown for a Wood Privacy Fence",
+            "body": [
+              "A standard 6-foot wood privacy fence is built on a repeating bay. Posts sit every 8 feet on center, with two or three horizontal rails spanning between them and vertical pickets nailed to the rails.",
+              "Posts are usually 4x4 pressure-treated lumber set 24 to 30 inches deep in concrete—plan on one to two 50-pound bags of fast-set concrete per post. Rails are typically 2x4s, two for a 4-foot fence and three for a 6-foot fence to prevent warping. Pickets are commonly 5/8-inch by 5.5-inch cedar or treated boards.",
+              "For a tight privacy look, butt the pickets edge to edge. Adding a small gap or a board-on-board overlap changes your picket count, so decide the style before you buy."
+            ]
+          },
+          {
+            "heading": "How to Estimate Posts, Rails, and Pickets",
+            "body": [
+              "Start with your total run in feet, then work each component separately.",
+              {
+                "list": [
+                  "Posts: divide total length by 8 (the spacing), then add 1 for the final post. Add one extra post per corner and per gate.",
+                  "Rails: multiply the number of 8-foot bays by the rails per section (2 or 3). One bay equals one section between two posts.",
+                  "Pickets: divide total length in inches by the picket width plus any gap. For 5.5-inch pickets butted tight, that's roughly 2.2 pickets per linear foot.",
+                  "Concrete: 1-2 bags per post, depending on hole diameter and depth.",
+                  "Fasteners: budget about 1 pound of nails or screws per 8-foot section."
+                ]
+              },
+              "Always order 5 to 10 percent extra on pickets and fasteners to cover warped boards and cut waste."
+            ]
+          },
+          {
+            "heading": "Worked Example: 150 ft of 6-ft Cedar Privacy Fence",
+            "body": [
+              "Say you're fencing a 150-foot run with one walk gate and two corners. Here's how the material count shakes out.",
+              {
+                "list": [
+                  "Posts: 150 / 8 = 18.75, round to 19, +1 end +2 corners +1 gate = 23 posts (4x4x8).",
+                  "Rails: about 19 sections x 3 rails = 57 rails (2x4x8).",
+                  "Pickets: 150 ft x 12 / 5.5 = 327, add 8 percent waste, about 353 cedar pickets.",
+                  "Concrete: 23 posts x 1.5 bags, about 35 bags of fast-set.",
+                  "Gate kit and hardware: 1 walk gate."
+                ]
+              },
+              "At roughly $14 per foot in materials, that's about $2,100 in lumber, concrete, and hardware for DIY. Hiring it out at $32 per installed foot lands near $4,800—so doing it yourself saves close to $2,700 in labor on this job."
+            ]
+          },
+          {
+            "heading": "Permits, Property Lines, and Maintenance",
+            "body": [
+              "Before you dig, confirm your exact property line with a survey or your plat map—building even a few inches over the line invites a costly tear-out. Call 811 to mark underground utilities, and check local rules on height, setback, and the 'good side out' requirement many neighborhoods enforce.",
+              "Maintenance varies sharply by material. Wood needs staining or sealing every 2 to 3 years and lasts 15 to 20 years. Vinyl and aluminum need only an occasional rinse and run 25 to 40 years. Chain-link is nearly maintenance-free but offers no privacy. Factor lifetime upkeep into any material comparison—a cheaper fence that needs constant care can cost more over 20 years."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Installed fences run $15-$70 per linear foot in 2026; DIY material-only is roughly 40-60 percent of that.",
+          "Chain-link is cheapest, wood and vinyl mid-range, aluminum and composite priciest.",
+          "Posts go every 8 feet on center; budget 1-2 bags of concrete each and 2-3 rails per section.",
+          "A 150-ft 6-ft cedar privacy fence costs about $2,100 DIY versus $4,800 installed.",
+          "Confirm property lines and call 811 before digging; match maintenance cost to material lifespan."
+        ],
+        "faqs": [
+          {
+            "question": "Is it cheaper to build a fence yourself?",
+            "answer": "Yes, usually by a wide margin. Material-only costs run about 40 to 60 percent of an installed quote, so DIY can cut a project's price nearly in half. On a 150-foot cedar fence, doing your own labor saves roughly $2,500 to $2,800. You'll need a post-hole digger or auger, a level, and a free weekend or two."
+          },
+          {
+            "question": "How far apart should fence posts be?",
+            "answer": "The standard spacing is 8 feet on center, which matches common rail and panel lengths. For tall privacy fences in windy areas, some builders tighten that to 6 feet for extra rigidity. Always add an extra post at each corner, end, and gate, and set posts at least 24 to 30 inches deep in concrete."
+          },
+          {
+            "question": "Do I need a permit to build a fence?",
+            "answer": "It depends on your town. Many jurisdictions require a permit for fences taller than 6 feet, fences in a front yard, or anything near a property line or easement. Permits typically cost $20 to $150. Always check with your local building department and your HOA before buying materials—rework after the fact is expensive."
+          },
+          {
+            "question": "Which fence material lasts the longest?",
+            "answer": "Vinyl and aluminum lead, lasting 25 to 40 years with almost no maintenance. Quality wood lasts 15 to 20 years but needs staining every few years. Chain-link can run 20-plus years but offers no privacy. Composite is the premium choice, combining a wood look with 25-plus-year lifespan and minimal upkeep."
+          }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact SlabCalc",
+      "description": "Get in touch with SlabCalc — report a calculator issue, suggest a feature, or send feedback. We read every message."
+    },
+    "title": "Contact Us",
+    "subtitle": "Questions, corrections, or ideas for a new calculator? We'd genuinely like to hear from you.",
+    "emailHeading": "Email us",
+    "emailIntro": "The fastest way to reach the SlabCalc team is by email. Drop us a line at:",
+    "responseTime": "We're a small team and read every message. Expect a reply within 2–3 business days.",
+    "reasonsHeading": "What people usually write about",
+    "reasons": {
+      "bug": {
+        "title": "Report an issue",
+        "desc": "Spotted a result that looks off or a page that won't load? Tell us the calculator and the numbers you entered."
+      },
+      "suggestion": {
+        "title": "Suggest a calculator",
+        "desc": "Need an estimator we don't have yet? Let us know what you're trying to figure out."
+      },
+      "feedback": {
+        "title": "General feedback",
+        "desc": "Praise, criticism, or a better formula — every note helps us make SlabCalc more useful."
+      }
+    },
+    "publisherHeading": "About this site",
+    "publisherPara": "SlabCalc is an independent publisher of free construction and home-improvement calculators based in the United States. We're supported by advertising and affiliate links, and we never require an account or sell your personal information.",
+    "formHeading": "Send a message",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "subjectLabel": "Topic",
+      "subjects": {
+        "bug": "Report an issue",
+        "suggestion": "Suggest a calculator",
+        "feedback": "General feedback",
+        "other": "Something else"
+      },
+      "messageLabel": "Message",
+      "messagePlaceholder": "How can we help? If you are reporting an issue, include the calculator name and the numbers you entered.",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "successTitle": "Message sent",
+      "successBody": "Thanks for reaching out — we will get back to you within 2–3 business days.",
+      "errorBody": "Something went wrong sending your message. Please try again, or email us directly at",
+      "privacyNote": "We only use your details to reply to your message.",
+      "unconfigured": "The contact form is not set up yet. Please email us at"
+    }
   }
 }

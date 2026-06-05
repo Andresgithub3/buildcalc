@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { calculators } from "@/lib/calculator-data";
+import { guides } from "@/lib/guides-data";
 import { siteConfig } from "@/lib/config";
 import { routing } from "@/i18n/routing";
 
@@ -34,9 +35,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  const guidePages = guides.flatMap((guide) =>
+    locales.map((locale) => ({
+      url: localePath(`/guides/${guide.slug}`, locale),
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+      alternates: alternates(`/guides/${guide.slug}`),
+    }))
+  );
+
   const staticPages: { path: string; changeFrequency: "weekly" | "monthly" | "yearly"; priority: number }[] = [
     { path: "", changeFrequency: "weekly", priority: 1 },
+    { path: "/guides", changeFrequency: "weekly", priority: 0.8 },
     { path: "/about", changeFrequency: "monthly", priority: 0.5 },
+    { path: "/contact", changeFrequency: "monthly", priority: 0.4 },
     { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
     { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
   ];
@@ -51,5 +64,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticEntries, ...calculatorPages];
+  return [...staticEntries, ...calculatorPages, ...guidePages];
 }

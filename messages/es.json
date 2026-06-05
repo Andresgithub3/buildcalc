@@ -5,7 +5,9 @@
     "description": "Estime concreto, pintura, azulejo, grava y más — preciso, rápido y gratis.",
     "nav": {
       "calculators": "Calculadoras",
-      "about": "Acerca de"
+      "about": "Acerca de",
+      "guides": "Guías",
+      "contact": "Contacto"
     },
     "footer": {
       "calcHeading": "Calculadoras",
@@ -20,7 +22,10 @@
       "about": "Acerca de",
       "copyright": "© {year} SlabCalc. Todos los derechos reservados.",
       "privacyPolicy": "Política de Privacidad",
-      "termsOfUse": "Términos de Uso"
+      "termsOfUse": "Términos de Uso",
+      "guidesHeading": "Recursos",
+      "guides": "Guías",
+      "contact": "Contacto"
     },
     "cookie": {
       "message": "Usamos cookies para analíticas y publicidad para mejorar su experiencia. Al continuar usando SlabCalc, usted acepta nuestra <privacyLink>Política de Privacidad</privacyLink>.",
@@ -33,7 +38,10 @@
     "languageSwitcher": {
       "en": "EN",
       "es": "ES"
-    }
+    },
+    "guideCalloutLabel": "Guía relacionada",
+    "guideCalloutCta": "Leer la guía completa",
+    "guideCalloutExplore": "Explorar todas las guías"
   },
   "home": {
     "heroTitle": "Calculadoras de Construcción en las que ",
@@ -125,11 +133,26 @@
       "name": "Cómo Calcular Concreto para una Losa",
       "description": "Calcule la cantidad de concreto necesaria para una losa en yardas cúbicas, bultos y costo estimado.",
       "steps": [
-        { "name": "Mida el largo", "text": "Mida el largo del área de la losa en pies." },
-        { "name": "Mida el ancho", "text": "Mida el ancho del área de la losa en pies." },
-        { "name": "Mida la profundidad", "text": "Determine la profundidad deseada de la losa en pulgadas (4 pulgadas es lo estándar)." },
-        { "name": "Ingrese las dimensiones", "text": "Ingrese sus medidas en la calculadora junto con un factor de desperdicio (se recomienda 10%)." },
-        { "name": "Lea los resultados", "text": "Obtenga sus resultados en yardas cúbicas, cantidad de bultos (80 lb y 60 lb) y rango de costo estimado." }
+        {
+          "name": "Mida el largo",
+          "text": "Mida el largo del área de la losa en pies."
+        },
+        {
+          "name": "Mida el ancho",
+          "text": "Mida el ancho del área de la losa en pies."
+        },
+        {
+          "name": "Mida la profundidad",
+          "text": "Determine la profundidad deseada de la losa en pulgadas (4 pulgadas es lo estándar)."
+        },
+        {
+          "name": "Ingrese las dimensiones",
+          "text": "Ingrese sus medidas en la calculadora junto con un factor de desperdicio (se recomienda 10%)."
+        },
+        {
+          "name": "Lea los resultados",
+          "text": "Obtenga sus resultados en yardas cúbicas, cantidad de bultos (80 lb y 60 lb) y rango de costo estimado."
+        }
       ]
     },
     "related": {
@@ -200,11 +223,26 @@
       "name": "Cómo Calcular Concreto para Zapatas",
       "description": "Calcule la cantidad de concreto necesaria para zapatas.",
       "steps": [
-        { "name": "Mida el largo de la zapata", "text": "Mida el largo de cada zapata en pies." },
-        { "name": "Mida el ancho y la profundidad", "text": "Mida el ancho y la profundidad de la zapata en pulgadas." },
-        { "name": "Cuente las zapatas", "text": "Determine el número de zapatas idénticas que necesita." },
-        { "name": "Ingrese las dimensiones", "text": "Ingrese las medidas y el factor de desperdicio en la calculadora." },
-        { "name": "Lea los resultados", "text": "Obtenga el total de yardas cúbicas, volumen por zapata, bultos y costo." }
+        {
+          "name": "Mida el largo de la zapata",
+          "text": "Mida el largo de cada zapata en pies."
+        },
+        {
+          "name": "Mida el ancho y la profundidad",
+          "text": "Mida el ancho y la profundidad de la zapata en pulgadas."
+        },
+        {
+          "name": "Cuente las zapatas",
+          "text": "Determine el número de zapatas idénticas que necesita."
+        },
+        {
+          "name": "Ingrese las dimensiones",
+          "text": "Ingrese las medidas y el factor de desperdicio en la calculadora."
+        },
+        {
+          "name": "Lea los resultados",
+          "text": "Obtenga el total de yardas cúbicas, volumen por zapata, bultos y costo."
+        }
       ]
     },
     "related": {
@@ -268,11 +306,26 @@
       "name": "Cómo Calcular Concreto para Columnas Redondas",
       "description": "Calcule concreto para Sonotubes y columnas redondas usando la fórmula de volumen del cilindro.",
       "steps": [
-        { "name": "Mida el diámetro", "text": "Mida el diámetro interior del Sonotube o del hoyo para poste en pulgadas." },
-        { "name": "Mida la altura", "text": "Mida la altura (profundidad) de la columna en pies." },
-        { "name": "Cuente las columnas", "text": "Determine cuántas columnas idénticas necesita." },
-        { "name": "Ingrese las dimensiones", "text": "Ingrese las medidas y el factor de desperdicio en la calculadora." },
-        { "name": "Lea los resultados", "text": "Obtenga yardas cúbicas, volumen por columna, bultos y estimados de costo." }
+        {
+          "name": "Mida el diámetro",
+          "text": "Mida el diámetro interior del Sonotube o del hoyo para poste en pulgadas."
+        },
+        {
+          "name": "Mida la altura",
+          "text": "Mida la altura (profundidad) de la columna en pies."
+        },
+        {
+          "name": "Cuente las columnas",
+          "text": "Determine cuántas columnas idénticas necesita."
+        },
+        {
+          "name": "Ingrese las dimensiones",
+          "text": "Ingrese las medidas y el factor de desperdicio en la calculadora."
+        },
+        {
+          "name": "Lea los resultados",
+          "text": "Obtenga yardas cúbicas, volumen por columna, bultos y estimados de costo."
+        }
       ]
     },
     "related": {
@@ -340,11 +393,26 @@
       "name": "Cómo Calcular Cobertura de Pintura",
       "description": "Calcule los galones de pintura necesarios para un cuarto.",
       "steps": [
-        { "name": "Mida las dimensiones del cuarto", "text": "Mida el largo, ancho y altura de las paredes del cuarto en pies." },
-        { "name": "Cuente las aberturas", "text": "Cuente el número de puertas y ventanas en el cuarto." },
-        { "name": "Elija las capas", "text": "Decida cuántas capas va a aplicar (2 es lo estándar)." },
-        { "name": "Ingrese las dimensiones", "text": "Ingrese todas las medidas en la calculadora." },
-        { "name": "Lea los resultados", "text": "Obtenga el área pintable en pies cuadrados y los galones de pintura necesarios." }
+        {
+          "name": "Mida las dimensiones del cuarto",
+          "text": "Mida el largo, ancho y altura de las paredes del cuarto en pies."
+        },
+        {
+          "name": "Cuente las aberturas",
+          "text": "Cuente el número de puertas y ventanas en el cuarto."
+        },
+        {
+          "name": "Elija las capas",
+          "text": "Decida cuántas capas va a aplicar (2 es lo estándar)."
+        },
+        {
+          "name": "Ingrese las dimensiones",
+          "text": "Ingrese todas las medidas en la calculadora."
+        },
+        {
+          "name": "Lea los resultados",
+          "text": "Obtenga el área pintable en pies cuadrados y los galones de pintura necesarios."
+        }
       ]
     },
     "related": {
@@ -421,11 +489,26 @@
       "name": "Cómo Calcular Azulejos para un Piso",
       "description": "Calcule los azulejos y cajas necesarios para cualquier área de piso.",
       "steps": [
-        { "name": "Mida el cuarto", "text": "Mida el largo y ancho del cuarto en pies." },
-        { "name": "Elija el tamaño de azulejo", "text": "Seleccione el tamaño de su azulejo (12×12, 18×18, 24×24 o personalizado)." },
-        { "name": "Establezca el factor de desperdicio", "text": "Elija un porcentaje de desperdicio (10% para diseños rectos, 15%+ para diagonal)." },
-        { "name": "Ingrese azulejos por caja", "text": "Revise la etiqueta de la caja para saber cuántos azulejos trae e ingréselo." },
-        { "name": "Lea los resultados", "text": "Obtenga el total de azulejos necesarios y las cajas a comprar." }
+        {
+          "name": "Mida el cuarto",
+          "text": "Mida el largo y ancho del cuarto en pies."
+        },
+        {
+          "name": "Elija el tamaño de azulejo",
+          "text": "Seleccione el tamaño de su azulejo (12×12, 18×18, 24×24 o personalizado)."
+        },
+        {
+          "name": "Establezca el factor de desperdicio",
+          "text": "Elija un porcentaje de desperdicio (10% para diseños rectos, 15%+ para diagonal)."
+        },
+        {
+          "name": "Ingrese azulejos por caja",
+          "text": "Revise la etiqueta de la caja para saber cuántos azulejos trae e ingréselo."
+        },
+        {
+          "name": "Lea los resultados",
+          "text": "Obtenga el total de azulejos necesarios y las cajas a comprar."
+        }
       ]
     },
     "related": {
@@ -489,11 +572,26 @@
       "name": "Cómo Calcular Grava y Agregados",
       "description": "Calcule el volumen y peso de grava para entradas, caminos y paisajismo.",
       "steps": [
-        { "name": "Mida el área", "text": "Mida el largo y ancho del área en pies." },
-        { "name": "Determine la profundidad", "text": "Decida la profundidad de grava en pulgadas (4 pulgadas para entradas, 2-3 para caminos)." },
-        { "name": "Elija el material", "text": "Seleccione el tipo de material (grava, piedra triturada, grava fina o piedra de río)." },
-        { "name": "Ingrese las dimensiones", "text": "Ingrese sus medidas en la calculadora." },
-        { "name": "Lea los resultados", "text": "Obtenga yardas cúbicas, toneladas y costo estimado." }
+        {
+          "name": "Mida el área",
+          "text": "Mida el largo y ancho del área en pies."
+        },
+        {
+          "name": "Determine la profundidad",
+          "text": "Decida la profundidad de grava en pulgadas (4 pulgadas para entradas, 2-3 para caminos)."
+        },
+        {
+          "name": "Elija el material",
+          "text": "Seleccione el tipo de material (grava, piedra triturada, grava fina o piedra de río)."
+        },
+        {
+          "name": "Ingrese las dimensiones",
+          "text": "Ingrese sus medidas en la calculadora."
+        },
+        {
+          "name": "Lea los resultados",
+          "text": "Obtenga yardas cúbicas, toneladas y costo estimado."
+        }
       ]
     },
     "related": {
@@ -558,11 +656,26 @@
       "name": "Cómo Calcular Mantillo y Tierra Vegetal",
       "description": "Calcule el volumen de mantillo o tierra vegetal en yardas cúbicas y bultos.",
       "steps": [
-        { "name": "Mida el área", "text": "Mida el largo y ancho del área en pies." },
-        { "name": "Elija la profundidad", "text": "Determine la profundidad deseada en pulgadas (2-3 pulgadas para mantillo es lo estándar)." },
-        { "name": "Seleccione el material", "text": "Elija mantillo, tierra vegetal, composta o tierra de relleno." },
-        { "name": "Ingrese las dimensiones", "text": "Ingrese sus medidas en la calculadora." },
-        { "name": "Lea los resultados", "text": "Obtenga yardas cúbicas, cantidad de bultos de 2 pies cúbicos y estimado de costo." }
+        {
+          "name": "Mida el área",
+          "text": "Mida el largo y ancho del área en pies."
+        },
+        {
+          "name": "Elija la profundidad",
+          "text": "Determine la profundidad deseada en pulgadas (2-3 pulgadas para mantillo es lo estándar)."
+        },
+        {
+          "name": "Seleccione el material",
+          "text": "Elija mantillo, tierra vegetal, composta o tierra de relleno."
+        },
+        {
+          "name": "Ingrese las dimensiones",
+          "text": "Ingrese sus medidas en la calculadora."
+        },
+        {
+          "name": "Lea los resultados",
+          "text": "Obtenga yardas cúbicas, cantidad de bultos de 2 pies cúbicos y estimado de costo."
+        }
       ]
     },
     "related": {
@@ -639,11 +752,26 @@
       "name": "Cómo Estimar Materiales para Cerca",
       "description": "Calcule postes, rieles, tablas y concreto para un proyecto de cerca.",
       "steps": [
-        { "name": "Mida el largo total", "text": "Mida la línea total de la cerca en pies." },
-        { "name": "Elija altura y separación", "text": "Seleccione la altura de la cerca (4, 6, u 8 ft) y la separación de postes (6 u 8 ft)." },
-        { "name": "Seleccione el material", "text": "Elija madera, vinilo o malla ciclónica." },
-        { "name": "Cuente las puertas", "text": "Determine cuántas puertas necesita." },
-        { "name": "Lea los resultados", "text": "Obtenga cantidades de postes, rieles, tablas/paneles, bultos de concreto y costo." }
+        {
+          "name": "Mida el largo total",
+          "text": "Mida la línea total de la cerca en pies."
+        },
+        {
+          "name": "Elija altura y separación",
+          "text": "Seleccione la altura de la cerca (4, 6, u 8 ft) y la separación de postes (6 u 8 ft)."
+        },
+        {
+          "name": "Seleccione el material",
+          "text": "Elija madera, vinilo o malla ciclónica."
+        },
+        {
+          "name": "Cuente las puertas",
+          "text": "Determine cuántas puertas necesita."
+        },
+        {
+          "name": "Lea los resultados",
+          "text": "Obtenga cantidades de postes, rieles, tablas/paneles, bultos de concreto y costo."
+        }
       ]
     },
     "related": {
@@ -772,5 +900,925 @@
     "changesPara": "Nos reservamos el derecho de modificar estos términos en cualquier momento. El uso continuado del sitio después de los cambios constituye la aceptación de los nuevos términos.",
     "contactTitle": "Contacto",
     "contactPara": "¿Preguntas sobre estos términos? Contáctenos en <b>hello@slab-calc.com</b>."
+  },
+  "guides": {
+    "meta": {
+      "title": "Guías de Construcción y Desgloses de Costos",
+      "description": "Guías detalladas para estimar concreto, pintura, mantillo, grava y cercas — más desgloses de costos de 2026 para presupuestar y pedir la cantidad correcta."
+    },
+    "hubTitle": "Guías de Construcción",
+    "hubSubtitle": "Guías prácticas y directas para estimar materiales y presupuestar tu próximo proyecto — escritas para contratistas y aficionados por igual.",
+    "categories": {
+      "concrete": "Concreto",
+      "paint": "Pintura",
+      "landscaping": "Jardinería",
+      "fencing": "Cercas"
+    },
+    "readLabel": "{minutes} min de lectura",
+    "updatedLabel": "Actualizado en {date}",
+    "takeawaysLabel": "Puntos clave",
+    "relatedToolsLabel": "Calculadoras relacionadas",
+    "backToGuides": "Todas las guías",
+    "items": {
+      "how-much-concrete-do-i-need": {
+        "metaTitle": "¿Cuánto Concreto Necesito? Fórmulas de Volumen",
+        "metaDescription": "Calcula el concreto para losas, zapatas y columnas redondas con la fórmula L×A×P. Ejemplos resueltos, bolsas vs. premezclado y precios de 2026.",
+        "title": "¿Cuánto Concreto Necesito? Fórmulas para Losas, Zapatas y Columnas",
+        "description": "La guía maestra de volumen para estimar concreto. Aprende la fórmula básica, convierte pulgadas a pies y resuelve ejemplos reales de losas, zapatas y columnas Sonotube.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "Pedir concreto es uno de los pocos trabajos donde adivinar te cuesta el doble. Si te quedas corto, corres por un segundo camión o terminas con una junta fría en tu colado; si pides de más, pagas por material que se va como desperdicio. La buena noticia es que las cuentas son sencillas una vez que adoptas un hábito: trabaja en pies, halla el volumen en pies cúbicos y luego divide entre 27 para obtener yardas cúbicas.",
+          "Esta guía recorre la única fórmula que cubre losas, zapatas, muros y columnas redondas, además de la variación πr²h para los Sonotubes. Resolveremos tres ejemplos con números reales, te mostraremos cuándo conviene la mezcla en bolsa frente a un camión premezclado, y cubriremos el factor de desperdicio y los errores de medición que confunden hasta a las cuadrillas con experiencia.",
+          "Cada ejemplo usa unidades de EE. UU. y precios de 2026. Redondea con generosidad, pide un poco de más y nunca serás tú quien detenga un colado."
+        ],
+        "sections": [
+          {
+            "heading": "La Fórmula Básica: Largo × Ancho × Profundidad",
+            "body": [
+              "El concreto se vende por yarda cúbica, pero tú mides tu proyecto en pies y pulgadas. Todo el trabajo se reduce a una ecuación: Largo (pies) × Ancho (pies) × Profundidad (pies) = pies cúbicos. Luego divide los pies cúbicos entre 27 para obtener yardas cúbicas, porque una yarda cúbica es 3 pies × 3 pies × 3 pies = 27 pies cúbicos.",
+              "El detalle está en la profundidad. Las losas y zapatas casi siempre se especifican en pulgadas, así que debes convertir las pulgadas a pies dividiendo entre 12. Una losa de 4 pulgadas es 4 ÷ 12 = 0.333 pies de profundidad. Una losa de 6 pulgadas es 0.5 pies. Si omites este paso, excederás tu pedido por un factor de doce, que es el error de principiante más común en los cálculos de concreto."
+            ]
+          },
+          {
+            "heading": "Ejemplo Resuelto: Una Losa de Concreto",
+            "body": [
+              "Supongamos que vas a colar un patio de 20 pies × 12 pies con 4 pulgadas de espesor. Primero convierte la profundidad: 4 ÷ 12 = 0.333 pies. Luego multiplica: 20 × 12 × 0.333 = 80 pies cúbicos. Divide entre 27: 80 ÷ 27 = 2.96 yardas cúbicas.",
+              "Ahora suma el desperdicio. Un factor estándar del 10 por ciento te lleva a 3.26 yardas cúbicas, así que pedirías 3.5 yardas por seguridad (los proveedores venden en incrementos de un cuarto o media yarda). A un precio de premezclado de 2026 de aproximadamente $145 a $170 por yarda cúbica, esa losa cuesta unos $510 a $600 en concreto, antes de cualquier cargo por carga mínima si pides menos del mínimo típico de 4 a 5 yardas."
+            ]
+          },
+          {
+            "heading": "Ejemplo Resuelto: Una Zapata",
+            "body": [
+              "Las zapatas no son más que losas largas y angostas, así que aplica la misma fórmula. Supongamos que tienes una zapata corrida de 40 pies de largo, 16 pulgadas de ancho y 8 pulgadas de profundidad. Convierte el ancho y la profundidad a pies: 16 ÷ 12 = 1.333 pies, y 8 ÷ 12 = 0.667 pies.",
+              "Multiplica: 40 × 1.333 × 0.667 = 35.6 pies cúbicos. Divide entre 27: 35.6 ÷ 27 = 1.32 yardas cúbicas. Suma el 10 por ciento por desperdicio y sobreexcavación (las zanjas rara vez mantienen un ancho exacto) y llegas cerca de 1.45 yardas, así que pide 1.5 yardas. Las zapatas en zanja suelen necesitar más porque las paredes del suelo se abultan, así que no recortes este número."
+            ]
+          },
+          {
+            "heading": "Ejemplo Resuelto: Una Columna Redonda o Sonotube",
+            "body": [
+              "Las formas redondas usan la fórmula del cilindro: Volumen = π × r² × h, donde r es el radio (la mitad del diámetro) y h es la altura, ambos en pies. Para un Sonotube de 12 pulgadas con 9 pies de alto, el radio es 6 pulgadas = 0.5 pies.",
+              "Calcula: 3.1416 × (0.5)² × 9 = 3.1416 × 0.25 × 9 = 7.07 pies cúbicos. Divide entre 27: 7.07 ÷ 27 = 0.26 yardas cúbicas por tubo. Para cuatro columnas son 1.05 yardas cúbicas, más el 10 por ciento de desperdicio equivale a unas 1.16 yardas. Las columnas redondas son donde la mezcla en bolsa suele tener sentido, ya que los totales se mantienen pequeños."
+            ]
+          },
+          {
+            "heading": "Bolsas vs. Premezclado y el Punto de Equilibrio",
+            "body": [
+              "El concreto en bolsa es práctico para colados pequeños. Una bolsa de 80 libras rinde unos 0.6 pies cúbicos, y una bolsa de 60 libras rinde unos 0.45 pies cúbicos. Se necesitan aproximadamente 45 bolsas de 80 libras para llenar una yarda cúbica (27 ÷ 0.6 = 45).",
+              "A un precio de 2026 cercano a $6 por bolsa de 80 libras, una yarda cúbica completa de mezcla en bolsa cuesta unos $270 solo en material, más el trabajo de mezclar 45 bolsas a mano. Un camión premezclado entrega la misma yarda por $145 a $170. El punto de equilibrio suele ubicarse alrededor de 1 yarda cúbica, o unas 40 bolsas. Por debajo de eso, las bolsas ganan en conveniencia; por encima, el premezclado gana en costo y en tu espalda."
+            ]
+          },
+          {
+            "heading": "Factor de Desperdicio y Errores Comunes de Medición",
+            "body": [
+              {
+                "list": [
+                  "Siempre suma un 10 por ciento por desperdicio. Los derrames, la subrasante despareja, la deflexión de la cimbra y el aumento del espesor de la losa consumen tu pedido. Para zapatas excavadas a mano o irregulares, súbelo al 15 por ciento.",
+                  "Nunca mezcles unidades. Convierte cada dimensión en pulgadas a pies antes de multiplicar, y verifica primero la conversión de la profundidad.",
+                  "Considera el aumento de espesor. Una losa colada un poco más gruesa sobre un área grande suma rápido. Una losa de 20 × 30 colada a 4.5 pulgadas en vez de 4 necesita casi un 12 por ciento más de concreto.",
+                  "Mide las dimensiones reales, no las del plano. Las zanjas se sobreexcavan y las cimbras se pandean hacia afuera por el peso del concreto fresco.",
+                  "Redondea hacia arriba, nunca hacia abajo. Los camiones de concreto venden en pasos de un cuarto de yarda. Siempre es más barato pedir un poco de más que pagar un viaje de regreso o un cargo por carga mínima."
+                ]
+              }
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "La fórmula maestra es Largo × Ancho × Profundidad en pies, luego divide entre 27 para obtener yardas cúbicas.",
+          "Convierte las pulgadas a pies dividiendo entre 12 antes de multiplicar; este es el error número uno.",
+          "Las columnas redondas y los Sonotubes usan π × r² × h, con el radio y la altura en pies.",
+          "Una bolsa de 80 libras rinde unos 0.6 pies cúbicos, y aproximadamente 45 bolsas llenan una yarda cúbica.",
+          "Suma un 10 por ciento por desperdicio y cambia de bolsas a premezclado una vez que superes alrededor de 1 yarda cúbica."
+        ],
+        "faqs": [
+          {
+            "question": "¿Cuántas bolsas de 80 libras de concreto hay en una yarda cúbica?",
+            "answer": "Unas 45 bolsas. Cada bolsa de 80 libras rinde aproximadamente 0.6 pies cúbicos de concreto mezclado, y una yarda cúbica contiene 27 pies cúbicos, así que 27 ÷ 0.6 da 45 bolsas. Para bolsas de 60 libras, que rinden unos 0.45 pies cúbicos, necesitas cerca de 60 bolsas por yarda. Siempre suma un 10 por ciento por desperdicio."
+          },
+          {
+            "question": "¿Por qué divido entre 27 para obtener yardas cúbicas?",
+            "answer": "Porque una yarda cúbica es un cubo que mide 3 pies por lado, y 3 × 3 × 3 es igual a 27 pies cúbicos. Los proveedores cotizan y venden por yarda cúbica, pero tú mides los proyectos en pies, así que primero hallas el volumen en pies cúbicos y luego divides entre 27 para convertirlo a las yardas que realmente pides."
+          },
+          {
+            "question": "¿Cuánto concreto extra debo pedir por desperdicio?",
+            "answer": "Suma un 10 por ciento como factor de desperdicio estándar para la mayoría de losas y trabajos con cimbra. Esto cubre derrames, subrasante despareja y variaciones menores de espesor. Para zapatas en zanja excavadas a mano, donde las paredes del suelo se abultan, súbelo al 15 por ciento. El concreto se vende en incrementos de un cuarto de yarda, así que redondea hacia arriba."
+          },
+          {
+            "question": "¿Es más barato usar concreto en bolsa o un camión premezclado?",
+            "answer": "Para colados de menos de una yarda cúbica, las bolsas suelen ser más prácticas y competitivas. Por encima de eso, gana el premezclado. Una yarda completa de mezcla en bolsa cuesta unos $270 en material más mucho trabajo de mezcla, mientras que un camión premezclado entrega la misma yarda por $145 a $170. El punto de equilibrio está cerca de 1 yarda cúbica, o unas 40 bolsas."
+          }
+        ]
+      },
+      "concrete-driveway-cost": {
+        "metaTitle": "Costo de Entrada de Concreto en 2026: Precios",
+        "metaDescription": "Lo que cuesta realmente una entrada de concreto en 2026: $6-$12 por pie cuadrado, precios totales para una entrada de 600 pies cuadrados, factores y ahorro.",
+        "title": "¿Cuánto Cuesta una Entrada de Concreto en 2026?",
+        "description": "Un desglose claro de los precios de entradas de concreto en 2026, los factores que mueven el número, y dónde puedes recortar costos de forma realista sin recortar calidad.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "Una entrada de concreto vaciado es una de las mejores mejoras por su valor que puedes hacer a una propiedad. Dura de 25 a 40 años, soporta vehículos pesados y necesita mucho menos mantenimiento que el asfalto. Pero el precio varía mucho según el tamaño, el acabado y dónde vives, por lo que dos vecinos pueden recibir cotizaciones que difieren en miles de dólares.",
+          "En 2026, una entrada de concreto estándar con acabado de escoba cuesta aproximadamente de $6 a $12 por pie cuadrado instalada. El trabajo decorativo como concreto estampado, teñido o de agregado expuesto sube a $12 a $25 por pie cuadrado. Para una entrada típica de 2 autos de unos 600 pies cuadrados, eso coloca a la mayoría de los proyectos en el rango de $3,600 a $7,200 para concreto simple.",
+          "A continuación desglosamos exactamente qué impulsa esos números, cómo se compara el concreto con los adoquines y el asfalto, y los lugares inteligentes para recortar costos. También cubriremos cómo pedir la cantidad correcta de concreto para que no pagues por una carga corta desperdiciada."
+        ],
+        "sections": [
+          {
+            "heading": "Costo Por Pie Cuadrado: Lo Que Realmente Pagas",
+            "body": [
+              "La mayor parte del país cae en un rango predecible para el concreto instalado, materiales y mano de obra incluidos. Esto es lo que puedes esperar en 2026:",
+              {
+                "list": [
+                  "Acabado básico de escoba, 4 pulgadas de grosor: $6 a $9 por pie cuadrado",
+                  "Reforzado o más grueso (5-6 pulgadas, varilla): $8 a $12 por pie cuadrado",
+                  "Agregado expuesto: $10 a $16 por pie cuadrado",
+                  "Estampado o teñido decorativo: $12 a $25 por pie cuadrado",
+                  "Concreto con color (integral o de superficie): suma $1 a $4 por pie cuadrado"
+                ]
+              },
+              "Aproximadamente del 40 al 50 por ciento de esa cifra es mano de obra. El concreto premezclado en sí cuesta unos $140 a $190 por yarda cúbica en 2026, y una entrada de 600 pies cuadrados a 4 pulgadas necesita unas 7.4 yardas cúbicas. El resto cubre excavación, base, encofrado, acabado y cualquier refuerzo."
+            ]
+          },
+          {
+            "heading": "Los Factores Que Mueven Tu Cotización",
+            "body": [
+              "Dos entradas del mismo tamaño pueden tener precios muy distintos. Las palancas principales son:",
+              {
+                "list": [
+                  "Grosor: pasar de 4 a 6 pulgadas suma material y vale la pena para camiones o casas rodantes",
+                  "Preparación del sitio: remover una losa vieja, renivelar o acarrear relleno puede sumar $1,500 a $5,000",
+                  "Refuerzo: la malla de alambre suma poco; una cuadrícula de varilla suma $0.50 a $1.50 por pie cuadrado",
+                  "Sub-base: 4 a 6 pulgadas de grava compactada es lo estándar y afecta la durabilidad",
+                  "Región y acceso: la mano de obra urbana y los sitios estrechos, inclinados o remotos elevan los costos",
+                  "Acabado: el acabado de escoba es el más barato; estampar y teñir requieren mucha mano de obra"
+                ]
+              },
+              "El drenaje y la pendiente también importan. Una entrada que necesita un drenaje francés, un borde de contención o encofrado extra en una pendiente puede sumar de varios cientos a unos miles de dólares que nunca aparecen en los promedios por pie cuadrado."
+            ]
+          },
+          {
+            "heading": "Total Típico Para una Entrada de 2 Autos (~600 pies cuadrados)",
+            "body": [
+              "Una entrada estándar de 2 autos mide unos 20 por 30 pies, o 600 pies cuadrados. Usando precios de 2026, así se calcula un proyecto real para una losa simple reforzada de 4 pulgadas sobre una base bien preparada:",
+              {
+                "list": [
+                  "Concreto (unas 7.4 yardas cúbicas entregadas): $1,050 a $1,400",
+                  "Excavación y base de grava: $900 a $1,800",
+                  "Encofrado, mano de obra y acabado: $1,500 a $2,800",
+                  "Malla de alambre o varilla ligera: $300 a $700",
+                  "Total típico completo: $3,600 a $6,700"
+                ]
+              },
+              "Si mejoras a un acabado estampado o teñido, esa misma entrada sube a $7,500 a $13,000. Agrega una losa más gruesa y varilla para una plataforma de casa rodante y estarás viendo el extremo superior más unos $1,000 adicionales."
+            ]
+          },
+          {
+            "heading": "Concreto vs. Adoquines vs. Asfalto de un Vistazo",
+            "body": [
+              "Cada material tiene su lugar. Aquí está el costo instalado aproximado de 2026 y el compromiso de cada uno:",
+              {
+                "list": [
+                  "Asfalto: $4 a $8 por pie cuadrado. El más barato al inicio, pero necesita sellado cada 3-5 años y dura 15-20 años",
+                  "Concreto simple: $6 a $12 por pie cuadrado. El mejor equilibrio de costo, vida útil (25-40 años) y bajo mantenimiento",
+                  "Concreto estampado: $12 a $25 por pie cuadrado. Apariencia decorativa sin la mano de obra de colocar unidades individuales",
+                  "Adoquines: $12 a $30 por pie cuadrado. El más caro y laborioso, pero fácil de reparar pieza por pieza"
+                ]
+              },
+              "El concreto gana en valor a largo plazo para la mayoría de las entradas. El asfalto tiene sentido en climas muy fríos o con presupuesto ajustado, mientras que los adoquines son una opción premium cuando la apariencia y la reparabilidad por puntos importan más que el costo."
+            ]
+          },
+          {
+            "heading": "Cómo Ahorrar Dinero Sin Recortar Calidad",
+            "body": [
+              "Hay dinero real que ahorrar aquí si lo gastas en los lugares correctos. Las jugadas inteligentes:",
+              {
+                "list": [
+                  "Consigue 3 cotizaciones y compara el alcance, no solo el precio; las ofertas baratas suelen omitir la preparación de la base",
+                  "Vacía en primavera u otoño cuando las cuadrillas buscan trabajo, no a mitad del verano",
+                  "Mantén la forma simple; las curvas y los múltiples encofrados suman mano de obra",
+                  "Quédate con un acabado de escoba y omite extras decorativos que rara vez notarás",
+                  "Haz tu propia demolición o excavación si tienes las herramientas y el tiempo",
+                  "Pide el concreto con precisión para evitar cargos por carga corta o una carga parcial desperdiciada"
+                ]
+              },
+              "Ese último punto importa más de lo que la gente cree. Pedir muy poco significa una segunda entrega costosa o un recargo por carga corta de $50 a $150; pedir demasiado significa que pagas por concreto que se desecha. Pasar tus dimensiones por una calculadora de concreto antes de llamar a la planta acierta con el volumen a la primera."
+            ]
+          },
+          {
+            "heading": "Cuándo Hacerlo Tú Mismo vs. Contratar un Profesional",
+            "body": [
+              "El concreto no perdona una vez que empieza a curarse, así que sé honesto sobre el alcance. Una losa pequeña como una plataforma de 100 pies cuadrados es un proyecto de fin de semana razonable para un propietario habilidoso usando mezcla en bolsa o de carga corta. Una entrada completa es otra cosa.",
+              "Un vaciado de 600 pies cuadrados significa más de 7 yardas cúbicas llegando en un camión con una ventana de 30 a 45 minutos para colocar, nivelar y dar acabado a todo antes de que fragüe. Eso es una cuadrilla de tres o cuatro personas como mínimo, y los errores quedan permanentes. Para una entrada completa, contrata un profesional. Donde el trabajo propio rinde es en la preparación y demolición: arrancar la superficie vieja, acarrear escombros y nivelar la base por tu cuenta puede recortar de $1,000 a $3,000 de la factura del contratista, dejando el vaciado real a los expertos."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Las entradas de concreto simple cuestan $6 a $12 por pie cuadrado instaladas en 2026; los acabados decorativos cuestan $12 a $25.",
+          "Una entrada típica de 2 autos de 600 pies cuadrados cuesta unos $3,600 a $6,700 simple, o $7,500 a $13,000 estampada o teñida.",
+          "La preparación de la base, el grosor, el refuerzo, el acabado y la región son los factores que más mueven tu cotización.",
+          "El concreto le gana al asfalto y a los adoquines en valor a largo plazo para la mayoría de las entradas por su vida útil de 25-40 años.",
+          "Pide la cantidad correcta de concreto con una calculadora para evitar cargos por carga corta o pagar por mezcla desperdiciada."
+        ],
+        "faqs": [
+          {
+            "question": "¿Cuánto concreto necesito para una entrada de 600 pies cuadrados?",
+            "answer": "A un grosor estándar de 4 pulgadas, una entrada de 600 pies cuadrados necesita unas 7.4 yardas cúbicas de concreto, antes de sumar 5-10 por ciento por derrames y sub-base despareja. Subir la losa a 6 pulgadas eleva eso a unas 11.1 yardas cúbicas. Pasa tu largo, ancho y profundidad exactos por una calculadora de concreto para acertar con el pedido."
+          },
+          {
+            "question": "¿Es más barata una entrada de concreto que los adoquines?",
+            "answer": "Sí, por un amplio margen. El concreto simple cuesta $6 a $12 por pie cuadrado instalado en 2026, mientras que los adoquines cuestan $12 a $30 porque cada unidad se coloca a mano sobre una base preparada. Los adoquines cuestan aproximadamente dos a tres veces más, aunque son más fáciles de reparar por puntos y ofrecen más opciones de diseño."
+          },
+          {
+            "question": "¿Qué tan gruesa debe ser una entrada de concreto?",
+            "answer": "Cuatro pulgadas es lo estándar para autos y camionetas ligeras sobre una base de grava bien compactada. Sube a 5 o 6 pulgadas si vas a estacionar casas rodantes, remolques o camiones pesados de entrega. La pulgada o dos extra de concreto y la varilla adicional son un seguro barato contra el agrietamiento y cuesta mucho menos que reemplazar una losa fallida."
+          },
+          {
+            "question": "¿Puedo vaciar una entrada de concreto yo mismo?",
+            "answer": "Una plataforma pequeña es factible para un propietario habilidoso, pero una entrada completa no es un proyecto de principiante. Un vaciado de 600 pies cuadrados llega todo de una vez y debe colocarse y darse acabado en menos de una hora, lo que requiere una cuadrilla entrenada. La mayoría de la gente ahorra más haciendo la demolición y excavación por su cuenta y contratando el vaciado real."
+          }
+        ]
+      },
+      "concrete-vs-asphalt": {
+        "metaTitle": "Concreto vs. Asfalto: Costo y Vida Útil",
+        "metaDescription": "Compara entradas de concreto y asfalto por costo por pie cuadrado en 2026, vida útil, mantenimiento, clima y valor de reventa. Descubre cuál elegir con un veredicto claro.",
+        "title": "Concreto vs. Asfalto para Entradas de Auto: Costo, Vida Útil y Cuál Elegir",
+        "description": "Un análisis de nivel profesional sobre cómo se comparan las entradas de concreto y asfalto en precio, durabilidad, mantenimiento y clima, para que elijas la superficie correcta a la primera.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "Una entrada de auto nueva es uno de los proyectos exteriores más grandes que asume un propietario, y los dos materiales que la mayoría considera son el concreto y el asfalto. En un folleto se ven parecidos, pero se comportan de forma muy distinta a lo largo de 20 años: distinto costo inicial, distinto calendario de mantenimiento y distinta reacción al calor, al frío y a los ciclos de congelación y deshielo.",
+          "En resumen: el asfalto es más barato de instalar y más fácil de reparar, pero necesita sellado cada pocos años y se desgasta en 15 a 20 años. El concreto cuesta más al inicio, dura de 30 a 40 años con mantenimiento ligero y conserva mejor el valor de reventa, pero se agrieta y se levanta si se vierte mal o en el clima equivocado.",
+          "Esta guía compara ambos materiales con los números que de verdad importan para que ajustes la superficie a tu presupuesto, a tus inviernos y al tiempo que planeas vivir en la casa."
+        ],
+        "sections": [
+          {
+            "heading": "Costo Inicial por Pie Cuadrado",
+            "body": [
+              "En 2026, el asfalto cuesta entre $7 y $13 por pie cuadrado instalado, mientras que el concreto cuesta aproximadamente entre $8 y $18 por pie cuadrado. Una entrada estándar para dos autos de 600 pies cuadrados ronda los $4,200 a $7,800 en asfalto frente a $4,800 a $10,800 en concreto gris simple.",
+              "El concreto sube rápido en cuanto agregas acabados. El acabado con escoba es la base; el agregado expuesto, estampado o el concreto coloreado pueden elevar el precio a $15 o $25 por pie cuadrado. El asfalto tiene menos mejoras estéticas, lo que mantiene su rango estrecho.",
+              {
+                "list": [
+                  "Asfalto instalado: $7-$13 / pie cuadrado",
+                  "Concreto simple instalado: $8-$18 / pie cuadrado",
+                  "Concreto estampado o coloreado: $15-$25 / pie cuadrado",
+                  "Entrada típica de 600 pies cuadrados: asfalto $4,200-$7,800, concreto $4,800-$10,800"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Vida Útil y Qué la Acorta",
+            "body": [
+              "El concreto gana a largo plazo. Una losa bien vertida sobre una base compactada dura de 30 a 40 años, y muchas duran más con mínima atención. El asfalto suele darte de 15 a 20 años antes de necesitar repavimentación o reemplazo.",
+              "La vida útil depende mucho de la instalación, no solo del material. El concreto falla pronto cuando la base está mal compactada, las juntas de control están demasiado separadas o se vierte en clima helado. El asfalto falla pronto cuando se coloca demasiado delgado, se compacta mal o nunca se sella. Los vehículos pesados, el agua estancada y las raíces de árboles acortan ambos. En un horizonte de 40 años, probablemente reemplazarás una entrada de asfalto dos veces mientras el concreto sigue funcionando, algo que vale la pena sopesar frente al menor precio del asfalto."
+            ]
+          },
+          {
+            "heading": "Mantenimiento y Reparación",
+            "body": [
+              "El asfalto exige un hábito constante de mantenimiento. Planea aplicar sellador de 6 a 12 meses después de la instalación y luego cada 3 a 5 años, a un costo aproximado de $0.15 a $0.25 por pie cuadrado, más el relleno de grietas según se necesite. Si te saltas el sellado, la superficie se oxida, se agrieta y falla años antes.",
+              "El concreto pide mucho menos. Un buen sellador penetrante cada 2 a 5 años es opcional pero inteligente en regiones de congelación y deshielo, y eso es casi todo. La desventaja es la dificultad de reparación: el asfalto es fácil y barato de parchar y la unión desaparece, mientras que las reparaciones de concreto son más difíciles de igualar en color y una losa agrietada a menudo debe reemplazarse sección por sección. Así, el asfalto cuesta más atención pero perdona los errores; el concreto cuesta menos atención pero los castiga."
+            ]
+          },
+          {
+            "heading": "Clima: Calor, Frío y Congelación-Deshielo",
+            "body": [
+              "El clima suele ser el factor decisivo. El asfalto es un producto derivado del petróleo, así que se mantiene ligeramente flexible y soporta los ciclos de congelación-deshielo y el movimiento del suelo mejor que el concreto rígido, una ventaja real en el norte de EE. UU. y los estados montañosos. La contraparte: en calor extremo de verano, el asfalto se ablanda, puede formar surcos bajo neumáticos pesados y se vuelve pegajoso.",
+              "El concreto es rígido. Apenas se ablanda con el calor, por lo que aguanta los veranos calurosos del sur y suroeste y refleja más luz solar, manteniéndose más fresco. Pero en climas fríos puede agrietarse y levantarse cuando el agua se mete bajo la losa y se congela, y es vulnerable al descascarillado superficial por las sales descongelantes. Regla general: los inviernos duros y salados favorecen el asfalto; los veranos largos y brutales favorecen el concreto."
+            ]
+          },
+          {
+            "heading": "Atractivo, Reventa y Estética de Reparaciones",
+            "body": [
+              "En apariencia, el concreto suele ganar. Su superficie gris clara, sus líneas de junta limpias y sus opciones de diseño (estampado, tinte, agregado expuesto, bordes) se perciben como una mejora premium y tienden a agregar más valor percibido en la reventa. Los tasadores y compradores suelen ver una entrada de concreto como más duradera, lo que ayuda en una casa de gama más alta.",
+              "El asfalto ofrece un acabado negro uniforme que luce bien justo después del sellado, pero se desvanece a gris y muestra parches con el tiempo. Es ideal para propiedades rurales, entradas largas y proyectos ajustados al presupuesto donde la función vence al acabado. Si planeas vender en pocos años en un mercado competitivo, la apariencia del concreto y su reputación de longevidad le dan en general la ventaja en la percepción del comprador y en las fotos del anuncio."
+            ]
+          },
+          {
+            "heading": "Notas Ambientales y Reemplazo",
+            "body": [
+              "Ambos materiales tienen compensaciones ambientales. El asfalto es el material más reciclado en EE. UU.: el pavimento viejo se fresa y se reutiliza con frecuencia, pero es de base petrolera y su superficie oscura absorbe calor, contribuyendo al efecto de isla de calor urbana. El concreto tiene una alta huella de carbono por la producción de cemento, aunque su color más claro refleja el calor y dura mucho más, repartiendo ese impacto en más años.",
+              "Cuando llega el final, el asfalto se puede repavimentar: una nueva capa de 1.5 a 2 pulgadas lo restaura por menos que un retiro completo, lo cual es parte de su atractivo a largo plazo. El concreto en general no se puede recubrir de la misma manera; una losa fallida suele retirarse y verterse de nuevo. Considera esas realidades de reemplazo, no solo la cotización de instalación, en tu decisión."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "El asfalto cuesta menos al inicio ($7-$13/pie cuadrado) pero dura 15-20 años; el concreto cuesta más ($8-$18/pie cuadrado) pero dura 30-40 años.",
+          "El asfalto necesita sellado cada 3-5 años; el concreto requiere poco mantenimiento pero es más difícil y costoso de reparar de forma limpia.",
+          "Los climas fríos, de congelación-deshielo y salados favorecen la flexibilidad del asfalto; los climas calurosos del sur favorecen la resistencia al calor del concreto.",
+          "El concreto generalmente agrega más atractivo y valor de reventa gracias a sus opciones de acabado y su longevidad.",
+          "En 40 años podrías reemplazar el asfalto dos veces, lo que reduce la diferencia del mayor costo inicial del concreto."
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué es más barato para una entrada de auto, concreto o asfalto?",
+            "answer": "El asfalto es más barato de instalar: cerca de $7 a $13 por pie cuadrado en 2026 frente a $8 a $18 del concreto simple. Pero el asfalto necesita sellado cada pocos años y dura solo 15 a 20 años, mientras que el concreto dura de 30 a 40. A lo largo de toda la vida de la entrada, la diferencia de costo se reduce e incluso puede inclinarse a favor del concreto."
+          },
+          {
+            "question": "¿Cuál dura más, el concreto o el asfalto?",
+            "answer": "El concreto dura más: normalmente de 30 a 40 años cuando se vierte sobre una base bien compactada, y a menudo más. El asfalto suele durar de 15 a 20 años antes de necesitar repavimentación o reemplazo. La calidad de instalación importa tanto como el material: una entrada de concreto mal construida puede fallar pronto, y una de asfalto bien mantenida puede superar las expectativas."
+          },
+          {
+            "question": "¿Es mejor el asfalto o el concreto para climas fríos y nevados?",
+            "answer": "El asfalto suele rendir mejor en climas fríos de congelación-deshielo porque se mantiene ligeramente flexible y tolera el movimiento del suelo sin agrietarse. El concreto es rígido y puede agrietarse, levantarse o descascararse por las sales descongelantes en inviernos duros. Si vives en el norte de EE. UU. o regiones montañosas con mucha nieve y sal, el asfalto suele ser la opción más segura."
+          },
+          {
+            "question": "¿Una entrada de concreto agrega más valor a la casa que una de asfalto?",
+            "answer": "Por lo general, sí. La apariencia limpia del concreto, las opciones de diseño como el estampado y el tinte, y su mayor vida útil lo hacen percibirse como una mejora premium y de bajo mantenimiento ante compradores y tasadores. El asfalto se ve funcional y económico pero de vida más corta. En mercados competitivos o casas de mayor precio, el concreto suele ayudar más en las fotos del anuncio y en la percepción del comprador."
+          }
+        ]
+      },
+      "deck-footing-size-guide": {
+        "metaTitle": "Zapatas de Terraza: Tamaño y Profundidad",
+        "metaDescription": "Aprende a dimensionar zapatas de terraza según la carga y el suelo, excavar bajo la línea de helada, elegir el tipo correcto y calcular el concreto.",
+        "title": "Zapatas de Terraza: Tamaño y Profundidad, Guía Completa",
+        "description": "Una guía práctica y conforme al código para dimensionar zapatas de terraza, excavar bajo la línea de helada y elegir el tipo correcto según el suelo y las cargas.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "Las zapatas son la parte de una terraza que nadie ve y de la que todos dependen. Soportan todo el peso de la estructura más lo que haya encima, y luego reparten esa carga al suelo para que la terraza no se asiente, se incline ni se levante. Si se hacen mal, verás tablas inclinadas, balanceo y separaciones en el larguero en una o dos temporadas. Si se hacen bien, la terraza durará más que el primer techo de la casa.",
+          "Toda zapata debe responder dos preguntas: qué tan profunda y qué tan ancha. La profundidad depende sobre todo de la helada. El ancho depende sobre todo de la carga y del suelo que hay debajo. Esta guía cubre ambas, repasa los tipos comunes de zapata y te remite a las reglas del código que rigen todo.",
+          "Una advertencia inicial: los requisitos de las zapatas los fija tu departamento local de construcción y pueden ser más estrictos que el código modelo. La profundidad de helada, los supuestos del suelo y los permisos varían según la jurisdicción. Usa estos números para planificar y presupuestar, y confirma todo con tu inspector local antes de excavar."
+        ],
+        "sections": [
+          {
+            "heading": "Por qué importan las zapatas: transferencia de carga y levantamiento por helada",
+            "body": [
+              "Una zapata de terraza hace dos trabajos. Primero, transfiere la carga vertical. Los postes concentran el peso de la terraza en unos pocos puntos pequeños; la base ancha de la zapata reparte esa carga sobre suficiente suelo para que el terreno la soporte sin comprimirse. Segundo, resiste el levantamiento por helada. Cuando el agua del suelo se congela, se expande y empuja hacia arriba con una fuerza enorme. Una zapata que termine por encima de la línea de helada se levantará cada invierno y caerá cada primavera, desarmando la terraza poco a poco.",
+              "La carga combinada importa. El IRC usa 40 psf de carga viva más 10 psf de carga muerta para terrazas residenciales, es decir 50 psf en total. Una zapata que cubre un área tributaria de 10 por 10 pies soporta cerca de 5,000 libras. Ese solo número determina tanto el tamaño de la base como su profundidad."
+            ]
+          },
+          {
+            "heading": "Excavar bajo la línea de helada: profundidad por región",
+            "body": [
+              "La regla es simple: el fondo de la zapata debe quedar por debajo de la línea de helada local para que el suelo bajo ella nunca se congele. El número no es simple. La profundidad de helada depende de tu clima y la publica tu departamento de construcción.",
+              "Las profundidades mínimas típicas son aproximadamente:",
+              {
+                "list": [
+                  "Climas cálidos del sur (Costa del Golfo, Florida, sur de California): 12 pulgadas o un mínimo sin helada",
+                  "Zonas templadas y del Atlántico medio: 24 a 36 pulgadas",
+                  "Estados del norte (Medio Oeste superior, Nueva Inglaterra, Montañas Rocosas): 42 a 48 pulgadas o más",
+                  "Extremo norte/interior de Alaska: 60 pulgadas o más"
+                ]
+              },
+              "Incluso en regiones sin helada, los códigos suelen exigir un empotramiento mínimo (a menudo 12 pulgadas) por apoyo y estabilidad lateral. Consigue siempre la profundidad oficial de tu condado en lugar de adivinar, y excava hasta suelo firme no removido, no relleno suelto."
+            ]
+          },
+          {
+            "heading": "Diámetro de la zapata según la carga y la capacidad del suelo",
+            "body": [
+              "El ancho se determina dividiendo la carga entre la capacidad portante del suelo. El valor presunto por defecto del IRC es de 1,500 psf para suelo desconocido; muchos suelos rinden más, pero no puedes asumirlo sin un estudio de suelos. El área de base requerida es la carga del poste dividida entre esa capacidad.",
+              "Toma ese poste de 5,000 libras sobre suelo de 1,500 psf: necesitas unos 3.3 pies cuadrados de apoyo, es decir una zapata de unas 25 pulgadas de diámetro o 24 por 24 pulgadas. Baja la carga a 3,000 libras y una base de 16 a 18 pulgadas basta. Por eso un mayor espaciamiento exige zapatas más grandes.",
+              "El espesor también importa. Un mínimo común es de 6 a 8 pulgadas de concreto para una losa vertida, más grueso a medida que crece el diámetro, para que no se agriete ni se perfore bajo el poste."
+            ]
+          },
+          {
+            "heading": "Tipos comunes de zapata",
+            "body": [
+              "Varios sistemas de zapata cumplen el código; el correcto depende del suelo, la profundidad de helada y el presupuesto.",
+              {
+                "list": [
+                  "Pilar de concreto vertido: concreto vertido directamente en el hoyo, a menudo acampanado en el fondo para mayor apoyo. Económico y fuerte, pero más difícil de mantener a plomo.",
+                  "Sonotube (molde de cartón): un tubo forma un pilar redondo limpio sobre el nivel del suelo. Combínalo con un molde de base acampanada tipo Bigfoot para ampliar el apoyo sin un hoyo enorme.",
+                  "Zapata más pilar: una losa ancha vertida en el fondo soporta la carga mientras un pilar más estrecho sube hasta el poste. Ideal para alta demanda de apoyo.",
+                  "Pilotes helicoidales/de tornillo: ejes de acero hincados bajo la helada con equipo hidráulico. Sin concreto ni curado, excelentes en suelo pobre o húmedo, pero dependen del instalador y son más caros."
+                ]
+              },
+              "Para la mayoría de las terrazas residenciales, un Sonotube con base acampanada sobre buen suelo es el punto ideal y práctico."
+            ]
+          },
+          {
+            "heading": "Espaciamiento, luz de viga y número de zapatas",
+            "body": [
+              "La disposición de las zapatas sigue al armado. Las viguetas apoyan en vigas, las vigas salvan luz entre postes y los postes descansan en zapatas, de modo que el tamaño de la viga y el espaciamiento de los postes definen cuántas zapatas necesitas y cuánto soporta cada una.",
+              "Un mayor espaciamiento entre postes significa que cada zapata soporta más, exigiendo una base más profunda o ancha. Las disposiciones del IRC para terrazas (Sección R507) incluyen tablas de luces para viguetas, vigas y espaciamiento de postes según la especie de madera y la carga. Como regla aproximada, vigas de doble 2x10 o 2x12 suelen salvar de 6 a 9 pies entre postes con cargas residenciales.",
+              "No improvises las luces. Elige la viga y la disposición de postes en las tablas del código o con un ingeniero, y dimensiona cada zapata según su carga tributaria real. Zapatas más juntas son más pequeñas y baratas de excavar, pero añaden mano de obra y más zapatas."
+            ]
+          },
+          {
+            "heading": "Cuánto concreto por zapata y notas de código/permiso",
+            "body": [
+              "El volumen de concreto es sencillo. El volumen de un pilar cilíndrico en pies cúbicos es pi por el radio al cuadrado por la profundidad, dividido entre 1,728 si usas pulgadas. Un pilar de 12 pulgadas de diámetro y 48 de profundidad contiene unos 3.1 pies cúbicos, cerca de 0.12 yardas cúbicas, o unas cinco bolsas de 60 libras. Un pilar de 16 pulgadas a la misma profundidad casi duplica eso.",
+              "Para 2026, el concreto en bolsa cuesta entre $6 y $8 por bolsa de 60 libras, y el concreto premezclado entregado ronda los $160 a $200 por yarda cúbica más cargos por carga pequeña. Por debajo de una yarda, las bolsas suelen convenir; por encima, llama a un camión.",
+              "Sobre el código: las terrazas suelen requerir permiso e inspección. El IRC (2021/2024, Sección R507) rige las zapatas de terraza, y el inspector normalmente revisa los hoyos abiertos antes de verter. Confirma siempre la profundidad de helada, la capacidad del suelo y el tamaño de la zapata con tu departamento local de construcción primero."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "La profundidad de la zapata la determina la helada: excava bajo tu línea de helada local, de 12 pulgadas en climas cálidos a 48 o más en el norte.",
+          "El ancho de la zapata lo determina la carga y el suelo: con el valor por defecto del IRC de 1,500 psf, un poste de 5,000 libras necesita una base de unas 24 pulgadas.",
+          "Usa las cargas residenciales del IRC (40 psf viva + 10 psf muerta = 50 psf) y las tablas de luces R507 para fijar el espaciamiento y el área tributaria.",
+          "Un pilar de 12 pulgadas y 48 de profundidad necesita unas 5 bolsas de concreto; estima el volumen por zapata antes de comprar.",
+          "Las terrazas requieren permiso e inspección de zapatas en la mayoría de las áreas. Verifica profundidad de helada, capacidad del suelo y dimensiones con tu departamento local de construcción antes de excavar."
+        ],
+        "faqs": [
+          {
+            "question": "¿Qué tan profundas deben ser las zapatas de una terraza?",
+            "answer": "Lo suficiente para que la base quede bajo tu línea de helada local y el suelo debajo nunca se congele. Eso va de unas 12 pulgadas en regiones sin helada del sur a 42 o 48 pulgadas o más en estados del norte. La profundidad de helada la fija tu departamento de construcción, así que consigue el número oficial de tu condado y excava hasta suelo firme no removido."
+          },
+          {
+            "question": "¿Qué diámetro debe tener la zapata de una terraza?",
+            "answer": "Divide la carga del poste entre la capacidad portante del suelo para obtener el área de base requerida. Con el valor por defecto del IRC de 1,500 psf, un poste que soporta 5,000 libras necesita unos 3.3 pies cuadrados, alrededor de 24 pulgadas de diámetro. Cargas menores por postes más juntos pueden usar zapatas de 16 a 18 pulgadas. Mayor espaciamiento siempre exige una base más grande."
+          },
+          {
+            "question": "¿Cuánto concreto lleva una zapata de terraza?",
+            "answer": "Para un pilar redondo, multiplica pi por el radio al cuadrado por la profundidad y divide entre 1,728 si usas pulgadas. Un pilar de 12 pulgadas de diámetro y 48 de profundidad contiene unos 3.1 pies cúbicos, cerca de cinco bolsas de 60 libras o 0.12 yardas cúbicas. Un pilar de 16 pulgadas a la misma profundidad casi duplica eso. Suma el volumen de la base acampanada si la usas."
+          },
+          {
+            "question": "¿Requieren permiso las zapatas de terraza?",
+            "answer": "Casi siempre, sí. La mayoría de las jurisdicciones exige un permiso de construcción para una terraza adosada o independiente, y el inspector suele revisar los hoyos abiertos por profundidad y tamaño antes de verter. La Sección R507 del IRC cubre las zapatas de terraza, pero las reglas locales pueden ser más estrictas. Confirma los requisitos con tu departamento de construcción antes de empezar a excavar."
+          }
+        ]
+      },
+      "how-much-paint-do-i-need": {
+        "metaTitle": "¿Cuánta pintura necesito para pintar un cuarto?",
+        "metaDescription": "Calcula exactamente cuánta pintura necesitas: rendimiento por galón, cómo medir las paredes, por qué dos manos, imprimación, techos y un ejemplo de 12x12.",
+        "title": "¿Cuánta pintura necesito para pintar un cuarto?",
+        "description": "Una guía práctica y sin adivinanzas para estimar la pintura de paredes, techos y molduras, con rendimientos, número de manos y un ejemplo resuelto completo.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "La respuesta corta: un galón de pintura cubre entre 350 y 400 pies cuadrados con una sola mano, y la mayoría de los cuartos necesitan dos manos. Para una habitación típica de 12 por 12 pies con techos de 8 pies, eso significa unos dos galones para las paredes, más un poco extra para techos y molduras. Pero la cifra exacta depende del área de tus paredes, de cuántas manos realmente necesites y de la superficie que vas a pintar.",
+          "Comprar de menos significa una carrera a la tienda a mitad del trabajo y una mezcla ligeramente distinta de una lata nueva. Comprar de más desperdicia 40 dólares o más y te deja latas almacenadas que nunca volverás a abrir. Esta guía explica cómo estiman la pintura los profesionales para que salgas de la tienda con la cantidad correcta a la primera.",
+          "Veremos los rendimientos, cómo medir el área de las paredes, cuándo necesitas una mano o dos (o tres), la imprimación, los techos, las molduras, y cómo el color y la textura cambian el cálculo, para luego unirlo todo en un ejemplo real."
+        ],
+        "sections": [
+          {
+            "heading": "Rendimiento estándar: qué cubre realmente un galón",
+            "body": [
+              "Los fabricantes imprimen de 350 a 400 pies cuadrados por galón en la lata, y esa cifra supone una sola mano sobre una superficie lisa de panel de yeso con imprimación. Toma el extremo inferior, unos 350 pies cuadrados, como tu número de planificación, porque las paredes reales tienen tomacorrientes, esquinas y desperdicio del rodillo que reducen el rendimiento teórico.",
+              "Un cuarto de galón cubre aproximadamente de 90 a 100 pies cuadrados, lo cual es práctico para molduras, puertas y retoques pequeños. El rendimiento baja en superficies porosas o texturizadas: el panel de yeso sin sellar, la madera cruda y las texturas gruesas pueden reducirlo a 250 o 300 pies cuadrados por galón. Los acabados mate rinden un poco más que los brillantes, pero la diferencia es pequeña frente a la textura y el número de manos."
+            ]
+          },
+          {
+            "heading": "Cómo medir el área de tus paredes",
+            "body": [
+              "Empieza por el perímetro del cuarto: suma la longitud de las cuatro paredes, y luego multiplica por la altura del techo. Una habitación de 12 por 12 pies tiene un perímetro de 48 pies; a 8 pies de altura, eso son 384 pies cuadrados de área bruta de pared.",
+              "Después, resta las aberturas. Una puerta interior estándar mide unos 21 pies cuadrados (3 por 7 pies) y una ventana promedio ronda los 15 pies cuadrados. Restar esto importa: dos ventanas y una puerta quitan unos 50 pies cuadrados del total. No te molestes en restar tomacorrientes ni accesorios pequeños.",
+              {
+                "list": [
+                  "Perímetro = suma de las longitudes de todas las paredes (pies)",
+                  "Área bruta de pared = perímetro x altura del techo",
+                  "Resta unos 21 pies cuadrados por puerta y 15 por ventana",
+                  "Resultado = área neta de pared pintable"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Por qué casi siempre necesitas dos manos",
+            "body": [
+              "Dos manos es lo predeterminado por una razón. Una sola mano rara vez cubre el color anterior de forma uniforme, deja marcas del rodillo y zonas delgadas, y da un acabado menos duradero y menos lavable. Aunque la lata diga cobertura en una mano, esa promesa supone condiciones ideales y un color de fondo similar; la mayoría de los trabajos no lo cumplen.",
+              "La gran excepción es repintar una pared del mismo color o uno muy parecido cuando la superficie existente está en buen estado. Ahí a menudo basta con una mano, sobre todo con un producto de calidad de pintura con imprimación. Pasar de un color oscuro a uno claro, o cubrir rojos intensos y azules profundos, puede llevarte a tres manos o exigir una imprimación tintada. Ante la duda, planifica dos manos y guarda el sobrante."
+            ]
+          },
+          {
+            "heading": "Imprimación, techos y cambios de color",
+            "body": [
+              "Aplica imprimación cuando pintes panel de yeso o madera sin sellar, cubras manchas o daños por agua, hagas un cambio de color drástico o pases de brillante a mate. Una imprimación tintada bajo una capa final oscura o saturada puede ahorrarte toda una mano de pintura de acabado, que es cara. Sobre una pared limpia ya pintada de color similar, normalmente no hace falta una imprimación aparte.",
+              "Los techos se miden por su superficie: un techo de 12 por 12 son 144 pies cuadrados, así que un galón lo cubre fácilmente con dos manos. La pintura blanca mate para techos cubre bien, pero el panel de yeso nuevo o un cambio de color pueden necesitar imprimación primero. Los techos texturizados tipo popcorn absorben mucha pintura: presupuesta extra y espera un rendimiento más cercano a 250 pies cuadrados por galón."
+            ]
+          },
+          {
+            "heading": "Molduras, puertas y cuánto necesitas",
+            "body": [
+              "Las molduras y las puertas usan mucha menos pintura que las paredes, pero suelen necesitar dos manos y una aplicación más lenta y cuidadosa. Un cuarto de galón de pintura para molduras o esmalte cubre la mayoría de los zócalos, marcos de ventana y marcos de puerta de un cuarto promedio.",
+              "Las puertas requieren aproximadamente un cuarto de un cuarto de galón cada una para dos manos: calcula de cuatro a seis puertas por cuarto de galón. Para un solo cuarto con zócalos, una puerta y marcos de ventana, un cuarto de galón de pintura para molduras suele ser suficiente. Las casas grandes o los trabajos de molduras de toda la casa suben a un galón o más. Como la pintura de molduras suele ser de otro brillo (semibrillante o satinado) y a veces de otro color que las paredes, cómprala aparte y no intentes estirar la pintura de pared para cubrirla."
+            ]
+          },
+          {
+            "heading": "Ejemplo resuelto: un cuarto de 12x12 con techos de 8 pies",
+            "body": [
+              "Paredes: perímetro de 48 pies x 8 pies = 384 pies cuadrados brutos. Resta una puerta (21) y dos ventanas (30) para obtener unos 333 pies cuadrados netos. A 350 pies cuadrados por galón, una mano necesita más o menos un galón; dos manos requieren unos 666 pies cuadrados de cobertura, así que compra dos galones de pintura de pared.",
+              "Techo: 12 x 12 = 144 pies cuadrados. Dos manos son 288 pies cuadrados de cobertura: un galón de pintura para techos lo cubre de sobra. Molduras y puerta: un cuarto de galón de esmalte semibrillante resuelve los zócalos, los marcos y la puerta en dos manos.",
+              {
+                "list": [
+                  "Paredes: 2 galones",
+                  "Techo: 1 galón",
+                  "Molduras y puerta: 1 cuarto de galón",
+                  "Imprimación opcional: 1 galón si hay superficies sin sellar o manchadas o un gran cambio de color"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Cuánto cuesta en 2026",
+            "body": [
+              "La pintura interior para paredes cuesta entre 25 y 60 dólares por galón en líneas sólidas de gama media, y entre 60 y 100 dólares en productos premium de pintura con imprimación. La pintura para techos suele ser más barata, alrededor de 20 a 40 dólares el galón, mientras que las pinturas para molduras y los esmaltes a menudo cuestan un poco más por galón, pero necesitas mucha menos.",
+              "Para nuestro cuarto de 12 por 12, una factura realista de materiales de gama media ronda los 90 a 140 dólares: dos galones de pintura de pared, un galón de pintura para techos y un cuarto de galón de esmalte para molduras. Los productos premium lo acercan a los 200 dólares. Pagar más por mejor pintura a menudo ahorra dinero en general: la pintura de mayor calidad cubre en menos manos, así que compras menos y terminas más rápido."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Planifica 350 pies cuadrados por galón por mano y supón dos manos para la mayoría de los cuartos.",
+          "Mide las paredes como perímetro x altura del techo, y luego resta unos 21 pies cuadrados por puerta y 15 por ventana.",
+          "Una sola mano solo es realista al repintar del mismo color sobre una superficie en buen estado.",
+          "Un cuarto estándar de 12x12 necesita unos 2 galones para las paredes, 1 galón para el techo y 1 cuarto de galón para las molduras.",
+          "Presupuesta de 25 a 60 dólares por galón para pintura de gama media y de 60 a 100 para premium en 2026."
+        ],
+        "faqs": [
+          {
+            "question": "¿Cuántos pies cuadrados cubre un galón de pintura?",
+            "answer": "Entre 350 y 400 pies cuadrados con una mano sobre una superficie lisa con imprimación. Usa 350 como tu número de planificación para tener en cuenta el desperdicio y las esquinas. Las paredes texturizadas, el panel de yeso sin sellar o la madera cruda pueden bajar el rendimiento a 250 o 300 pies cuadrados por galón, así que compra un poco extra para esas superficies."
+          },
+          {
+            "question": "¿Necesito imprimación antes de pintar un cuarto?",
+            "answer": "Aplica imprimación en panel de yeso o madera sin sellar, zonas manchadas o dañadas por agua, cambios de color drásticos y superficies brillantes. Sobre una pared limpia ya pintada de color similar, normalmente no hace falta una imprimación aparte: un buen producto de pintura con imprimación lo resuelve. Una imprimación tintada bajo colores oscuros puede ahorrarte toda una mano de acabado."
+          },
+          {
+            "question": "¿Puedo arreglármelas con una sola mano de pintura?",
+            "answer": "A veces. Una mano funciona al repintar del mismo color o uno muy parecido sobre una superficie limpia y en buen estado, sobre todo con pintura premium. Para cambios de color, cubrir tonos intensos u oscuros, o pintar superficies sin sellar, planifica dos manos, y posiblemente tres al pasar de un color oscuro a uno claro."
+          },
+          {
+            "question": "¿Cuánta pintura necesito para molduras y puertas?",
+            "answer": "Mucha menos que para las paredes. Un cuarto de galón de pintura para molduras o esmalte cubre los zócalos, los marcos de ventana y una puerta de un cuarto promedio con dos manos. Cada puerta requiere alrededor de un cuarto de un cuarto de galón para dos manos, así que un cuarto de galón resuelve de cuatro a seis puertas. Compra la pintura de molduras aparte, pues suele ser de otro brillo."
+          }
+        ]
+      },
+      "how-much-mulch-do-i-need": {
+        "metaTitle": "¿Cuánto mantillo necesito? Bolsas vs. granel",
+        "metaDescription": "Calcula exactamente cuánto mantillo necesitas con la fórmula de yardas cúbicas, compara el costo de bolsas y granel, y elige la profundidad correcta.",
+        "title": "¿Cuánto mantillo necesito? Bolsas vs. granel explicado",
+        "description": "Una guía práctica para calcular mantillo por yarda cúbica, elegir la profundidad correcta y decidir si te conviene más comprar en bolsas o a granel.",
+        "readMinutes": 7,
+        "updated": "June 2026",
+        "intro": [
+          "Comprar mantillo parece sencillo hasta que estás en el vivero haciendo cuentas en el teléfono, preguntándote si 8 bolsas alcanzan o si mejor pides un camión completo. Si calculas de menos, haces un segundo viaje; si calculas de más, te quedan bolsas pudriéndose en la entrada todo el verano.",
+          "La buena noticia: la cantidad de mantillo se reduce a una fórmula confiable y un par de reglas de profundidad que los profesionales usan a diario. Una vez que sabes los pies cuadrados de tu cantero y la profundidad que quieres, el resto es aritmética. Esta guía explica la fórmula, el punto de equilibrio entre bolsas y granel, y los precios de 2026 para que pidas la cantidad correcta a la primera."
+        ],
+        "sections": [
+          {
+            "heading": "La fórmula de mantillo que siempre funciona",
+            "body": [
+              "El mantillo se vende por yarda cúbica, y todo cálculo empieza ahí. La fórmula es: área en pies cuadrados multiplicada por la profundidad en pies, dividida entre 27. El 27 convierte pies cúbicos en yardas cúbicas (una yarda cúbica es 3 pies x 3 pies x 3 pies = 27 pies cúbicos).",
+              "El truco que muchos pasan por alto es convertir la profundidad de pulgadas a pies. Primero divide las pulgadas entre 12. Así, 3 pulgadas se convierten en 0.25 pies, y 2 pulgadas en 0.167 pies.",
+              {
+                "list": [
+                  "Mide largo x ancho para obtener los pies cuadrados (canteros irregulares: divídelos en rectángulos y súmalos).",
+                  "Convierte la profundidad: pulgadas dividido entre 12 es igual a pies.",
+                  "Multiplica: pies cuadrados x profundidad en pies.",
+                  "Divide ese resultado entre 27 para obtener las yardas cúbicas."
+                ]
+              },
+              "Ejemplo: un cantero de 300 pies cuadrados a 3 pulgadas de profundidad es 300 x 0.25 = 75 pies cúbicos, dividido entre 27 = 2.8 yardas cúbicas. Redondea a 3 yardas para nunca quedarte corto."
+            ]
+          },
+          {
+            "heading": "¿Qué profundidad debe tener el mantillo?",
+            "body": [
+              "La profundidad importa tanto como el área. Muy delgada y las malezas atraviesan; muy gruesa y asfixias las raíces e invitas a la pudrición. Para la mayoría de los canteros establecidos y alrededor de arbustos, de 2 a 3 pulgadas es el punto ideal. Retiene humedad y bloquea la luz sin ahogar el suelo.",
+              "Para canteros nuevos, mucha presión de malezas o terreno abierto que quieres mantener despejado, usa de 3 a 4 pulgadas. Esa pulgada extra es la que de verdad impide que germinen las semillas de maleza. Cuando renueves el mantillo cada primavera, completa solo hasta la profundidad deseada; no apiles mantillo fresco sobre la capa completa del año anterior.",
+              "Una regla que ningún profesional rompe: nunca amontones mantillo contra los troncos de los árboles ni los tallos de las plantas. Estos llamados volcanes de mantillo atrapan humedad contra la corteza, invitan pudrición y plagas, y matan el árbol poco a poco. Retira el mantillo de 2 a 3 pulgadas de cualquier tronco."
+            ]
+          },
+          {
+            "heading": "Bolsas: cobertura y cuántas llenan una yarda",
+            "body": [
+              "El mantillo en bolsa casi siempre se vende en bolsas de 2 pies cúbicos. Saber cuánto cubre una bolsa facilita el cálculo mental en la tienda.",
+              {
+                "list": [
+                  "Una bolsa de 2 pies cúbicos cubre unos 12 pies cuadrados a 2 pulgadas de profundidad.",
+                  "La misma bolsa cubre unos 8 pies cuadrados a 3 pulgadas de profundidad.",
+                  "A 4 pulgadas, cubre aproximadamente 6 pies cuadrados.",
+                  "Se necesitan unas 13.5 bolsas de 2 pies cúbicos para igualar una yarda cúbica."
+                ]
+              },
+              "Esa cifra de 13.5 bolsas por yarda es el número que decide todo sobre el costo. Como una yarda cúbica son 27 pies cúbicos, y cada bolsa contiene 2 pies cúbicos, divides 27 entre 2 y obtienes 13.5. Ten ese número en mente y podrás comparar al instante una pila de bolsas con un pedido a granel."
+            ]
+          },
+          {
+            "heading": "Bolsas vs. granel: dónde está el punto de equilibrio",
+            "body": [
+              "En 2026, una bolsa de 2 pies cúbicos de mantillo cuesta entre $3 y $6 según el tipo y la región. El mantillo a granel con entrega cuesta aproximadamente entre $30 y $50 por yarda cúbica, aunque las tarifas de entrega y las cargas mínimas varían según el proveedor.",
+              "Haz la cuenta: 13.5 bolsas a $4 cada una son unos $54 por una yarda de mantillo que tienes que transportar y abrir tú mismo. Esa misma yarda entregada a granel podría costar $40 más la entrega. El granel gana en precio una vez que necesitas más de aproximadamente media yarda, es decir, unas 6 a 9 bolsas.",
+              "Por debajo de ese umbral, las bolsas ganan en comodidad: sin entrega mínima, sin palear desde una pila en la entrada, y fáciles de guardar si sobran. Para trabajos pequeños de retoque o un solo cantero, compra bolsas. Para cualquier cosa que cubra unos cientos de pies cuadrados o más, pide a granel y ahorra dinero de verdad."
+            ]
+          },
+          {
+            "heading": "Tipos de mantillo y una nota sobre tierra vegetal",
+            "body": [
+              "No todos los mantillos se comportan igual, y el tipo afecta tanto el precio como la durabilidad.",
+              {
+                "list": [
+                  "Madera dura triturada: la opción de siempre. Económica, se adhiere en pendientes y se descompone en una temporada para nutrir el suelo.",
+                  "Cedro: aromático, naturalmente resistente a plagas, dura más pero cuesta más.",
+                  "Mantillo teñido (negro, marrón, rojo): mantiene el color por más tiempo para un aspecto prolijo; elige productos teñidos con óxido de hierro o carbón, que son seguros.",
+                  "Pinocha (hojas de pino): liviana, ideal para plantas que aman la acidez como las azaleas; se vende por fardo, no por yarda cúbica."
+                ]
+              },
+              "La tierra vegetal y el compost usan exactamente la misma fórmula de yarda cúbica, pero son más pesados y se esparcen en capas más delgadas. Si vas a rellenar un cantero antes de poner mantillo, calcula la tierra por separado y luego añade una capa de mantillo de 2 a 3 pulgadas encima una vez nivelado el suelo."
+            ]
+          },
+          {
+            "heading": "Ejemplo resuelto: un cantero de 200 pies cuadrados a 3 pulgadas",
+            "body": [
+              "Supongamos que tienes un cantero de 200 pies cuadrados y quieres una capa sólida de 3 pulgadas para un buen control de malezas. Empieza con la fórmula: 200 pies cuadrados x 0.25 pies (eso es 3 pulgadas dividido entre 12) = 50 pies cúbicos. Divide entre 27 y obtienes 1.85 yardas cúbicas. Redondea a 2 yardas.",
+              "En bolsas, 50 pies cúbicos divididos entre 2 pies cúbicos por bolsa son 25 bolsas. A $4 la bolsa, eso son $100 más tu tiempo transportando y abriendo 25 bolsas.",
+              "A granel, 2 yardas a $40 cada una son $80, más una tarifa de entrega que suele ser fija, de $30 a $75 sin importar el tamaño de la carga. Incluso con la entrega, el granel es competitivo aquí y te ahorra la espalda. Este es justo el tamaño donde pedir a granel empieza a valer la pena, y una calculadora de mantillo elimina cualquier conjetura antes de comprar."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Usa la fórmula: pies cuadrados x profundidad en pies, dividido entre 27, es igual a yardas cúbicas. Convierte pulgadas a pies dividiendo entre 12.",
+          "Apunta a 2 o 3 pulgadas en canteros establecidos, 3 o 4 pulgadas para canteros nuevos y control de malezas, y nunca contra los troncos.",
+          "Una bolsa de 2 pies cúbicos cubre unos 12 pies cuadrados a 2 pulgadas u 8 pies cuadrados a 3 pulgadas; se necesitan unas 13.5 bolsas para llenar una yarda cúbica.",
+          "La entrega a granel (unos $30 a $50/yarda) gana sobre las bolsas (unos $3 a $6 cada una) una vez que necesitas más de media yarda, aproximadamente 6 a 9 bolsas.",
+          "Siempre redondea hacia arriba tu cifra final de yardas cúbicas para no quedarte corto a mitad del proyecto."
+        ],
+        "faqs": [
+          {
+            "question": "¿Cuántas bolsas de mantillo hay en una yarda cúbica?",
+            "answer": "Se necesitan unas 13.5 bolsas de mantillo estándar de 2 pies cúbicos para igualar una yarda cúbica. Una yarda cúbica son 27 pies cúbicos, así que al dividir 27 entre los 2 pies cúbicos de cada bolsa obtienes 13.5. Si una tienda vende bolsas de 3 pies cúbicos, solo necesitarías 9 para hacer una yarda."
+          },
+          {
+            "question": "¿Es más barato el mantillo en bolsa o a granel?",
+            "answer": "El granel es más barato por yarda cúbica una vez que necesitas más de media yarda, o aproximadamente de 6 a 9 bolsas. En 2026 las bolsas cuestan unos $3 a $6 cada una mientras que el granel ronda los $30 a $50 por yarda con entrega. Para trabajos pequeños, las bolsas ganan en comodidad porque no hay entrega mínima ni pila que palear."
+          },
+          {
+            "question": "¿Qué profundidad de mantillo debo aplicar?",
+            "answer": "Aplica de 2 a 3 pulgadas en canteros establecidos y alrededor de arbustos para retener humedad. Usa de 3 a 4 pulgadas en canteros nuevos o con mucha maleza, ya que esa pulgada extra bloquea las semillas que germinan. Al renovar cada primavera, completa solo hasta la profundidad deseada, y nunca amontones mantillo contra troncos o tallos."
+          },
+          {
+            "question": "¿Puedo usar la misma fórmula para tierra vegetal o compost?",
+            "answer": "Sí. La tierra vegetal y el compost se venden por yarda cúbica y usan la fórmula idéntica: pies cuadrados por la profundidad en pies, dividido entre 27. La diferencia es la aplicación, ya que esparces tierra y compost en capas más delgadas y pesan más. Calcula cualquier capa de tierra por separado y luego añade tu profundidad de mantillo encima."
+          }
+        ]
+      },
+      "gravel-driveway-cost": {
+        "metaTitle": "Costo de entrada de grava y cuánta necesitas",
+        "metaDescription": "En 2026, la grava cuesta entre $30 y $60 por yarda cúbica o $25 a $50 por tonelada, más entrega. Aprende las capas, profundidad y la fórmula exacta.",
+        "title": "Costo de una entrada de grava y cuánta grava necesitas",
+        "description": "Una guía práctica de 2026 para presupuestar una entrada de grava, entender cómo se vende la piedra y calcular exactamente cuántas yardas cúbicas o toneladas necesitas.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "Una entrada de grava es una de las superficies duraderas más económicas que puedes instalar, pero el costo varía mucho según el tipo de piedra, la distancia de entrega y cuántas capas construyas. En 2026, la piedra triturada común cuesta entre $30 y $60 por yarda cúbica, o $25 a $50 por tonelada en la cantera, antes del transporte. Con la profundidad y las capas correctas, una entrada de grava dura décadas con poco mantenimiento.",
+          "El error más común es pedir con la unidad equivocada o saltarse la subbase. La grava se vende tanto por peso (la tonelada) como por volumen (la yarda cúbica), y la piedra triturada pesa alrededor de 1.4 toneladas por yarda cúbica, así que los dos números no son intercambiables. Esta guía cubre los precios, la construcción en capas, la fórmula de cálculo y un ejemplo completo para que pidas bien a la primera."
+        ],
+        "sections": [
+          {
+            "heading": "Cuánto cuesta la grava en 2026",
+            "body": [
+              "El precio del material depende casi por completo del tipo de piedra y de la distancia que recorre. La piedra triturada simple y el crusher run suelen costar entre $25 y $50 por tonelada, o $30 a $60 por yarda cúbica, recogida en la cantera. Opciones decorativas como la piedra de río lavada o la piedra de color llegan a $60 o $100 por tonelada.",
+              "La entrega es donde se dispara el presupuesto. La mayoría de los proveedores cobran entre $60 y $150 por viaje de camión, y un volquete estándar transporta de 10 a 16 toneladas. Si vives a más de 20 millas de la cantera, el transporte puede igualar el costo de la piedra. Pedir una carga completa en lugar de entregas parciales reduce tu costo por tonelada. Confirma siempre si el precio incluye entrega, esparcido o solo el material cargado en el patio."
+            ]
+          },
+          {
+            "heading": "Cómo se vende la grava: toneladas o yardas cúbicas",
+            "body": [
+              "Las canteras cotizan por tonelada porque pesan los camiones en una báscula; los paisajistas suelen pensar en yardas cúbicas porque así imaginan llenar un espacio. Necesitas ambas. Una yarda cúbica es un cubo de tres pies por lado, igual a 27 pies cúbicos.",
+              "Para la piedra triturada típica, una yarda cúbica pesa unas 1.4 toneladas (aproximadamente 2,800 libras). Así que si tu proyecto necesita 11 yardas cúbicas, eso equivale a unas 15.4 toneladas. Convierte con esta regla:",
+              {
+                "list": [
+                  "De yardas cúbicas a toneladas: multiplica las yardas cúbicas por 1.4",
+                  "De toneladas a yardas cúbicas: divide las toneladas entre 1.4",
+                  "La piedra densa más pesada puede pesar de 1.4 a 1.5 toneladas por yarda; pide a tu proveedor su cifra exacta"
+                ]
+              },
+              "Reconcilia siempre la cotización por tonelada con el volumen que realmente necesitas, o podrías pagar por la cantidad equivocada."
+            ]
+          },
+          {
+            "heading": "La construcción en varias capas",
+            "body": [
+              "Una entrada que aguanta se construye en capas, no con un solo volcado de piedra bonita. Cada capa cumple una función: la piedra grande distribuye la carga, la mediana la traba y la fina drena el agua y da una superficie lisa.",
+              {
+                "list": [
+                  "Subbase: 3 a 4 pulgadas de piedra angular grande (#3 o #2, de 1 a 2.5 pulgadas) para drenaje y distribución de carga",
+                  "Capa media: 2 a 3 pulgadas de piedra mediana (#57, unos 3/4 de pulgada) para rellenar los huecos",
+                  "Capa superior: 1 a 2 pulgadas de #57, 3/4 minus o crusher run que se compacta en una superficie firme y nivelable"
+                ]
+              },
+              "El crusher run (también llamado dense-grade o 3/4 minus) contiene polvo de piedra que se une firmemente al compactarse, por eso es la capa superior más popular. Compacta cada capa con una placa compactadora o pasando por encima antes de añadir la siguiente."
+            ]
+          },
+          {
+            "heading": "Qué profundidad y la fórmula de cálculo",
+            "body": [
+              "Para autos de pasajeros, una profundidad compactada total de 4 a 6 pulgadas entre las capas es suficiente. Para tráfico regular de camiones, casas rodantes o maquinaria, usa de 8 a 12 pulgadas y refuerza la subbase. El suelo blando o de arcilla también requiere más profundidad.",
+              "Para calcular tu pedido, trabaja en pies. Convierte la profundidad de pulgadas a pies dividiendo entre 12, luego:",
+              {
+                "list": [
+                  "Largo (pies) x Ancho (pies) x Profundidad (pies) = pies cúbicos",
+                  "Pies cúbicos / 27 = yardas cúbicas",
+                  "Yardas cúbicas x 1.4 = toneladas de piedra triturada"
+                ]
+              },
+              "Agrega alrededor de un 10 por ciento para la compactación y la pérdida al esparcir, ya que la piedra se asienta y los bordes siempre necesitan un poco más. Redondea hacia la siguiente media carga en lugar de pedir de menos y pagar una segunda entrega."
+            ]
+          },
+          {
+            "heading": "Ejemplo: una entrada de 12 x 50 pies",
+            "body": [
+              "Supongamos que construyes una entrada de 12 por 50 pies a 6 pulgadas de profundidad total. Primero convierte la profundidad: 6 pulgadas entre 12 es igual a 0.5 pies.",
+              "Volumen: 12 x 50 x 0.5 = 300 pies cúbicos. Divide entre 27 para obtener 11.1 yardas cúbicas. Agrega un 10 por ciento por compactación y llegas cerca de 12.2 yardas cúbicas, o unas 17 toneladas de piedra triturada.",
+              "A un precio medio de $45 por yarda cúbica, el material cuesta unos $550. Suma dos entregas de camión a $120 cada una y te acercas a $790 por la piedra entregada. Si la esparces y compactas tú mismo, ese es tu total; contratar el nivelado y la compactación añade $1 a $2 por pie cuadrado, así que presupuesta otros $600 a $1,200 para la entrada de 600 pies cuadrados."
+            ]
+          },
+          {
+            "heading": "Preparación de base, tela y mantenimiento",
+            "body": [
+              "Antes de colocar cualquier piedra, retira de 4 a 6 pulgadas de tierra vegetal y césped, luego nivela para el drenaje con una ligera pendiente o coronamiento. La mejor mejora es colocar tela geotextil tejida sobre el subsuelo. La tela separa el suelo de la piedra, evita que la grava se hunda en el lodo y reduce mucho la frecuencia con que debes añadir material. Cuesta entre $0.25 y $0.50 por pie cuadrado y se paga sola.",
+              "El mantenimiento es ligero pero no nulo. Planea renivelar la superficie con una niveladora de caja o un rastrillo cada uno o dos años para rellenar surcos y restaurar el coronamiento. Añade una capa fresca de 1 a 2 pulgadas de crusher run cada tres a cinco años a medida que la piedra migra y se compacta. Mantén los bordes definidos para que el material no se esparza al césped."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "La piedra triturada común cuesta unos $30-$60 por yarda cúbica o $25-$50 por tonelada en 2026, más $60-$150 por viaje de entrega.",
+          "La piedra triturada pesa aproximadamente 1.4 toneladas por yarda cúbica, así que multiplica las yardas cúbicas por 1.4 para obtener toneladas.",
+          "Construye en capas: subbase de piedra grande, capa media y una capa superior de crusher run o #57; total de 4-6 pulgadas para autos, 8-12 para camiones.",
+          "Fórmula: largo x ancho x profundidad-en-pies / 27 = yardas cúbicas; agrega un 10 por ciento por compactación.",
+          "La tela geotextil bajo la piedra evita el hundimiento y es la forma más económica de alargar la vida de la entrada."
+        ],
+        "faqs": [
+          {
+            "question": "¿Cuántas toneladas de grava necesito para una entrada de 2 autos?",
+            "answer": "Una entrada típica de dos autos de 20 por 20 pies a 6 pulgadas de profundidad necesita unas 7.4 yardas cúbicas, lo que equivale a unas 10 u 11 toneladas de piedra triturada tras agregar un 10 por ciento por compactación. Multiplica los pies cuadrados por la profundidad en pies, divide entre 27 para las yardas cúbicas y multiplica por 1.4 para convertir a toneladas."
+          },
+          {
+            "question": "¿Cuál es la grava más barata para una entrada?",
+            "answer": "El crusher run, también llamado dense-grade o 3/4 minus, suele ser la opción más económica y práctica, de $25 a $40 por tonelada. Contiene polvo de piedra que se compacta en una superficie dura y estable. La piedra triturada simple y el concreto reciclado también son económicos. La piedra de río decorativa y la de color cuestan mucho más."
+          },
+          {
+            "question": "¿Debo usar tela geotextil bajo una entrada de grava?",
+            "answer": "Sí. La tela geotextil tejida sobre el subsuelo separa el suelo de la piedra, evita que la grava se hunda en el lodo y mejora la distribución de la carga. Cuesta entre $0.25 y $0.50 por pie cuadrado y reduce mucho la frecuencia con que debes añadir piedra nueva, lo que la convierte en una de las mejores mejoras por su precio."
+          },
+          {
+            "question": "¿Con qué frecuencia necesita piedra nueva una entrada de grava?",
+            "answer": "Planea renivelar la superficie cada uno o dos años para rellenar surcos y restaurar el coronamiento, y añade una capa fresca de 1 a 2 pulgadas de crusher run cada tres a cinco años. Las entradas con tráfico pesado, pendientes pronunciadas o sin tela geotextil debajo necesitarán reposición con más frecuencia que eso."
+          }
+        ]
+      },
+      "fence-cost-guide": {
+        "metaTitle": "Costo de una Cerca (2026): Precio por Pie Lineal",
+        "metaDescription": "Conoce el costo de una cerca por pie lineal en 2026 por material—malla, madera, vinilo, aluminio—más precios DIY vs instalado y un ejemplo de 150 pies.",
+        "title": "¿Cuánto Cuesta Construir una Cerca? Materiales y Precio por Pie",
+        "description": "Un desglose práctico de 2026 del costo de una cerca por pie lineal según el material, qué influye en el precio, cómo contar postes, travesaños y tablas, y un ejemplo completo de una cerca de privacidad de cedro de 150 pies.",
+        "readMinutes": 8,
+        "updated": "June 2026",
+        "intro": [
+          "El precio de una cerca casi siempre se reduce a un solo número: el costo por pie lineal. Multiplícalo por la longitud de tu tramo y tendrás un presupuesto en segundos. El detalle es que esa tarifa varía mucho según el material, la altura, el terreno y cuántas puertas y esquinas debas construir.",
+          "En 2026, una cerca totalmente instalada cuesta aproximadamente entre $15 y $70 por pie lineal. La malla ciclónica está en el extremo bajo y el aluminio ornamental en el más alto, con la madera y el vinilo en el medio. Si aportas tu propia mano de obra, el costo solo de materiales suele ser menos de la mitad del precio instalado—por eso las cercas son una de las mejoras DIY más populares.",
+          "Esta guía te da rangos reales por pie según el material, explica qué influye en el costo y te muestra cómo estimar postes, travesaños y tablas para presupuestar tu proyecto antes de que un contratista devuelva tu llamada."
+        ],
+        "sections": [
+          {
+            "heading": "Costo de una Cerca por Pie Lineal en 2026 según el Material",
+            "body": [
+              "Estos rangos instalados incluyen postes, paneles o tablas, concreto, herrajes y mano de obra estándar en terreno plano. Solo materiales (DIY) suele ser entre el 40 y 60 por ciento de la cifra instalada.",
+              {
+                "list": [
+                  "Malla ciclónica: $15-$30 instalada ($8-$15 material). La opción más barata; galvanizada o con recubrimiento de vinilo.",
+                  "Madera / cedro para privacidad: $25-$45 instalada ($12-$22 material). La más popular para patios.",
+                  "Vinilo (PVC): $30-$60 instalada ($18-$35 material). Poco mantenimiento, mayor costo inicial.",
+                  "Aluminio / acero ornamental: $35-$70 instalada ($22-$45 material). Decorativa, resistente al óxido.",
+                  "Compuesto: $40-$80 instalada. Privacidad premium con mantenimiento mínimo."
+                ]
+              },
+              "La altura también influye en estas cifras. Una cerca de privacidad de 6 pies cuesta bastante más que una de 4 pies porque usa postes más altos, un travesaño extra y más tablas por pie."
+            ]
+          },
+          {
+            "heading": "Qué Influye en el Precio",
+            "body": [
+              "El material es el factor más importante, pero varios otros pueden mover tu total en un 20 por ciento o más.",
+              {
+                "list": [
+                  "Altura: cada pie adicional añade tablas, postes más altos y a veces un tercer travesaño.",
+                  "Terreno: pendientes, roca y raíces ralentizan la excavación y pueden requerir paneles escalonados.",
+                  "Fijación de postes: los postes en concreto cuestan más en mano de obra y bolsas, pero duran mucho más que los de grava compactada.",
+                  "Puertas: una puerta peatonal añade $150-$400; una puerta doble vehicular $400-$1,200 con herrajes.",
+                  "Esquinas y extremos: cada uno requiere un poste más resistente y refuerzo adicional.",
+                  "Demolición: retirar una cerca vieja cuesta $3-$8 por pie lineal.",
+                  "Permisos: muchos municipios exigen uno para cercas de más de 6 pies o en el patio delantero."
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Desglose de Materiales para una Cerca de Madera de Privacidad",
+            "body": [
+              "Una cerca de madera de privacidad de 6 pies se construye sobre un módulo que se repite. Los postes van cada 8 pies al centro, con dos o tres travesaños horizontales entre ellos y tablas verticales clavadas a los travesaños.",
+              "Los postes suelen ser de madera tratada a presión de 4x4 enterrados de 24 a 30 pulgadas en concreto—calcula una o dos bolsas de 50 libras de concreto de fraguado rápido por poste. Los travesaños suelen ser 2x4, dos para una cerca de 4 pies y tres para una de 6 pies para evitar deformaciones. Las tablas suelen ser de cedro o madera tratada de 5/8 por 5.5 pulgadas.",
+              "Para un aspecto de privacidad cerrado, junta las tablas borde con borde. Agregar un pequeño espacio o un traslape cambia tu conteo de tablas, así que decide el estilo antes de comprar."
+            ]
+          },
+          {
+            "heading": "Cómo Estimar Postes, Travesaños y Tablas",
+            "body": [
+              "Empieza con tu tramo total en pies y luego calcula cada componente por separado.",
+              {
+                "list": [
+                  "Postes: divide la longitud total entre 8 (el espaciado) y suma 1 para el poste final. Añade un poste extra por cada esquina y puerta.",
+                  "Travesaños: multiplica el número de módulos de 8 pies por los travesaños por sección (2 o 3). Un módulo equivale a una sección entre dos postes.",
+                  "Tablas: divide la longitud total en pulgadas entre el ancho de la tabla más cualquier espacio. Para tablas de 5.5 pulgadas juntas, son unas 2.2 tablas por pie lineal.",
+                  "Concreto: 1-2 bolsas por poste, según el diámetro y profundidad del hoyo.",
+                  "Sujetadores: calcula cerca de 1 libra de clavos o tornillos por sección de 8 pies."
+                ]
+              },
+              "Pide siempre entre un 5 y 10 por ciento extra de tablas y sujetadores para cubrir tablas deformadas y desperdicio de cortes."
+            ]
+          },
+          {
+            "heading": "Ejemplo Resuelto: 150 pies de Cerca de Cedro de 6 pies",
+            "body": [
+              "Supón que cercas un tramo de 150 pies con una puerta peatonal y dos esquinas. Así queda el conteo de materiales.",
+              {
+                "list": [
+                  "Postes: 150 / 8 = 18.75, redondea a 19, +1 extremo +2 esquinas +1 puerta = 23 postes (4x4x8).",
+                  "Travesaños: unas 19 secciones x 3 travesaños = 57 travesaños (2x4x8).",
+                  "Tablas: 150 pies x 12 / 5.5 = 327, suma 8 por ciento de desperdicio, unas 353 tablas de cedro.",
+                  "Concreto: 23 postes x 1.5 bolsas, unas 35 bolsas de fraguado rápido.",
+                  "Kit de puerta y herrajes: 1 puerta peatonal."
+                ]
+              },
+              "A unos $14 por pie en materiales, eso son cerca de $2,100 en madera, concreto y herrajes para DIY. Contratarlo a $32 por pie instalado ronda los $4,800—así que hacerlo tú mismo ahorra cerca de $2,700 en mano de obra en este trabajo."
+            ]
+          },
+          {
+            "heading": "Permisos, Líneas de Propiedad y Mantenimiento",
+            "body": [
+              "Antes de excavar, confirma tu línea de propiedad exacta con un levantamiento o tu plano catastral—construir incluso unas pulgadas sobre la línea puede obligarte a una demolición costosa. Llama al 811 para marcar servicios subterráneos y revisa las reglas locales sobre altura, retiro y el requisito del 'lado bueno hacia afuera' que muchos vecindarios exigen.",
+              "El mantenimiento varía mucho según el material. La madera necesita teñido o sellado cada 2 o 3 años y dura de 15 a 20 años. El vinilo y el aluminio solo necesitan un enjuague ocasional y duran de 25 a 40 años. La malla ciclónica casi no requiere mantenimiento pero no ofrece privacidad. Considera el mantenimiento de por vida en cualquier comparación—una cerca barata que exige cuidado constante puede costar más en 20 años."
+            ]
+          }
+        ],
+        "keyTakeaways": [
+          "Las cercas instaladas cuestan $15-$70 por pie lineal en 2026; el DIY solo de materiales es cerca del 40-60 por ciento de eso.",
+          "La malla ciclónica es la más barata, la madera y el vinilo son intermedios, y el aluminio y el compuesto los más caros.",
+          "Los postes van cada 8 pies al centro; calcula 1-2 bolsas de concreto cada uno y 2-3 travesaños por sección.",
+          "Una cerca de cedro de 6 pies y 150 pies cuesta unos $2,100 en DIY frente a $4,800 instalada.",
+          "Confirma las líneas de propiedad y llama al 811 antes de excavar; ajusta el costo de mantenimiento a la vida útil del material."
+        ],
+        "faqs": [
+          {
+            "question": "¿Es más barato construir una cerca uno mismo?",
+            "answer": "Sí, normalmente por un amplio margen. El costo solo de materiales es cerca del 40 al 60 por ciento de una cotización instalada, así que el DIY puede reducir el precio casi a la mitad. En una cerca de cedro de 150 pies, aportar tu propia mano de obra ahorra entre $2,500 y $2,800. Necesitarás un excavador de hoyos o barreno, un nivel y un fin de semana libre o dos."
+          },
+          {
+            "question": "¿Qué tan separados deben ir los postes?",
+            "answer": "El espaciado estándar es de 8 pies al centro, que coincide con las longitudes comunes de travesaños y paneles. Para cercas de privacidad altas en zonas con viento, algunos constructores lo reducen a 6 pies para mayor rigidez. Añade siempre un poste extra en cada esquina, extremo y puerta, y entiérralos al menos 24 a 30 pulgadas en concreto."
+          },
+          {
+            "question": "¿Necesito un permiso para construir una cerca?",
+            "answer": "Depende de tu municipio. Muchas jurisdicciones exigen permiso para cercas de más de 6 pies, cercas en el patio delantero o cualquier cosa cerca de una línea de propiedad o servidumbre. Los permisos suelen costar entre $20 y $150. Consulta siempre con tu departamento de construcción local y tu asociación de vecinos antes de comprar materiales—rehacer el trabajo después sale caro."
+          },
+          {
+            "question": "¿Qué material de cerca dura más?",
+            "answer": "El vinilo y el aluminio encabezan, durando de 25 a 40 años con casi nada de mantenimiento. La madera de calidad dura de 15 a 20 años pero necesita teñido cada pocos años. La malla ciclónica puede durar más de 20 años pero no ofrece privacidad. El compuesto es la opción premium, combinando el aspecto de la madera con más de 25 años de vida y mantenimiento mínimo."
+          }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contacto SlabCalc",
+      "description": "Ponte en contacto con SlabCalc — reporta un problema con una calculadora, sugiere una función o envía comentarios. Leemos cada mensaje."
+    },
+    "title": "Contáctanos",
+    "subtitle": "¿Preguntas, correcciones o ideas para una nueva calculadora? De verdad nos gustaría saber de ti.",
+    "emailHeading": "Escríbenos",
+    "emailIntro": "La forma más rápida de comunicarte con el equipo de SlabCalc es por correo electrónico. Escríbenos a:",
+    "responseTime": "Somos un equipo pequeño y leemos cada mensaje. Espera una respuesta en un plazo de 2 a 3 días hábiles.",
+    "reasonsHeading": "Sobre qué nos suelen escribir",
+    "reasons": {
+      "bug": {
+        "title": "Reportar un problema",
+        "desc": "¿Viste un resultado que se ve raro o una página que no carga? Dinos la calculadora y los números que ingresaste."
+      },
+      "suggestion": {
+        "title": "Sugerir una calculadora",
+        "desc": "¿Necesitas un estimador que aún no tenemos? Cuéntanos qué estás tratando de calcular."
+      },
+      "feedback": {
+        "title": "Comentarios generales",
+        "desc": "Elogios, críticas o una mejor fórmula — cada nota nos ayuda a hacer SlabCalc más útil."
+      }
+    },
+    "publisherHeading": "Sobre este sitio",
+    "publisherPara": "SlabCalc es un editor independiente de calculadoras gratuitas de construcción y mejoras del hogar con sede en Estados Unidos. Nos financiamos con publicidad y enlaces de afiliados, y nunca exigimos una cuenta ni vendemos tu información personal.",
+    "formHeading": "Envíanos un mensaje",
+    "form": {
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "subjectLabel": "Tema",
+      "subjects": {
+        "bug": "Reportar un problema",
+        "suggestion": "Sugerir una calculadora",
+        "feedback": "Comentarios generales",
+        "other": "Otra cosa"
+      },
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "¿Cómo podemos ayudarte? Si reportas un problema, incluye el nombre de la calculadora y los números que ingresaste.",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "successTitle": "Mensaje enviado",
+      "successBody": "Gracias por escribir — te responderemos en un plazo de 2 a 3 días hábiles.",
+      "errorBody": "Hubo un problema al enviar tu mensaje. Inténtalo de nuevo o escríbenos directamente a",
+      "privacyNote": "Solo usamos tus datos para responder a tu mensaje.",
+      "unconfigured": "El formulario de contacto aún no está configurado. Escríbenos a"
+    }
   }
 }

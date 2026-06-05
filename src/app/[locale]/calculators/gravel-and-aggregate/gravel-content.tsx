@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { FAQSection } from "@/components/faq-section";
+import { RelatedGuide } from "@/components/related-guide";
 
 export function GravelContent() {
   const t = useTranslations("gravel");
@@ -49,6 +50,7 @@ export function GravelContent() {
       <section className="mt-8">
         <FAQSection faqs={faqs} />
       </section>
+      <RelatedGuide calculatorSlug="gravel-and-aggregate" />
     </>
   );
 }

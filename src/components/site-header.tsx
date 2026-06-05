@@ -28,6 +28,9 @@ export function SiteHeader() {
           <Link href="/" className="hover:text-foreground transition-colors">
             {t("nav.calculators")}
           </Link>
+          <Link href="/guides" className="hover:text-foreground transition-colors">
+            {t("nav.guides")}
+          </Link>
           <Link href="/about" className="hover:text-foreground transition-colors">
             {t("nav.about")}
           </Link>

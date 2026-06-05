@@ -9,7 +9,7 @@ export function SiteFooter() {
   return (
     <footer className="mt-auto border-t bg-muted/50">
       <div className="mx-auto max-w-6xl px-4 py-8">
-        <div className="grid gap-8 sm:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <h3 className="font-heading font-semibold">{t("siteName")}</h3>
             <p className="mt-2 text-sm text-muted-foreground">
@@ -59,9 +59,24 @@ export function SiteFooter() {
                   {t("footer.fenceMaterials")}
                 </Link>
               </li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-sm font-semibold">{t("footer.guidesHeading")}</h4>
+            <ul className="mt-2 space-y-1 text-sm text-muted-foreground">
+              <li>
+                <Link href="/guides" className="hover:text-foreground transition-colors">
+                  {t("footer.guides")}
+                </Link>
+              </li>
               <li>
                 <Link href="/about" className="hover:text-foreground transition-colors">
                   {t("footer.about")}
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-foreground transition-colors">
+                  {t("footer.contact")}
                 </Link>
               </li>
             </ul>

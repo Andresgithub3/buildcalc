@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { FAQSection } from "@/components/faq-section";
+import { RelatedGuide } from "@/components/related-guide";
 
 export function FenceContent() {
   const t = useTranslations("fence");
@@ -64,6 +65,7 @@ export function FenceContent() {
       <section className="mt-8">
         <FAQSection faqs={faqs} />
       </section>
+      <RelatedGuide calculatorSlug="fence-materials" />
     </>
   );
 }
