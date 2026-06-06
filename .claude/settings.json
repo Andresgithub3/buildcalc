@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node .tmp-guides/merge.mjs)",
+      "Bash(node -e \"const e=require\\('./messages/en.json'\\),s=require\\('./messages/es.json'\\); console.log\\('en guides items:',Object.keys\\(e.guides.items\\).length,'| es:',Object.keys\\(s.guides.items\\).length\\); console.log\\('en namespaces:',Object.keys\\(e\\).length\\); console.log\\('contact ok:', !!e.contact.title, !!s.contact.title\\); console.log\\('nav:', JSON.stringify\\(e.common.nav\\)\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(pnpm lint *)",
+      "Bash(node -e \"const m=require\\('./messages/en.json'\\); function wc\\(o\\){let s='';\\(function r\\(x\\){if\\(typeof x==='string'\\)s+=' '+x;else if\\(Array.isArray\\(x\\)\\)x.forEach\\(r\\);else if\\(x&&typeof x==='object'\\)Object.values\\(x\\).forEach\\(r\\);}\\)\\(o\\);return s.trim\\(\\).split\\(/\\\\s+/\\).length;} console.log\\('guides total:', wc\\(m.guides\\), 'words'\\); console.log\\('contact:', wc\\(m.contact\\), 'words'\\); console.log\\('GRAND TOTAL en.json:', wc\\(m\\), 'words \\(was ~6925\\)'\\);\")"
+    ]
+  }
+}
